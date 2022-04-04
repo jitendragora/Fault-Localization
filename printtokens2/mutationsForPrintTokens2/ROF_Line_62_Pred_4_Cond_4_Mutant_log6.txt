@@ -1,0 +1,5 @@
+
+==> @ Line: 62
+
+Original Line  : if(fname == NULL)
+After Mutation : if(fname < NULL)

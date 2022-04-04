@@ -1,0 +1,5 @@
+
+==> @ Line: 77
+
+Original Line  : if (!a_list)
+After Mutation : if (!(!a_list))

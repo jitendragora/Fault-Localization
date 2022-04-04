@@ -1,0 +1,5 @@
+
+==> @ Line: 93
+
+Original Line  : result = Own_Below_Threat() && (Cur_Vertical_Sep >= MINSEP) && (Down_Separation >= ALIM());
+After Mutation : result = Own_Below_Threat() && (Cur_Vertical_Sep >= MINSEP) && (Down_Separation != ALIM());

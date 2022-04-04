@@ -1,0 +1,5 @@
+
+==> @ Line: 381
+
+Original Line  : { if(*(str+i)=='"')
+After Mutation : { if(!(*(str+i)=='"'))

@@ -1,0 +1,5 @@
+
+==> @ Line: 271
+
+Original Line  : if(type==num_constant)
+After Mutation : if(!(type==num_constant))

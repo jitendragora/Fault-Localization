@@ -1,0 +1,5 @@
+
+==> @ Line: 309
+
+Original Line  : if( (*ident) ==59 )   /* the char is 59   */
+After Mutation : if(!( (*ident) ==59 ))   /* the char is 59   */

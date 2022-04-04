@@ -1,0 +1,5 @@
+
+==> @ Line: 479
+
+Original Line  : if (!strcmp(str,"("))
+After Mutation : if (!(!strcmp(str,"(")))

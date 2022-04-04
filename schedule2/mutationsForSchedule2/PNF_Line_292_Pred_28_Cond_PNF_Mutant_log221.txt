@@ -1,0 +1,5 @@
+
+==> @ Line: 292
+
+Original Line  : if(ratio < 0.0 || ratio > 1.0) return(BADRATIO); /* Somebody else goofed */
+After Mutation : if(!(ratio < 0.0 || ratio > 1.0) return(BADRATIO)); /* Somebody else goofed */

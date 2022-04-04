@@ -1,0 +1,5 @@
+
+==> @ Line: 316
+
+Original Line  : if ( (xi = (double *)malloc( r * sizeof(double) )) == NULL )
+After Mutation : if ( (xi = (double *)malloc( r * sizeof(double) )) < NULL )

@@ -1,0 +1,5 @@
+
+==> @ Line: 534
+
+Original Line  : if (!result)
+After Mutation : if (!(!result))

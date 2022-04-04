@@ -1,0 +1,5 @@
+
+==> @ Line: 72
+
+Original Line  : upward_preferred = Inhibit_Biased_Climb() > Down_Separation;
+After Mutation : upward_preferred = Inhibit_Biased_Climb() != Down_Separation;

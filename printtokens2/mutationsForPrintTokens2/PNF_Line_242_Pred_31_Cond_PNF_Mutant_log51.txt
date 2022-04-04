@@ -1,0 +1,5 @@
+
+==> @ Line: 242
+
+Original Line  : if(is_identifier(tok))return(identifier);
+After Mutation : if(!(is_identifier(tok))return(identifier));

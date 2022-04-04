@@ -1,0 +1,3129 @@
+PNF_Line_55_Pred_1_Cond_PNF_Mutant1
+
+==> @ Line: 55
+Original Line  : while ( fgets( line, MAXLINE, stdin ) != NULL )	/* start new table */
+After Mutation : while (!( fgets( line, MAXLINE, stdin ) != NULL ))	/* start new table */
+
+
+Line_55_Pred_1_Cond_1_Mutant2
+
+==> @ Line: 55
+Original Line  : while ( fgets( line, MAXLINE, stdin ) != NULL )	/* start new table */
+After Mutation : while ( fgets( line, MAXLINE, stdin ) == NULL )	/* start new table */
+
+
+Line_55_Pred_1_Cond_1_Mutant3
+
+==> @ Line: 55
+Original Line  : while ( fgets( line, MAXLINE, stdin ) != NULL )	/* start new table */
+After Mutation : while ( fgets( line, MAXLINE, stdin ) < NULL )	/* start new table */
+
+
+Line_55_Pred_1_Cond_1_Mutant4
+
+==> @ Line: 55
+Original Line  : while ( fgets( line, MAXLINE, stdin ) != NULL )	/* start new table */
+After Mutation : while ( fgets( line, MAXLINE, stdin ) > NULL )	/* start new table */
+
+
+Line_55_Pred_1_Cond_1_Mutant5
+
+==> @ Line: 55
+Original Line  : while ( fgets( line, MAXLINE, stdin ) != NULL )	/* start new table */
+After Mutation : while ( fgets( line, MAXLINE, stdin ) <= NULL )	/* start new table */
+
+
+Line_55_Pred_1_Cond_1_Mutant6
+
+==> @ Line: 55
+Original Line  : while ( fgets( line, MAXLINE, stdin ) != NULL )	/* start new table */
+After Mutation : while ( fgets( line, MAXLINE, stdin ) >= NULL )	/* start new table */
+
+
+PNF_Line_57_Pred_2_Cond_PNF_Mutant7
+
+==> @ Line: 57
+Original Line  : for ( p = line; *p != '\0' && isspace( (int)*p ); ++p )
+After Mutation : for ( p = line;!( *p != '\0' && isspace( (int)*p )); ++p )
+
+
+CNF_Line_57_Pred_2_Cond_2_Mutant8
+
+==> @ Line: 57
+Original Line  : for ( p = line; *p != '\0' && isspace( (int)*p ); ++p )
+After Mutation : for ( p = line; !( *p != '\0' ) && isspace( (int)*p ); ++p )
+
+
+CNF_Line_57_Pred_2_Cond_3_Mutant9
+
+==> @ Line: 57
+Original Line  : for ( p = line; *p != '\0' && isspace( (int)*p ); ++p )
+After Mutation : for ( p = line; *p != '\0' && isspace( (int)*p ); ++p !( isspace (int )1*p )line; *p != '\0' && isspace( (int)*p ); ++p )
+
+
+ROF_Line_57_Pred_2_Cond_23_Mutant10
+
+==> @ Line: 57
+Original Line  : for ( p = line; *p != '\0' && isspace( (int)*p ); ++p )
+After Mutation : for ( p = line; *p == '\0' && isspace( (int)*p ); ++p )
+
+
+ROF_Line_57_Pred_2_Cond_23_Mutant11
+
+==> @ Line: 57
+Original Line  : for ( p = line; *p != '\0' && isspace( (int)*p ); ++p )
+After Mutation : for ( p = line; *p < '\0' && isspace( (int)*p ); ++p )
+
+
+ROF_Line_57_Pred_2_Cond_23_Mutant12
+
+==> @ Line: 57
+Original Line  : for ( p = line; *p != '\0' && isspace( (int)*p ); ++p )
+After Mutation : for ( p = line; *p > '\0' && isspace( (int)*p ); ++p )
+
+
+ROF_Line_57_Pred_2_Cond_23_Mutant13
+
+==> @ Line: 57
+Original Line  : for ( p = line; *p != '\0' && isspace( (int)*p ); ++p )
+After Mutation : for ( p = line; *p <= '\0' && isspace( (int)*p ); ++p )
+
+
+ROF_Line_57_Pred_2_Cond_23_Mutant14
+
+==> @ Line: 57
+Original Line  : for ( p = line; *p != '\0' && isspace( (int)*p ); ++p )
+After Mutation : for ( p = line; *p >= '\0' && isspace( (int)*p ); ++p )
+
+
+LOF_Line_57_Pred_2_Cond_NOC_Mutant15
+
+==> @ Line: 57
+Original Line  : for ( p = line; *p != '\0' && isspace( (int)*p ); ++p )
+After Mutation : for ( p = line; *p != '\0' || isspace( (int)*p ); ++p )
+
+
+PNF_Line_60_Pred_3_Cond_PNF_Mutant16
+
+==> @ Line: 60
+Original Line  : if ( *p == '\0' )
+After Mutation : if (!( *p == '\0' ))
+
+
+Line_60_Pred_3_Cond_4_Mutant17
+
+==> @ Line: 60
+Original Line  : if ( *p == '\0' )
+After Mutation : if ( *p != '\0' )
+
+
+Line_60_Pred_3_Cond_4_Mutant18
+
+==> @ Line: 60
+Original Line  : if ( *p == '\0' )
+After Mutation : if ( *p < '\0' )
+
+
+Line_60_Pred_3_Cond_4_Mutant19
+
+==> @ Line: 60
+Original Line  : if ( *p == '\0' )
+After Mutation : if ( *p > '\0' )
+
+
+Line_60_Pred_3_Cond_4_Mutant20
+
+==> @ Line: 60
+Original Line  : if ( *p == '\0' )
+After Mutation : if ( *p <= '\0' )
+
+
+Line_60_Pred_3_Cond_4_Mutant21
+
+==> @ Line: 60
+Original Line  : if ( *p == '\0' )
+After Mutation : if ( *p >= '\0' )
+
+
+PNF_Line_63_Pred_4_Cond_PNF_Mutant22
+
+==> @ Line: 63
+Original Line  : if ( *p == COMMENT )
+After Mutation : if (!( *p == COMMENT ))
+
+
+Line_63_Pred_4_Cond_5_Mutant23
+
+==> @ Line: 63
+Original Line  : if ( *p == COMMENT )
+After Mutation : if ( *p != COMMENT )
+
+
+Line_63_Pred_4_Cond_5_Mutant24
+
+==> @ Line: 63
+Original Line  : if ( *p == COMMENT )
+After Mutation : if ( *p < COMMENT )
+
+
+Line_63_Pred_4_Cond_5_Mutant25
+
+==> @ Line: 63
+Original Line  : if ( *p == COMMENT )
+After Mutation : if ( *p > COMMENT )
+
+
+Line_63_Pred_4_Cond_5_Mutant26
+
+==> @ Line: 63
+Original Line  : if ( *p == COMMENT )
+After Mutation : if ( *p <= COMMENT )
+
+
+Line_63_Pred_4_Cond_5_Mutant27
+
+==> @ Line: 63
+Original Line  : if ( *p == COMMENT )
+After Mutation : if ( *p >= COMMENT )
+
+
+PNF_Line_69_Pred_5_Cond_PNF_Mutant28
+
+==> @ Line: 69
+Original Line  : if ( sscanf( p, "%d %d\n", &r, &c ) != 2 )
+After Mutation : if (!( sscanf( p, "%d %d\n", &r, &c ) != 2 ))
+
+
+Line_69_Pred_5_Cond_6_Mutant29
+
+==> @ Line: 69
+Original Line  : if ( sscanf( p, "%d %d\n", &r, &c ) != 2 )
+After Mutation : if ( sscanf( p, "%d %d\n", &r, &c ) == 2 )
+
+
+Line_69_Pred_5_Cond_6_Mutant30
+
+==> @ Line: 69
+Original Line  : if ( sscanf( p, "%d %d\n", &r, &c ) != 2 )
+After Mutation : if ( sscanf( p, "%d %d\n", &r, &c ) < 2 )
+
+
+Line_69_Pred_5_Cond_6_Mutant31
+
+==> @ Line: 69
+Original Line  : if ( sscanf( p, "%d %d\n", &r, &c ) != 2 )
+After Mutation : if ( sscanf( p, "%d %d\n", &r, &c ) > 2 )
+
+
+Line_69_Pred_5_Cond_6_Mutant32
+
+==> @ Line: 69
+Original Line  : if ( sscanf( p, "%d %d\n", &r, &c ) != 2 )
+After Mutation : if ( sscanf( p, "%d %d\n", &r, &c ) <= 2 )
+
+
+Line_69_Pred_5_Cond_6_Mutant33
+
+==> @ Line: 69
+Original Line  : if ( sscanf( p, "%d %d\n", &r, &c ) != 2 )
+After Mutation : if ( sscanf( p, "%d %d\n", &r, &c ) >= 2 )
+
+
+PNF_Line_75_Pred_6_Cond_PNF_Mutant34
+
+==> @ Line: 75
+Original Line  : if ( r * c > MAXTBL )
+After Mutation : if (!( r * c > MAXTBL ))
+
+
+Line_75_Pred_6_Cond_7_Mutant35
+
+==> @ Line: 75
+Original Line  : if ( r * c > MAXTBL )
+After Mutation : if ( r * c != MAXTBL )
+
+
+Line_75_Pred_6_Cond_7_Mutant36
+
+==> @ Line: 75
+Original Line  : if ( r * c > MAXTBL )
+After Mutation : if ( r * c < MAXTBL )
+
+
+Line_75_Pred_6_Cond_7_Mutant37
+
+==> @ Line: 75
+Original Line  : if ( r * c > MAXTBL )
+After Mutation : if ( r * c <= MAXTBL )
+
+
+Line_75_Pred_6_Cond_7_Mutant38
+
+==> @ Line: 75
+Original Line  : if ( r * c > MAXTBL )
+After Mutation : if ( r * c >= MAXTBL )
+
+
+Line_75_Pred_6_Cond_7_Mutant39
+
+==> @ Line: 75
+Original Line  : if ( r * c > MAXTBL )
+After Mutation : if ( r * c == MAXTBL )
+
+
+Line_75_Pred_6_Cond_7_Mutant40
+
+==> @ Line: 75
+Original Line  : if ( r * c > MAXTBL )
+After Mutation : if ( r + c > MAXTBL )
+
+
+Line_75_Pred_6_Cond_7_Mutant41
+
+==> @ Line: 75
+Original Line  : if ( r * c > MAXTBL )
+After Mutation : if ( r - c > MAXTBL )
+
+
+Line_75_Pred_6_Cond_7_Mutant42
+
+==> @ Line: 75
+Original Line  : if ( r * c > MAXTBL )
+After Mutation : if ( r / c > MAXTBL )
+
+
+Line_75_Pred_6_Cond_7_Mutant43
+
+==> @ Line: 75
+Original Line  : if ( r * c > MAXTBL )
+After Mutation : if ( r % c > MAXTBL )
+
+
+PNF_Line_83_Pred_7_Cond_PNF_Mutant44
+
+==> @ Line: 83
+Original Line  : for ( i = 0; i < r; ++i )
+After Mutation : for ( i = 0;!( i < r); ++i )
+
+
+Line_83_Pred_7_Cond_8_Mutant45
+
+==> @ Line: 83
+Original Line  : for ( i = 0; i < r; ++i )
+After Mutation : for ( i = 0; i != r; ++i )
+
+
+Line_83_Pred_7_Cond_8_Mutant46
+
+==> @ Line: 83
+Original Line  : for ( i = 0; i < r; ++i )
+After Mutation : for ( i = 0; i > r; ++i )
+
+
+Line_83_Pred_7_Cond_8_Mutant47
+
+==> @ Line: 83
+Original Line  : for ( i = 0; i < r; ++i )
+After Mutation : for ( i = 0; i <= r; ++i )
+
+
+Line_83_Pred_7_Cond_8_Mutant48
+
+==> @ Line: 83
+Original Line  : for ( i = 0; i < r; ++i )
+After Mutation : for ( i = 0; i >= r; ++i )
+
+
+Line_83_Pred_7_Cond_8_Mutant49
+
+==> @ Line: 83
+Original Line  : for ( i = 0; i < r; ++i )
+After Mutation : for ( i = 0; i == r; ++i )
+
+
+PNF_Line_84_Pred_8_Cond_PNF_Mutant50
+
+==> @ Line: 84
+Original Line  : for ( j = 0; j < c; ++j )
+After Mutation : for ( j = 0;!( j < c); ++j )
+
+
+Line_84_Pred_8_Cond_9_Mutant51
+
+==> @ Line: 84
+Original Line  : for ( j = 0; j < c; ++j )
+After Mutation : for ( j = 0; j != c; ++j )
+
+
+Line_84_Pred_8_Cond_9_Mutant52
+
+==> @ Line: 84
+Original Line  : for ( j = 0; j < c; ++j )
+After Mutation : for ( j = 0; j > c; ++j )
+
+
+Line_84_Pred_8_Cond_9_Mutant53
+
+==> @ Line: 84
+Original Line  : for ( j = 0; j < c; ++j )
+After Mutation : for ( j = 0; j <= c; ++j )
+
+
+Line_84_Pred_8_Cond_9_Mutant54
+
+==> @ Line: 84
+Original Line  : for ( j = 0; j < c; ++j )
+After Mutation : for ( j = 0; j >= c; ++j )
+
+
+Line_84_Pred_8_Cond_9_Mutant55
+
+==> @ Line: 84
+Original Line  : for ( j = 0; j < c; ++j )
+After Mutation : for ( j = 0; j == c; ++j )
+
+
+PNF_Line_85_Pred_9_Cond_PNF_Mutant56
+
+==> @ Line: 85
+Original Line  : if ( scanf( " %ld", &x(i,j) ) != 1 )
+After Mutation : if (!( scanf( " %ld", &x(i,j) ) != 1 ))
+
+
+Line_85_Pred_9_Cond_10_Mutant57
+
+==> @ Line: 85
+Original Line  : if ( scanf( " %ld", &x(i,j) ) != 1 )
+After Mutation : if ( scanf( " %ld", &x(i,j) ) == 1 )
+
+
+Line_85_Pred_9_Cond_10_Mutant58
+
+==> @ Line: 85
+Original Line  : if ( scanf( " %ld", &x(i,j) ) != 1 )
+After Mutation : if ( scanf( " %ld", &x(i,j) ) < 1 )
+
+
+Line_85_Pred_9_Cond_10_Mutant59
+
+==> @ Line: 85
+Original Line  : if ( scanf( " %ld", &x(i,j) ) != 1 )
+After Mutation : if ( scanf( " %ld", &x(i,j) ) > 1 )
+
+
+Line_85_Pred_9_Cond_10_Mutant60
+
+==> @ Line: 85
+Original Line  : if ( scanf( " %ld", &x(i,j) ) != 1 )
+After Mutation : if ( scanf( " %ld", &x(i,j) ) <= 1 )
+
+
+Line_85_Pred_9_Cond_10_Mutant61
+
+==> @ Line: 85
+Original Line  : if ( scanf( " %ld", &x(i,j) ) != 1 )
+After Mutation : if ( scanf( " %ld", &x(i,j) ) >= 1 )
+
+
+PNF_Line_99_Pred_10_Cond_PNF_Mutant62
+
+==> @ Line: 99
+Original Line  : if ( info >= 0.0 )
+After Mutation : if (!( info >= 0.0 ))
+
+
+Line_99_Pred_10_Cond_11_Mutant63
+
+==> @ Line: 99
+Original Line  : if ( info >= 0.0 )
+After Mutation : if ( info != 0.0 )
+
+
+Line_99_Pred_10_Cond_11_Mutant64
+
+==> @ Line: 99
+Original Line  : if ( info >= 0.0 )
+After Mutation : if ( info < 0.0 )
+
+
+Line_99_Pred_10_Cond_11_Mutant65
+
+==> @ Line: 99
+Original Line  : if ( info >= 0.0 )
+After Mutation : if ( info <= 0.0 )
+
+
+Line_99_Pred_10_Cond_11_Mutant66
+
+==> @ Line: 99
+Original Line  : if ( info >= 0.0 )
+After Mutation : if ( info > 0.0 )
+
+
+Line_99_Pred_10_Cond_11_Mutant67
+
+==> @ Line: 99
+Original Line  : if ( info >= 0.0 )
+After Mutation : if ( info==0.0 )
+
+
+ROFLine_109_Pred_NO_Mutant68
+
+==> @ Line: 109
+Original Line  : (void)fputs( info < -3.5 ? "out of memory\n"
+After Mutation : (void)fputs( info != -3.5 ? "out of memory\n"
+
+
+ROFLine_109_Pred_NO_Mutant69
+
+==> @ Line: 109
+Original Line  : (void)fputs( info < -3.5 ? "out of memory\n"
+After Mutation : (void)fputs( info > -3.5 ? "out of memory\n"
+
+
+ROFLine_109_Pred_NO_Mutant70
+
+==> @ Line: 109
+Original Line  : (void)fputs( info < -3.5 ? "out of memory\n"
+After Mutation : (void)fputs( info <= -3.5 ? "out of memory\n"
+
+
+ROFLine_109_Pred_NO_Mutant71
+
+==> @ Line: 109
+Original Line  : (void)fputs( info < -3.5 ? "out of memory\n"
+After Mutation : (void)fputs( info >= -3.5 ? "out of memory\n"
+
+
+ROFLine_109_Pred_NO_Mutant72
+
+==> @ Line: 109
+Original Line  : (void)fputs( info < -3.5 ? "out of memory\n"
+After Mutation : (void)fputs( info == -3.5 ? "out of memory\n"
+
+
+ROFLine_110_Pred_NO_Mutant73
+
+==> @ Line: 110
+Original Line  : : info < -2.5 ? "table too small\n"
+After Mutation : : info != -2.5 ? "table too small\n"
+
+
+ROFLine_110_Pred_NO_Mutant74
+
+==> @ Line: 110
+Original Line  : : info < -2.5 ? "table too small\n"
+After Mutation : : info > -2.5 ? "table too small\n"
+
+
+ROFLine_110_Pred_NO_Mutant75
+
+==> @ Line: 110
+Original Line  : : info < -2.5 ? "table too small\n"
+After Mutation : : info <= -2.5 ? "table too small\n"
+
+
+ROFLine_110_Pred_NO_Mutant76
+
+==> @ Line: 110
+Original Line  : : info < -2.5 ? "table too small\n"
+After Mutation : : info >= -2.5 ? "table too small\n"
+
+
+ROFLine_110_Pred_NO_Mutant77
+
+==> @ Line: 110
+Original Line  : : info < -2.5 ? "table too small\n"
+After Mutation : : info == -2.5 ? "table too small\n"
+
+
+ROFLine_111_Pred_NO_Mutant78
+
+==> @ Line: 111
+Original Line  : : info < -1.5 ? "negative freq\n"
+After Mutation : : info != -1.5 ? "negative freq\n"
+
+
+ROFLine_111_Pred_NO_Mutant79
+
+==> @ Line: 111
+Original Line  : : info < -1.5 ? "negative freq\n"
+After Mutation : : info > -1.5 ? "negative freq\n"
+
+
+ROFLine_111_Pred_NO_Mutant80
+
+==> @ Line: 111
+Original Line  : : info < -1.5 ? "negative freq\n"
+After Mutation : : info <= -1.5 ? "negative freq\n"
+
+
+ROFLine_111_Pred_NO_Mutant81
+
+==> @ Line: 111
+Original Line  : : info < -1.5 ? "negative freq\n"
+After Mutation : : info >= -1.5 ? "negative freq\n"
+
+
+ROFLine_111_Pred_NO_Mutant82
+
+==> @ Line: 111
+Original Line  : : info < -1.5 ? "negative freq\n"
+After Mutation : : info == -1.5 ? "negative freq\n"
+
+
+PNF_Line_117_Pred_11_Cond_PNF_Mutant83
+
+==> @ Line: 117
+Original Line  : if ( totdf <= 0 )
+After Mutation : if (!( totdf <= 0 ))
+
+
+Line_117_Pred_11_Cond_12_Mutant84
+
+==> @ Line: 117
+Original Line  : if ( totdf <= 0 )
+After Mutation : if ( totdf != 0 )
+
+
+Line_117_Pred_11_Cond_12_Mutant85
+
+==> @ Line: 117
+Original Line  : if ( totdf <= 0 )
+After Mutation : if ( totdf < 0 )
+
+
+Line_117_Pred_11_Cond_12_Mutant86
+
+==> @ Line: 117
+Original Line  : if ( totdf <= 0 )
+After Mutation : if ( totdf > 0 )
+
+
+Line_117_Pred_11_Cond_12_Mutant87
+
+==> @ Line: 117
+Original Line  : if ( totdf <= 0 )
+After Mutation : if ( totdf >= 0 )
+
+
+Line_117_Pred_11_Cond_12_Mutant88
+
+==> @ Line: 117
+Original Line  : if ( totdf <= 0 )
+After Mutation : if ( totdf==0 )
+
+
+PNF_Line_162_Pred_12_Cond_PNF_Mutant89
+
+==> @ Line: 162
+Original Line  : if ( --x < 0.0 )	/* use reflection formula for accuracy */
+After Mutation : if (!( --x < 0.0 ))	/* use reflection formula for accuracy */
+
+
+Line_162_Pred_12_Cond_13_Mutant90
+
+==> @ Line: 162
+Original Line  : if ( --x < 0.0 )	/* use reflection formula for accuracy */
+After Mutation : if ( --x != 0.0 )	/* use reflection formula for accuracy */
+
+
+Line_162_Pred_12_Cond_13_Mutant91
+
+==> @ Line: 162
+Original Line  : if ( --x < 0.0 )	/* use reflection formula for accuracy */
+After Mutation : if ( --x > 0.0 )	/* use reflection formula for accuracy */
+
+
+Line_162_Pred_12_Cond_13_Mutant92
+
+==> @ Line: 162
+Original Line  : if ( --x < 0.0 )	/* use reflection formula for accuracy */
+After Mutation : if ( --x <= 0.0 )	/* use reflection formula for accuracy */
+
+
+Line_162_Pred_12_Cond_13_Mutant93
+
+==> @ Line: 162
+Original Line  : if ( --x < 0.0 )	/* use reflection formula for accuracy */
+After Mutation : if ( --x >= 0.0 )	/* use reflection formula for accuracy */
+
+
+Line_162_Pred_12_Cond_13_Mutant94
+
+==> @ Line: 162
+Original Line  : if ( --x < 0.0 )	/* use reflection formula for accuracy */
+After Mutation : if ( --x == 0.0 )	/* use reflection formula for accuracy */
+
+
+AOFLine_164_Pred_NO_Mutant95
+
+==> @ Line: 164
+Original Line  : double	pix = PI * x;
+After Mutation : double	pix = PI + x;
+
+
+AOFLine_164_Pred_NO_Mutant96
+
+==> @ Line: 164
+Original Line  : double	pix = PI * x;
+After Mutation : double	pix = PI - x;
+
+
+AOFLine_164_Pred_NO_Mutant97
+
+==> @ Line: 164
+Original Line  : double	pix = PI * x;
+After Mutation : double	pix = PI / x;
+
+
+AOFLine_164_Pred_NO_Mutant98
+
+==> @ Line: 164
+Original Line  : double	pix = PI * x;
+After Mutation : double	pix = PI % x;
+
+
+AOFLine_166_Pred_NO_Mutant99
+
+==> @ Line: 166
+Original Line  : return log( pix / sin( pix ) ) - LGamma( 1.0 - x );
+After Mutation : return log( pix / sin( pix ) ) + LGamma( 1.0 - x );
+
+
+AOFLine_166_Pred_NO_Mutant100
+
+==> @ Line: 166
+Original Line  : return log( pix / sin( pix ) ) - LGamma( 1.0 - x );
+After Mutation : return log( pix / sin( pix ) ) * LGamma( 1.0 - x );
+
+
+AOFLine_166_Pred_NO_Mutant101
+
+==> @ Line: 166
+Original Line  : return log( pix / sin( pix ) ) - LGamma( 1.0 - x );
+After Mutation : return log( pix / sin( pix ) ) / LGamma( 1.0 - x );
+
+
+AOFLine_166_Pred_NO_Mutant102
+
+==> @ Line: 166
+Original Line  : return log( pix / sin( pix ) ) - LGamma( 1.0 - x );
+After Mutation : return log( pix / sin( pix ) ) % LGamma( 1.0 - x );
+
+
+AOFLine_166_Pred_NO_Mutant103
+
+==> @ Line: 166
+Original Line  : return log( pix / sin( pix ) ) - LGamma( 1.0 - x );
+After Mutation : return log( pix / sin( pix ) ) - LGamma( 1.0 + x );
+
+
+AOFLine_166_Pred_NO_Mutant104
+
+==> @ Line: 166
+Original Line  : return log( pix / sin( pix ) ) - LGamma( 1.0 - x );
+After Mutation : return log( pix / sin( pix ) ) - LGamma( 1.0 * x );
+
+
+AOFLine_166_Pred_NO_Mutant105
+
+==> @ Line: 166
+Original Line  : return log( pix / sin( pix ) ) - LGamma( 1.0 - x );
+After Mutation : return log( pix / sin( pix ) ) - LGamma( 1.0 / x );
+
+
+AOFLine_166_Pred_NO_Mutant106
+
+==> @ Line: 166
+Original Line  : return log( pix / sin( pix ) ) - LGamma( 1.0 - x );
+After Mutation : return log( pix / sin( pix ) ) - LGamma( 1.0 % x );
+
+
+AOFLine_166_Pred_NO_Mutant107
+
+==> @ Line: 166
+Original Line  : return log( pix / sin( pix ) ) - LGamma( 1.0 - x );
+After Mutation : return log( pix % sin( pix ) ) - LGamma( 1.0 - x );
+
+
+AOFLine_166_Pred_NO_Mutant108
+
+==> @ Line: 166
+Original Line  : return log( pix / sin( pix ) ) - LGamma( 1.0 - x );
+After Mutation : return log( pix * sin( pix ) ) - LGamma( 1.0 - x );
+
+
+AOFLine_166_Pred_NO_Mutant109
+
+==> @ Line: 166
+Original Line  : return log( pix / sin( pix ) ) - LGamma( 1.0 - x );
+After Mutation : return log( pix + sin( pix ) ) - LGamma( 1.0 - x );
+
+
+AOFLine_166_Pred_NO_Mutant110
+
+==> @ Line: 166
+Original Line  : return log( pix / sin( pix ) ) - LGamma( 1.0 - x );
+After Mutation : return log( pix - sin( pix ) ) - LGamma( 1.0 - x );
+
+
+AOFLine_169_Pred_NO_Mutant111
+
+==> @ Line: 169
+Original Line  : tmp = x + 5.5;
+After Mutation : tmp = x - 5.5;
+
+
+AOFLine_169_Pred_NO_Mutant112
+
+==> @ Line: 169
+Original Line  : tmp = x + 5.5;
+After Mutation : tmp = x * 5.5;
+
+
+AOFLine_169_Pred_NO_Mutant113
+
+==> @ Line: 169
+Original Line  : tmp = x + 5.5;
+After Mutation : tmp = x / 5.5;
+
+
+AOFLine_169_Pred_NO_Mutant114
+
+==> @ Line: 169
+Original Line  : tmp = x + 5.5;
+After Mutation : tmp = x % 5.5;
+
+
+AOFLine_170_Pred_NO_Mutant115
+
+==> @ Line: 170
+Original Line  : tmp -= (x + 0.5) * log( tmp );
+After Mutation : tmp -= (x - 0.5) * log( tmp );
+
+
+AOFLine_170_Pred_NO_Mutant116
+
+==> @ Line: 170
+Original Line  : tmp -= (x + 0.5) * log( tmp );
+After Mutation : tmp -= (x * 0.5) * log( tmp );
+
+
+AOFLine_170_Pred_NO_Mutant117
+
+==> @ Line: 170
+Original Line  : tmp -= (x + 0.5) * log( tmp );
+After Mutation : tmp -= (x / 0.5) * log( tmp );
+
+
+AOFLine_170_Pred_NO_Mutant118
+
+==> @ Line: 170
+Original Line  : tmp -= (x + 0.5) * log( tmp );
+After Mutation : tmp -= (x % 0.5) * log( tmp );
+
+
+AOFLine_170_Pred_NO_Mutant119
+
+==> @ Line: 170
+Original Line  : tmp -= (x + 0.5) * log( tmp );
+After Mutation : tmp -= (x + 0.5) + log( tmp );
+
+
+AOFLine_170_Pred_NO_Mutant120
+
+==> @ Line: 170
+Original Line  : tmp -= (x + 0.5) * log( tmp );
+After Mutation : tmp -= (x + 0.5) - log( tmp );
+
+
+AOFLine_170_Pred_NO_Mutant121
+
+==> @ Line: 170
+Original Line  : tmp -= (x + 0.5) * log( tmp );
+After Mutation : tmp -= (x + 0.5) / log( tmp );
+
+
+AOFLine_170_Pred_NO_Mutant122
+
+==> @ Line: 170
+Original Line  : tmp -= (x + 0.5) * log( tmp );
+After Mutation : tmp -= (x + 0.5) % log( tmp );
+
+
+PNF_Line_174_Pred_13_Cond_PNF_Mutant123
+
+==> @ Line: 174
+Original Line  : for ( j = 0; j < 6; ++j )
+After Mutation : for ( j = 0;!( j < 6); ++j )
+
+
+Line_174_Pred_13_Cond_14_Mutant124
+
+==> @ Line: 174
+Original Line  : for ( j = 0; j < 6; ++j )
+After Mutation : for ( j = 0; j != 6; ++j )
+
+
+Line_174_Pred_13_Cond_14_Mutant125
+
+==> @ Line: 174
+Original Line  : for ( j = 0; j < 6; ++j )
+After Mutation : for ( j = 0; j > 6; ++j )
+
+
+Line_174_Pred_13_Cond_14_Mutant126
+
+==> @ Line: 174
+Original Line  : for ( j = 0; j < 6; ++j )
+After Mutation : for ( j = 0; j <= 6; ++j )
+
+
+Line_174_Pred_13_Cond_14_Mutant127
+
+==> @ Line: 174
+Original Line  : for ( j = 0; j < 6; ++j )
+After Mutation : for ( j = 0; j >= 6; ++j )
+
+
+Line_174_Pred_13_Cond_14_Mutant128
+
+==> @ Line: 174
+Original Line  : for ( j = 0; j < 6; ++j )
+After Mutation : for ( j = 0; j == 6; ++j )
+
+
+AOFLine_175_Pred_NO_Mutant129
+
+==> @ Line: 175
+Original Line  : ser += cof[j] / ++x;
+After Mutation : ser += cof[j] % ++x;
+
+
+AOFLine_175_Pred_NO_Mutant130
+
+==> @ Line: 175
+Original Line  : ser += cof[j] / ++x;
+After Mutation : ser += cof[j] * ++x;
+
+
+AOFLine_175_Pred_NO_Mutant131
+
+==> @ Line: 175
+Original Line  : ser += cof[j] / ++x;
+After Mutation : ser += cof[j] + ++x;
+
+
+AOFLine_175_Pred_NO_Mutant132
+
+==> @ Line: 175
+Original Line  : ser += cof[j] / ++x;
+After Mutation : ser += cof[j] - ++x;
+
+
+AOFLine_177_Pred_NO_Mutant133
+
+==> @ Line: 177
+Original Line  : return -tmp + log( 2.50662827465 * ser );
+After Mutation : return -tmp - log( 2.50662827465 * ser );
+
+
+AOFLine_177_Pred_NO_Mutant134
+
+==> @ Line: 177
+Original Line  : return -tmp + log( 2.50662827465 * ser );
+After Mutation : return -tmp * log( 2.50662827465 * ser );
+
+
+AOFLine_177_Pred_NO_Mutant135
+
+==> @ Line: 177
+Original Line  : return -tmp + log( 2.50662827465 * ser );
+After Mutation : return -tmp / log( 2.50662827465 * ser );
+
+
+AOFLine_177_Pred_NO_Mutant136
+
+==> @ Line: 177
+Original Line  : return -tmp + log( 2.50662827465 * ser );
+After Mutation : return -tmp % log( 2.50662827465 * ser );
+
+
+AOFLine_177_Pred_NO_Mutant137
+
+==> @ Line: 177
+Original Line  : return -tmp + log( 2.50662827465 * ser );
+After Mutation : return -tmp + log( 2.50662827465 + ser );
+
+
+AOFLine_177_Pred_NO_Mutant138
+
+==> @ Line: 177
+Original Line  : return -tmp + log( 2.50662827465 * ser );
+After Mutation : return -tmp + log( 2.50662827465 - ser );
+
+
+AOFLine_177_Pred_NO_Mutant139
+
+==> @ Line: 177
+Original Line  : return -tmp + log( 2.50662827465 * ser );
+After Mutation : return -tmp + log( 2.50662827465 / ser );
+
+
+AOFLine_177_Pred_NO_Mutant140
+
+==> @ Line: 177
+Original Line  : return -tmp + log( 2.50662827465 * ser );
+After Mutation : return -tmp + log( 2.50662827465 % ser );
+
+
+PNF_Line_191_Pred_14_Cond_PNF_Mutant141
+
+==> @ Line: 191
+Original Line  : if ( x <= 0.0 )
+After Mutation : if (!( x <= 0.0 ))
+
+
+Line_191_Pred_14_Cond_15_Mutant142
+
+==> @ Line: 191
+Original Line  : if ( x <= 0.0 )
+After Mutation : if ( x != 0.0 )
+
+
+Line_191_Pred_14_Cond_15_Mutant143
+
+==> @ Line: 191
+Original Line  : if ( x <= 0.0 )
+After Mutation : if ( x < 0.0 )
+
+
+Line_191_Pred_14_Cond_15_Mutant144
+
+==> @ Line: 191
+Original Line  : if ( x <= 0.0 )
+After Mutation : if ( x > 0.0 )
+
+
+Line_191_Pred_14_Cond_15_Mutant145
+
+==> @ Line: 191
+Original Line  : if ( x <= 0.0 )
+After Mutation : if ( x >= 0.0 )
+
+
+Line_191_Pred_14_Cond_15_Mutant146
+
+==> @ Line: 191
+Original Line  : if ( x <= 0.0 )
+After Mutation : if ( x==0.0 )
+
+
+AOFLine_194_Pred_NO_Mutant147
+
+==> @ Line: 194
+Original Line  : del = sum = 1.0 / (ap = a);
+After Mutation : del = sum = 1.0 % (ap = a);
+
+
+AOFLine_194_Pred_NO_Mutant148
+
+==> @ Line: 194
+Original Line  : del = sum = 1.0 / (ap = a);
+After Mutation : del = sum = 1.0 * (ap = a);
+
+
+AOFLine_194_Pred_NO_Mutant149
+
+==> @ Line: 194
+Original Line  : del = sum = 1.0 / (ap = a);
+After Mutation : del = sum = 1.0 + (ap = a);
+
+
+AOFLine_194_Pred_NO_Mutant150
+
+==> @ Line: 194
+Original Line  : del = sum = 1.0 / (ap = a);
+After Mutation : del = sum = 1.0 - (ap = a);
+
+
+PNF_Line_196_Pred_15_Cond_PNF_Mutant151
+
+==> @ Line: 196
+Original Line  : for ( n = 1; n <= ITMAX; ++n )
+After Mutation : for ( n = 1;!( n <= ITMAX); ++n )
+
+
+Line_196_Pred_15_Cond_16_Mutant152
+
+==> @ Line: 196
+Original Line  : for ( n = 1; n <= ITMAX; ++n )
+After Mutation : for ( n = 1; n != ITMAX; ++n )
+
+
+Line_196_Pred_15_Cond_16_Mutant153
+
+==> @ Line: 196
+Original Line  : for ( n = 1; n <= ITMAX; ++n )
+After Mutation : for ( n = 1; n < ITMAX; ++n )
+
+
+Line_196_Pred_15_Cond_16_Mutant154
+
+==> @ Line: 196
+Original Line  : for ( n = 1; n <= ITMAX; ++n )
+After Mutation : for ( n = 1; n > ITMAX; ++n )
+
+
+Line_196_Pred_15_Cond_16_Mutant155
+
+==> @ Line: 196
+Original Line  : for ( n = 1; n <= ITMAX; ++n )
+After Mutation : for ( n = 1; n >= ITMAX; ++n )
+
+
+Line_196_Pred_15_Cond_16_Mutant156
+
+==> @ Line: 196
+Original Line  : for ( n = 1; n <= ITMAX; ++n )
+After Mutation : for ( n = 1; n==ITMAX; ++n )
+
+
+AOFLine_198_Pred_NO_Mutant157
+
+==> @ Line: 198
+Original Line  : sum += del *= x / ++ap;
+After Mutation : sum += del *= x % ++ap;
+
+
+AOFLine_198_Pred_NO_Mutant158
+
+==> @ Line: 198
+Original Line  : sum += del *= x / ++ap;
+After Mutation : sum += del *= x * ++ap;
+
+
+AOFLine_198_Pred_NO_Mutant159
+
+==> @ Line: 198
+Original Line  : sum += del *= x / ++ap;
+After Mutation : sum += del *= x + ++ap;
+
+
+AOFLine_198_Pred_NO_Mutant160
+
+==> @ Line: 198
+Original Line  : sum += del *= x / ++ap;
+After Mutation : sum += del *= x - ++ap;
+
+
+PNF_Line_200_Pred_16_Cond_PNF_Mutant161
+
+==> @ Line: 200
+Original Line  : if ( Abs( del ) < Abs( sum ) * EPS )
+After Mutation : if (!( Abs( del ) < Abs( sum ) * EPS ))
+
+
+Line_200_Pred_16_Cond_17_Mutant162
+
+==> @ Line: 200
+Original Line  : if ( Abs( del ) < Abs( sum ) * EPS )
+After Mutation : if ( Abs( del ) != Abs( sum ) * EPS )
+
+
+Line_200_Pred_16_Cond_17_Mutant163
+
+==> @ Line: 200
+Original Line  : if ( Abs( del ) < Abs( sum ) * EPS )
+After Mutation : if ( Abs( del ) > Abs( sum ) * EPS )
+
+
+Line_200_Pred_16_Cond_17_Mutant164
+
+==> @ Line: 200
+Original Line  : if ( Abs( del ) < Abs( sum ) * EPS )
+After Mutation : if ( Abs( del ) <= Abs( sum ) * EPS )
+
+
+Line_200_Pred_16_Cond_17_Mutant165
+
+==> @ Line: 200
+Original Line  : if ( Abs( del ) < Abs( sum ) * EPS )
+After Mutation : if ( Abs( del ) >= Abs( sum ) * EPS )
+
+
+Line_200_Pred_16_Cond_17_Mutant166
+
+==> @ Line: 200
+Original Line  : if ( Abs( del ) < Abs( sum ) * EPS )
+After Mutation : if ( Abs( del ) == Abs( sum ) * EPS )
+
+
+Line_200_Pred_16_Cond_17_Mutant167
+
+==> @ Line: 200
+Original Line  : if ( Abs( del ) < Abs( sum ) * EPS )
+After Mutation : if ( Abs( del ) < Abs( sum ) + EPS )
+
+
+Line_200_Pred_16_Cond_17_Mutant168
+
+==> @ Line: 200
+Original Line  : if ( Abs( del ) < Abs( sum ) * EPS )
+After Mutation : if ( Abs( del ) < Abs( sum ) - EPS )
+
+
+Line_200_Pred_16_Cond_17_Mutant169
+
+==> @ Line: 200
+Original Line  : if ( Abs( del ) < Abs( sum ) * EPS )
+After Mutation : if ( Abs( del ) < Abs( sum ) / EPS )
+
+
+Line_200_Pred_16_Cond_17_Mutant170
+
+==> @ Line: 200
+Original Line  : if ( Abs( del ) < Abs( sum ) * EPS )
+After Mutation : if ( Abs( del ) < Abs( sum ) % EPS )
+
+
+AOFLine_201_Pred_NO_Mutant171
+
+==> @ Line: 201
+Original Line  : return sum * exp( -x + a * log( x ) - LGamma( a ) );
+After Mutation : return sum * exp( -x - a * log( x ) - LGamma( a ) );
+
+
+AOFLine_201_Pred_NO_Mutant172
+
+==> @ Line: 201
+Original Line  : return sum * exp( -x + a * log( x ) - LGamma( a ) );
+After Mutation : return sum * exp( -x * a * log( x ) - LGamma( a ) );
+
+
+AOFLine_201_Pred_NO_Mutant173
+
+==> @ Line: 201
+Original Line  : return sum * exp( -x + a * log( x ) - LGamma( a ) );
+After Mutation : return sum * exp( -x / a * log( x ) - LGamma( a ) );
+
+
+AOFLine_201_Pred_NO_Mutant174
+
+==> @ Line: 201
+Original Line  : return sum * exp( -x + a * log( x ) - LGamma( a ) );
+After Mutation : return sum * exp( -x % a * log( x ) - LGamma( a ) );
+
+
+AOFLine_201_Pred_NO_Mutant175
+
+==> @ Line: 201
+Original Line  : return sum * exp( -x + a * log( x ) - LGamma( a ) );
+After Mutation : return sum * exp( -x + a * log( x ) + LGamma( a ) );
+
+
+AOFLine_201_Pred_NO_Mutant176
+
+==> @ Line: 201
+Original Line  : return sum * exp( -x + a * log( x ) - LGamma( a ) );
+After Mutation : return sum * exp( -x + a * log( x ) * LGamma( a ) );
+
+
+AOFLine_201_Pred_NO_Mutant177
+
+==> @ Line: 201
+Original Line  : return sum * exp( -x + a * log( x ) - LGamma( a ) );
+After Mutation : return sum * exp( -x + a * log( x ) / LGamma( a ) );
+
+
+AOFLine_201_Pred_NO_Mutant178
+
+==> @ Line: 201
+Original Line  : return sum * exp( -x + a * log( x ) - LGamma( a ) );
+After Mutation : return sum * exp( -x + a * log( x ) % LGamma( a ) );
+
+
+AOFLine_201_Pred_NO_Mutant179
+
+==> @ Line: 201
+Original Line  : return sum * exp( -x + a * log( x ) - LGamma( a ) );
+After Mutation : return sum + exp( -x + a * log( x ) - LGamma( a ) );
+
+
+AOFLine_201_Pred_NO_Mutant180
+
+==> @ Line: 201
+Original Line  : return sum * exp( -x + a * log( x ) - LGamma( a ) );
+After Mutation : return sum - exp( -x + a * log( x ) - LGamma( a ) );
+
+
+AOFLine_201_Pred_NO_Mutant181
+
+==> @ Line: 201
+Original Line  : return sum * exp( -x + a * log( x ) - LGamma( a ) );
+After Mutation : return sum / exp( -x + a * log( x ) - LGamma( a ) );
+
+
+AOFLine_201_Pred_NO_Mutant182
+
+==> @ Line: 201
+Original Line  : return sum * exp( -x + a * log( x ) - LGamma( a ) );
+After Mutation : return sum % exp( -x + a * log( x ) - LGamma( a ) );
+
+
+AOFLine_201_Pred_NO_Mutant183
+
+==> @ Line: 201
+Original Line  : return sum * exp( -x + a * log( x ) - LGamma( a ) );
+After Mutation : return sum * exp( -x + a + log( x ) - LGamma( a ) );
+
+
+AOFLine_201_Pred_NO_Mutant184
+
+==> @ Line: 201
+Original Line  : return sum * exp( -x + a * log( x ) - LGamma( a ) );
+After Mutation : return sum * exp( -x + a - log( x ) - LGamma( a ) );
+
+
+AOFLine_201_Pred_NO_Mutant185
+
+==> @ Line: 201
+Original Line  : return sum * exp( -x + a * log( x ) - LGamma( a ) );
+After Mutation : return sum * exp( -x + a / log( x ) - LGamma( a ) );
+
+
+AOFLine_201_Pred_NO_Mutant186
+
+==> @ Line: 201
+Original Line  : return sum * exp( -x + a * log( x ) - LGamma( a ) );
+After Mutation : return sum * exp( -x + a % log( x ) - LGamma( a ) );
+
+
+PNF_Line_215_Pred_17_Cond_PNF_Mutant187
+
+==> @ Line: 215
+Original Line  : for ( n = 1; n <= ITMAX; ++n )
+After Mutation : for ( n = 1;!( n <= ITMAX); ++n )
+
+
+Line_215_Pred_17_Cond_18_Mutant188
+
+==> @ Line: 215
+Original Line  : for ( n = 1; n <= ITMAX; ++n )
+After Mutation : for ( n = 1; n != ITMAX; ++n )
+
+
+Line_215_Pred_17_Cond_18_Mutant189
+
+==> @ Line: 215
+Original Line  : for ( n = 1; n <= ITMAX; ++n )
+After Mutation : for ( n = 1; n < ITMAX; ++n )
+
+
+Line_215_Pred_17_Cond_18_Mutant190
+
+==> @ Line: 215
+Original Line  : for ( n = 1; n <= ITMAX; ++n )
+After Mutation : for ( n = 1; n > ITMAX; ++n )
+
+
+Line_215_Pred_17_Cond_18_Mutant191
+
+==> @ Line: 215
+Original Line  : for ( n = 1; n <= ITMAX; ++n )
+After Mutation : for ( n = 1; n >= ITMAX; ++n )
+
+
+Line_215_Pred_17_Cond_18_Mutant192
+
+==> @ Line: 215
+Original Line  : for ( n = 1; n <= ITMAX; ++n )
+After Mutation : for ( n = 1; n==ITMAX; ++n )
+
+
+AOFLine_219_Pred_NO_Mutant193
+
+==> @ Line: 219
+Original Line  : double	ana = an - a;
+After Mutation : double	ana = an + a;
+
+
+AOFLine_219_Pred_NO_Mutant194
+
+==> @ Line: 219
+Original Line  : double	ana = an - a;
+After Mutation : double	ana = an * a;
+
+
+AOFLine_219_Pred_NO_Mutant195
+
+==> @ Line: 219
+Original Line  : double	ana = an - a;
+After Mutation : double	ana = an / a;
+
+
+AOFLine_219_Pred_NO_Mutant196
+
+==> @ Line: 219
+Original Line  : double	ana = an - a;
+After Mutation : double	ana = an % a;
+
+
+AOFLine_221_Pred_NO_Mutant197
+
+==> @ Line: 221
+Original Line  : a0 = (a1 + a0 * ana) * fac;
+After Mutation : a0 = (a1 - a0 * ana) * fac;
+
+
+AOFLine_221_Pred_NO_Mutant198
+
+==> @ Line: 221
+Original Line  : a0 = (a1 + a0 * ana) * fac;
+After Mutation : a0 = (a1 * a0 * ana) * fac;
+
+
+AOFLine_221_Pred_NO_Mutant199
+
+==> @ Line: 221
+Original Line  : a0 = (a1 + a0 * ana) * fac;
+After Mutation : a0 = (a1 / a0 * ana) * fac;
+
+
+AOFLine_221_Pred_NO_Mutant200
+
+==> @ Line: 221
+Original Line  : a0 = (a1 + a0 * ana) * fac;
+After Mutation : a0 = (a1 % a0 * ana) * fac;
+
+
+AOFLine_221_Pred_NO_Mutant201
+
+==> @ Line: 221
+Original Line  : a0 = (a1 + a0 * ana) * fac;
+After Mutation : a0 = (a1 + a0 + ana) * fac;
+
+
+AOFLine_221_Pred_NO_Mutant202
+
+==> @ Line: 221
+Original Line  : a0 = (a1 + a0 * ana) * fac;
+After Mutation : a0 = (a1 + a0 - ana) * fac;
+
+
+AOFLine_221_Pred_NO_Mutant203
+
+==> @ Line: 221
+Original Line  : a0 = (a1 + a0 * ana) * fac;
+After Mutation : a0 = (a1 + a0 / ana) * fac;
+
+
+AOFLine_221_Pred_NO_Mutant204
+
+==> @ Line: 221
+Original Line  : a0 = (a1 + a0 * ana) * fac;
+After Mutation : a0 = (a1 + a0 % ana) * fac;
+
+
+AOFLine_221_Pred_NO_Mutant205
+
+==> @ Line: 221
+Original Line  : a0 = (a1 + a0 * ana) * fac;
+After Mutation : a0 = (a1 + a0 * ana) + fac;
+
+
+AOFLine_221_Pred_NO_Mutant206
+
+==> @ Line: 221
+Original Line  : a0 = (a1 + a0 * ana) * fac;
+After Mutation : a0 = (a1 + a0 * ana) - fac;
+
+
+AOFLine_221_Pred_NO_Mutant207
+
+==> @ Line: 221
+Original Line  : a0 = (a1 + a0 * ana) * fac;
+After Mutation : a0 = (a1 + a0 * ana) / fac;
+
+
+AOFLine_221_Pred_NO_Mutant208
+
+==> @ Line: 221
+Original Line  : a0 = (a1 + a0 * ana) * fac;
+After Mutation : a0 = (a1 + a0 * ana) % fac;
+
+
+AOFLine_222_Pred_NO_Mutant209
+
+==> @ Line: 222
+Original Line  : b0 = (b1 + b0 * ana) * fac;
+After Mutation : b0 = (b1 - b0 * ana) * fac;
+
+
+AOFLine_222_Pred_NO_Mutant210
+
+==> @ Line: 222
+Original Line  : b0 = (b1 + b0 * ana) * fac;
+After Mutation : b0 = (b1 * b0 * ana) * fac;
+
+
+AOFLine_222_Pred_NO_Mutant211
+
+==> @ Line: 222
+Original Line  : b0 = (b1 + b0 * ana) * fac;
+After Mutation : b0 = (b1 / b0 * ana) * fac;
+
+
+AOFLine_222_Pred_NO_Mutant212
+
+==> @ Line: 222
+Original Line  : b0 = (b1 + b0 * ana) * fac;
+After Mutation : b0 = (b1 % b0 * ana) * fac;
+
+
+AOFLine_222_Pred_NO_Mutant213
+
+==> @ Line: 222
+Original Line  : b0 = (b1 + b0 * ana) * fac;
+After Mutation : b0 = (b1 + b0 + ana) * fac;
+
+
+AOFLine_222_Pred_NO_Mutant214
+
+==> @ Line: 222
+Original Line  : b0 = (b1 + b0 * ana) * fac;
+After Mutation : b0 = (b1 + b0 - ana) * fac;
+
+
+AOFLine_222_Pred_NO_Mutant215
+
+==> @ Line: 222
+Original Line  : b0 = (b1 + b0 * ana) * fac;
+After Mutation : b0 = (b1 + b0 / ana) * fac;
+
+
+AOFLine_222_Pred_NO_Mutant216
+
+==> @ Line: 222
+Original Line  : b0 = (b1 + b0 * ana) * fac;
+After Mutation : b0 = (b1 + b0 % ana) * fac;
+
+
+AOFLine_222_Pred_NO_Mutant217
+
+==> @ Line: 222
+Original Line  : b0 = (b1 + b0 * ana) * fac;
+After Mutation : b0 = (b1 + b0 * ana) + fac;
+
+
+AOFLine_222_Pred_NO_Mutant218
+
+==> @ Line: 222
+Original Line  : b0 = (b1 + b0 * ana) * fac;
+After Mutation : b0 = (b1 + b0 * ana) - fac;
+
+
+AOFLine_222_Pred_NO_Mutant219
+
+==> @ Line: 222
+Original Line  : b0 = (b1 + b0 * ana) * fac;
+After Mutation : b0 = (b1 + b0 * ana) / fac;
+
+
+AOFLine_222_Pred_NO_Mutant220
+
+==> @ Line: 222
+Original Line  : b0 = (b1 + b0 * ana) * fac;
+After Mutation : b0 = (b1 + b0 * ana) % fac;
+
+
+AOFLine_223_Pred_NO_Mutant221
+
+==> @ Line: 223
+Original Line  : anf = an * fac;
+After Mutation : anf = an + fac;
+
+
+AOFLine_223_Pred_NO_Mutant222
+
+==> @ Line: 223
+Original Line  : anf = an * fac;
+After Mutation : anf = an - fac;
+
+
+AOFLine_223_Pred_NO_Mutant223
+
+==> @ Line: 223
+Original Line  : anf = an * fac;
+After Mutation : anf = an / fac;
+
+
+AOFLine_223_Pred_NO_Mutant224
+
+==> @ Line: 223
+Original Line  : anf = an * fac;
+After Mutation : anf = an % fac;
+
+
+AOFLine_224_Pred_NO_Mutant225
+
+==> @ Line: 224
+Original Line  : b1 = x * b0 + anf * b1;
+After Mutation : b1 = x * b0 - anf * b1;
+
+
+AOFLine_224_Pred_NO_Mutant226
+
+==> @ Line: 224
+Original Line  : b1 = x * b0 + anf * b1;
+After Mutation : b1 = x * b0 * anf * b1;
+
+
+AOFLine_224_Pred_NO_Mutant227
+
+==> @ Line: 224
+Original Line  : b1 = x * b0 + anf * b1;
+After Mutation : b1 = x * b0 / anf * b1;
+
+
+AOFLine_224_Pred_NO_Mutant228
+
+==> @ Line: 224
+Original Line  : b1 = x * b0 + anf * b1;
+After Mutation : b1 = x * b0 % anf * b1;
+
+
+AOFLine_224_Pred_NO_Mutant229
+
+==> @ Line: 224
+Original Line  : b1 = x * b0 + anf * b1;
+After Mutation : b1 = x + b0 + anf * b1;
+
+
+AOFLine_224_Pred_NO_Mutant230
+
+==> @ Line: 224
+Original Line  : b1 = x * b0 + anf * b1;
+After Mutation : b1 = x - b0 + anf * b1;
+
+
+AOFLine_224_Pred_NO_Mutant231
+
+==> @ Line: 224
+Original Line  : b1 = x * b0 + anf * b1;
+After Mutation : b1 = x / b0 + anf * b1;
+
+
+AOFLine_224_Pred_NO_Mutant232
+
+==> @ Line: 224
+Original Line  : b1 = x * b0 + anf * b1;
+After Mutation : b1 = x % b0 + anf * b1;
+
+
+AOFLine_224_Pred_NO_Mutant233
+
+==> @ Line: 224
+Original Line  : b1 = x * b0 + anf * b1;
+After Mutation : b1 = x * b0 + anf + b1;
+
+
+AOFLine_224_Pred_NO_Mutant234
+
+==> @ Line: 224
+Original Line  : b1 = x * b0 + anf * b1;
+After Mutation : b1 = x * b0 + anf - b1;
+
+
+AOFLine_224_Pred_NO_Mutant235
+
+==> @ Line: 224
+Original Line  : b1 = x * b0 + anf * b1;
+After Mutation : b1 = x * b0 + anf / b1;
+
+
+AOFLine_224_Pred_NO_Mutant236
+
+==> @ Line: 224
+Original Line  : b1 = x * b0 + anf * b1;
+After Mutation : b1 = x * b0 + anf % b1;
+
+
+AOFLine_225_Pred_NO_Mutant237
+
+==> @ Line: 225
+Original Line  : a1 = x * a0 + anf * a1;
+After Mutation : a1 = x * a0 - anf * a1;
+
+
+AOFLine_225_Pred_NO_Mutant238
+
+==> @ Line: 225
+Original Line  : a1 = x * a0 + anf * a1;
+After Mutation : a1 = x * a0 * anf * a1;
+
+
+AOFLine_225_Pred_NO_Mutant239
+
+==> @ Line: 225
+Original Line  : a1 = x * a0 + anf * a1;
+After Mutation : a1 = x * a0 / anf * a1;
+
+
+AOFLine_225_Pred_NO_Mutant240
+
+==> @ Line: 225
+Original Line  : a1 = x * a0 + anf * a1;
+After Mutation : a1 = x * a0 % anf * a1;
+
+
+AOFLine_225_Pred_NO_Mutant241
+
+==> @ Line: 225
+Original Line  : a1 = x * a0 + anf * a1;
+After Mutation : a1 = x + a0 + anf * a1;
+
+
+AOFLine_225_Pred_NO_Mutant242
+
+==> @ Line: 225
+Original Line  : a1 = x * a0 + anf * a1;
+After Mutation : a1 = x - a0 + anf * a1;
+
+
+AOFLine_225_Pred_NO_Mutant243
+
+==> @ Line: 225
+Original Line  : a1 = x * a0 + anf * a1;
+After Mutation : a1 = x / a0 + anf * a1;
+
+
+AOFLine_225_Pred_NO_Mutant244
+
+==> @ Line: 225
+Original Line  : a1 = x * a0 + anf * a1;
+After Mutation : a1 = x % a0 + anf * a1;
+
+
+AOFLine_225_Pred_NO_Mutant245
+
+==> @ Line: 225
+Original Line  : a1 = x * a0 + anf * a1;
+After Mutation : a1 = x * a0 + anf + a1;
+
+
+AOFLine_225_Pred_NO_Mutant246
+
+==> @ Line: 225
+Original Line  : a1 = x * a0 + anf * a1;
+After Mutation : a1 = x * a0 + anf - a1;
+
+
+AOFLine_225_Pred_NO_Mutant247
+
+==> @ Line: 225
+Original Line  : a1 = x * a0 + anf * a1;
+After Mutation : a1 = x * a0 + anf / a1;
+
+
+AOFLine_225_Pred_NO_Mutant248
+
+==> @ Line: 225
+Original Line  : a1 = x * a0 + anf * a1;
+After Mutation : a1 = x * a0 + anf % a1;
+
+
+PNF_Line_227_Pred_18_Cond_PNF_Mutant249
+
+==> @ Line: 227
+Original Line  : if ( a1 != 0.0 )
+After Mutation : if (!( a1 != 0.0 ))
+
+
+Line_227_Pred_18_Cond_19_Mutant250
+
+==> @ Line: 227
+Original Line  : if ( a1 != 0.0 )
+After Mutation : if ( a1 == 0.0 )
+
+
+Line_227_Pred_18_Cond_19_Mutant251
+
+==> @ Line: 227
+Original Line  : if ( a1 != 0.0 )
+After Mutation : if ( a1 < 0.0 )
+
+
+Line_227_Pred_18_Cond_19_Mutant252
+
+==> @ Line: 227
+Original Line  : if ( a1 != 0.0 )
+After Mutation : if ( a1 > 0.0 )
+
+
+Line_227_Pred_18_Cond_19_Mutant253
+
+==> @ Line: 227
+Original Line  : if ( a1 != 0.0 )
+After Mutation : if ( a1 <= 0.0 )
+
+
+Line_227_Pred_18_Cond_19_Mutant254
+
+==> @ Line: 227
+Original Line  : if ( a1 != 0.0 )
+After Mutation : if ( a1 >= 0.0 )
+
+
+AOFLine_229_Pred_NO_Mutant255
+
+==> @ Line: 229
+Original Line  : double	g = b1 * (fac = 1.0 / a1);
+After Mutation : double	g = b1 + (fac = 1.0 / a1);
+
+
+AOFLine_229_Pred_NO_Mutant256
+
+==> @ Line: 229
+Original Line  : double	g = b1 * (fac = 1.0 / a1);
+After Mutation : double	g = b1 - (fac = 1.0 / a1);
+
+
+AOFLine_229_Pred_NO_Mutant257
+
+==> @ Line: 229
+Original Line  : double	g = b1 * (fac = 1.0 / a1);
+After Mutation : double	g = b1 / (fac = 1.0 / a1);
+
+
+AOFLine_229_Pred_NO_Mutant258
+
+==> @ Line: 229
+Original Line  : double	g = b1 * (fac = 1.0 / a1);
+After Mutation : double	g = b1 % (fac = 1.0 / a1);
+
+
+AOFLine_229_Pred_NO_Mutant259
+
+==> @ Line: 229
+Original Line  : double	g = b1 * (fac = 1.0 / a1);
+After Mutation : double	g = b1 * (fac = 1.0 % a1);
+
+
+AOFLine_229_Pred_NO_Mutant260
+
+==> @ Line: 229
+Original Line  : double	g = b1 * (fac = 1.0 / a1);
+After Mutation : double	g = b1 * (fac = 1.0 * a1);
+
+
+AOFLine_229_Pred_NO_Mutant261
+
+==> @ Line: 229
+Original Line  : double	g = b1 * (fac = 1.0 / a1);
+After Mutation : double	g = b1 * (fac = 1.0 + a1);
+
+
+AOFLine_229_Pred_NO_Mutant262
+
+==> @ Line: 229
+Original Line  : double	g = b1 * (fac = 1.0 / a1);
+After Mutation : double	g = b1 * (fac = 1.0 - a1);
+
+
+AOFLine_231_Pred_NO_Mutant263
+
+==> @ Line: 231
+Original Line  : gold = g - gold;
+After Mutation : gold = g + gold;
+
+
+AOFLine_231_Pred_NO_Mutant264
+
+==> @ Line: 231
+Original Line  : gold = g - gold;
+After Mutation : gold = g * gold;
+
+
+AOFLine_231_Pred_NO_Mutant265
+
+==> @ Line: 231
+Original Line  : gold = g - gold;
+After Mutation : gold = g / gold;
+
+
+AOFLine_231_Pred_NO_Mutant266
+
+==> @ Line: 231
+Original Line  : gold = g - gold;
+After Mutation : gold = g % gold;
+
+
+PNF_Line_233_Pred_19_Cond_PNF_Mutant267
+
+==> @ Line: 233
+Original Line  : if ( Abs( gold ) < EPS * Abs( g ) )
+After Mutation : if (!( Abs( gold ) < EPS * Abs( g ) ))
+
+
+Line_233_Pred_19_Cond_20_Mutant268
+
+==> @ Line: 233
+Original Line  : if ( Abs( gold ) < EPS * Abs( g ) )
+After Mutation : if ( Abs( gold ) != EPS * Abs( g ) )
+
+
+Line_233_Pred_19_Cond_20_Mutant269
+
+==> @ Line: 233
+Original Line  : if ( Abs( gold ) < EPS * Abs( g ) )
+After Mutation : if ( Abs( gold ) > EPS * Abs( g ) )
+
+
+Line_233_Pred_19_Cond_20_Mutant270
+
+==> @ Line: 233
+Original Line  : if ( Abs( gold ) < EPS * Abs( g ) )
+After Mutation : if ( Abs( gold ) <= EPS * Abs( g ) )
+
+
+Line_233_Pred_19_Cond_20_Mutant271
+
+==> @ Line: 233
+Original Line  : if ( Abs( gold ) < EPS * Abs( g ) )
+After Mutation : if ( Abs( gold ) >= EPS * Abs( g ) )
+
+
+Line_233_Pred_19_Cond_20_Mutant272
+
+==> @ Line: 233
+Original Line  : if ( Abs( gold ) < EPS * Abs( g ) )
+After Mutation : if ( Abs( gold ) == EPS * Abs( g ) )
+
+
+Line_233_Pred_19_Cond_20_Mutant273
+
+==> @ Line: 233
+Original Line  : if ( Abs( gold ) < EPS * Abs( g ) )
+After Mutation : if ( Abs( gold ) < EPS + Abs( g ) )
+
+
+Line_233_Pred_19_Cond_20_Mutant274
+
+==> @ Line: 233
+Original Line  : if ( Abs( gold ) < EPS * Abs( g ) )
+After Mutation : if ( Abs( gold ) < EPS - Abs( g ) )
+
+
+Line_233_Pred_19_Cond_20_Mutant275
+
+==> @ Line: 233
+Original Line  : if ( Abs( gold ) < EPS * Abs( g ) )
+After Mutation : if ( Abs( gold ) < EPS / Abs( g ) )
+
+
+Line_233_Pred_19_Cond_20_Mutant276
+
+==> @ Line: 233
+Original Line  : if ( Abs( gold ) < EPS * Abs( g ) )
+After Mutation : if ( Abs( gold ) < EPS % Abs( g ) )
+
+
+AOFLine_234_Pred_NO_Mutant277
+
+==> @ Line: 234
+Original Line  : return exp( -x + a * log( x ) - LGamma( a ) ) * g;
+After Mutation : return exp( -x - a * log( x ) - LGamma( a ) ) * g;
+
+
+AOFLine_234_Pred_NO_Mutant278
+
+==> @ Line: 234
+Original Line  : return exp( -x + a * log( x ) - LGamma( a ) ) * g;
+After Mutation : return exp( -x * a * log( x ) - LGamma( a ) ) * g;
+
+
+AOFLine_234_Pred_NO_Mutant279
+
+==> @ Line: 234
+Original Line  : return exp( -x + a * log( x ) - LGamma( a ) ) * g;
+After Mutation : return exp( -x / a * log( x ) - LGamma( a ) ) * g;
+
+
+AOFLine_234_Pred_NO_Mutant280
+
+==> @ Line: 234
+Original Line  : return exp( -x + a * log( x ) - LGamma( a ) ) * g;
+After Mutation : return exp( -x % a * log( x ) - LGamma( a ) ) * g;
+
+
+AOFLine_234_Pred_NO_Mutant281
+
+==> @ Line: 234
+Original Line  : return exp( -x + a * log( x ) - LGamma( a ) ) * g;
+After Mutation : return exp( -x + a * log( x ) + LGamma( a ) ) * g;
+
+
+AOFLine_234_Pred_NO_Mutant282
+
+==> @ Line: 234
+Original Line  : return exp( -x + a * log( x ) - LGamma( a ) ) * g;
+After Mutation : return exp( -x + a * log( x ) * LGamma( a ) ) * g;
+
+
+AOFLine_234_Pred_NO_Mutant283
+
+==> @ Line: 234
+Original Line  : return exp( -x + a * log( x ) - LGamma( a ) ) * g;
+After Mutation : return exp( -x + a * log( x ) / LGamma( a ) ) * g;
+
+
+AOFLine_234_Pred_NO_Mutant284
+
+==> @ Line: 234
+Original Line  : return exp( -x + a * log( x ) - LGamma( a ) ) * g;
+After Mutation : return exp( -x + a * log( x ) % LGamma( a ) ) * g;
+
+
+AOFLine_234_Pred_NO_Mutant285
+
+==> @ Line: 234
+Original Line  : return exp( -x + a * log( x ) - LGamma( a ) ) * g;
+After Mutation : return exp( -x + a + log( x ) - LGamma( a ) ) * g;
+
+
+AOFLine_234_Pred_NO_Mutant286
+
+==> @ Line: 234
+Original Line  : return exp( -x + a * log( x ) - LGamma( a ) ) * g;
+After Mutation : return exp( -x + a - log( x ) - LGamma( a ) ) * g;
+
+
+AOFLine_234_Pred_NO_Mutant287
+
+==> @ Line: 234
+Original Line  : return exp( -x + a * log( x ) - LGamma( a ) ) * g;
+After Mutation : return exp( -x + a / log( x ) - LGamma( a ) ) * g;
+
+
+AOFLine_234_Pred_NO_Mutant288
+
+==> @ Line: 234
+Original Line  : return exp( -x + a * log( x ) - LGamma( a ) ) * g;
+After Mutation : return exp( -x + a % log( x ) - LGamma( a ) ) * g;
+
+
+AOFLine_234_Pred_NO_Mutant289
+
+==> @ Line: 234
+Original Line  : return exp( -x + a * log( x ) - LGamma( a ) ) * g;
+After Mutation : return exp( -x + a * log( x ) - LGamma( a ) ) + g;
+
+
+AOFLine_234_Pred_NO_Mutant290
+
+==> @ Line: 234
+Original Line  : return exp( -x + a * log( x ) - LGamma( a ) ) * g;
+After Mutation : return exp( -x + a * log( x ) - LGamma( a ) ) - g;
+
+
+AOFLine_234_Pred_NO_Mutant291
+
+==> @ Line: 234
+Original Line  : return exp( -x + a * log( x ) - LGamma( a ) ) * g;
+After Mutation : return exp( -x + a * log( x ) - LGamma( a ) ) / g;
+
+
+AOFLine_234_Pred_NO_Mutant292
+
+==> @ Line: 234
+Original Line  : return exp( -x + a * log( x ) - LGamma( a ) ) * g;
+After Mutation : return exp( -x + a * log( x ) - LGamma( a ) ) % g;
+
+
+ROFLine_248_Pred_NO_Mutant293
+
+==> @ Line: 248
+Original Line  : return x < a + 1.0 ? 1.0 - gser( a, x ) : gcf( a, x );
+After Mutation : return x != a + 1.0 ? 1.0 - gser( a, x ) : gcf( a, x );
+
+
+ROFLine_248_Pred_NO_Mutant294
+
+==> @ Line: 248
+Original Line  : return x < a + 1.0 ? 1.0 - gser( a, x ) : gcf( a, x );
+After Mutation : return x > a + 1.0 ? 1.0 - gser( a, x ) : gcf( a, x );
+
+
+ROFLine_248_Pred_NO_Mutant295
+
+==> @ Line: 248
+Original Line  : return x < a + 1.0 ? 1.0 - gser( a, x ) : gcf( a, x );
+After Mutation : return x <= a + 1.0 ? 1.0 - gser( a, x ) : gcf( a, x );
+
+
+ROFLine_248_Pred_NO_Mutant296
+
+==> @ Line: 248
+Original Line  : return x < a + 1.0 ? 1.0 - gser( a, x ) : gcf( a, x );
+After Mutation : return x >= a + 1.0 ? 1.0 - gser( a, x ) : gcf( a, x );
+
+
+ROFLine_248_Pred_NO_Mutant297
+
+==> @ Line: 248
+Original Line  : return x < a + 1.0 ? 1.0 - gser( a, x ) : gcf( a, x );
+After Mutation : return x == a + 1.0 ? 1.0 - gser( a, x ) : gcf( a, x );
+
+
+AOFLine_248_Pred_NO_Mutant298
+
+==> @ Line: 248
+Original Line  : return x < a + 1.0 ? 1.0 - gser( a, x ) : gcf( a, x );
+After Mutation : return x < a - 1.0 ? 1.0 - gser( a, x ) : gcf( a, x );
+
+
+AOFLine_248_Pred_NO_Mutant299
+
+==> @ Line: 248
+Original Line  : return x < a + 1.0 ? 1.0 - gser( a, x ) : gcf( a, x );
+After Mutation : return x < a * 1.0 ? 1.0 - gser( a, x ) : gcf( a, x );
+
+
+AOFLine_248_Pred_NO_Mutant300
+
+==> @ Line: 248
+Original Line  : return x < a + 1.0 ? 1.0 - gser( a, x ) : gcf( a, x );
+After Mutation : return x < a / 1.0 ? 1.0 - gser( a, x ) : gcf( a, x );
+
+
+AOFLine_248_Pred_NO_Mutant301
+
+==> @ Line: 248
+Original Line  : return x < a + 1.0 ? 1.0 - gser( a, x ) : gcf( a, x );
+After Mutation : return x < a % 1.0 ? 1.0 - gser( a, x ) : gcf( a, x );
+
+
+AOFLine_248_Pred_NO_Mutant302
+
+==> @ Line: 248
+Original Line  : return x < a + 1.0 ? 1.0 - gser( a, x ) : gcf( a, x );
+After Mutation : return x < a + 1.0 ? 1.0 + gser( a, x ) : gcf( a, x );
+
+
+AOFLine_248_Pred_NO_Mutant303
+
+==> @ Line: 248
+Original Line  : return x < a + 1.0 ? 1.0 - gser( a, x ) : gcf( a, x );
+After Mutation : return x < a + 1.0 ? 1.0 * gser( a, x ) : gcf( a, x );
+
+
+AOFLine_248_Pred_NO_Mutant304
+
+==> @ Line: 248
+Original Line  : return x < a + 1.0 ? 1.0 - gser( a, x ) : gcf( a, x );
+After Mutation : return x < a + 1.0 ? 1.0 / gser( a, x ) : gcf( a, x );
+
+
+AOFLine_248_Pred_NO_Mutant305
+
+==> @ Line: 248
+Original Line  : return x < a + 1.0 ? 1.0 - gser( a, x ) : gcf( a, x );
+After Mutation : return x < a + 1.0 ? 1.0 % gser( a, x ) : gcf( a, x );
+
+
+AOFLine_256_Pred_NO_Mutant306
+
+==> @ Line: 256
+Original Line  : return QGamma( (double)df / 2.0, chisq / 2.0 );
+After Mutation : return QGamma( (double)df % 2.0, chisq / 2.0 );
+
+
+AOFLine_256_Pred_NO_Mutant307
+
+==> @ Line: 256
+Original Line  : return QGamma( (double)df / 2.0, chisq / 2.0 );
+After Mutation : return QGamma( (double)df * 2.0, chisq / 2.0 );
+
+
+AOFLine_256_Pred_NO_Mutant308
+
+==> @ Line: 256
+Original Line  : return QGamma( (double)df / 2.0, chisq / 2.0 );
+After Mutation : return QGamma( (double)df + 2.0, chisq / 2.0 );
+
+
+AOFLine_256_Pred_NO_Mutant309
+
+==> @ Line: 256
+Original Line  : return QGamma( (double)df / 2.0, chisq / 2.0 );
+After Mutation : return QGamma( (double)df - 2.0, chisq / 2.0 );
+
+
+AOFLine_256_Pred_NO_Mutant310
+
+==> @ Line: 256
+Original Line  : return QGamma( (double)df / 2.0, chisq / 2.0 );
+After Mutation : return QGamma( (double)df / 2.0, chisq % 2.0 );
+
+
+AOFLine_256_Pred_NO_Mutant311
+
+==> @ Line: 256
+Original Line  : return QGamma( (double)df / 2.0, chisq / 2.0 );
+After Mutation : return QGamma( (double)df / 2.0, chisq * 2.0 );
+
+
+AOFLine_256_Pred_NO_Mutant312
+
+==> @ Line: 256
+Original Line  : return QGamma( (double)df / 2.0, chisq / 2.0 );
+After Mutation : return QGamma( (double)df / 2.0, chisq + 2.0 );
+
+
+AOFLine_256_Pred_NO_Mutant313
+
+==> @ Line: 256
+Original Line  : return QGamma( (double)df / 2.0, chisq / 2.0 );
+After Mutation : return QGamma( (double)df / 2.0, chisq - 2.0 );
+
+
+AOFLine_305_Pred_NO_Mutant314
+
+==> @ Line: 305
+Original Line  : int		rdf = r - 1;	/* row degrees of freedom */
+After Mutation : int		rdf = r + 1;	/* row degrees of freedom */
+
+
+AOFLine_305_Pred_NO_Mutant315
+
+==> @ Line: 305
+Original Line  : int		rdf = r - 1;	/* row degrees of freedom */
+After Mutation : int		rdf = r * 1;	/* row degrees of freedom */
+
+
+AOFLine_305_Pred_NO_Mutant316
+
+==> @ Line: 305
+Original Line  : int		rdf = r - 1;	/* row degrees of freedom */
+After Mutation : int		rdf = r / 1;	/* row degrees of freedom */
+
+
+AOFLine_305_Pred_NO_Mutant317
+
+==> @ Line: 305
+Original Line  : int		rdf = r - 1;	/* row degrees of freedom */
+After Mutation : int		rdf = r % 1;	/* row degrees of freedom */
+
+
+AOFLine_306_Pred_NO_Mutant318
+
+==> @ Line: 306
+Original Line  : int		cdf = c - 1;	/* column degrees of freedom */
+After Mutation : int		cdf = c + 1;	/* column degrees of freedom */
+
+
+AOFLine_306_Pred_NO_Mutant319
+
+==> @ Line: 306
+Original Line  : int		cdf = c - 1;	/* column degrees of freedom */
+After Mutation : int		cdf = c * 1;	/* column degrees of freedom */
+
+
+AOFLine_306_Pred_NO_Mutant320
+
+==> @ Line: 306
+Original Line  : int		cdf = c - 1;	/* column degrees of freedom */
+After Mutation : int		cdf = c / 1;	/* column degrees of freedom */
+
+
+AOFLine_306_Pred_NO_Mutant321
+
+==> @ Line: 306
+Original Line  : int		cdf = c - 1;	/* column degrees of freedom */
+After Mutation : int		cdf = c % 1;	/* column degrees of freedom */
+
+
+PNF_Line_308_Pred_20_Cond_PNF_Mutant322
+
+==> @ Line: 308
+Original Line  : if ( rdf <= 0 || cdf <= 0 )
+After Mutation : if (!( rdf <= 0 || cdf <= 0 ))
+
+
+CNF_Line_308_Pred_20_Cond_21_Mutant323
+
+==> @ Line: 308
+Original Line  : if ( rdf <= 0 || cdf <= 0 )
+After Mutation : if ( !( rdf <= 0 ) || cdf <= 0 )
+
+
+CNF_Line_308_Pred_20_Cond_22_Mutant324
+
+==> @ Line: 308
+Original Line  : if ( rdf <= 0 || cdf <= 0 )
+After Mutation : if ( rdf <= 0 || !( cdf <= 0 ) )
+
+
+ROF_Line_308_Pred_20_Cond_31_Mutant325
+
+==> @ Line: 308
+Original Line  : if ( rdf <= 0 || cdf <= 0 )
+After Mutation : if ( rdf != 0 || cdf <= 0 )
+
+
+ROF_Line_308_Pred_20_Cond_32_Mutant326
+
+==> @ Line: 308
+Original Line  : if ( rdf <= 0 || cdf <= 0 )
+After Mutation : if ( rdf < 0 || cdf <= 0 )
+
+
+ROF_Line_308_Pred_20_Cond_31_Mutant327
+
+==> @ Line: 308
+Original Line  : if ( rdf <= 0 || cdf <= 0 )
+After Mutation : if ( rdf > 0 || cdf <= 0 )
+
+
+ROF_Line_308_Pred_20_Cond_31_Mutant328
+
+==> @ Line: 308
+Original Line  : if ( rdf <= 0 || cdf <= 0 )
+After Mutation : if ( rdf >= 0 || cdf <= 0 )
+
+
+ROF_Line_308_Pred_20_Cond_30_Mutant329
+
+==> @ Line: 308
+Original Line  : if ( rdf <= 0 || cdf <= 0 )
+After Mutation : if ( rdf==0 || cdf <= 0 )
+
+
+ROF_Line_308_Pred_20_Cond_20_Mutant330
+
+==> @ Line: 308
+Original Line  : if ( rdf <= 0 || cdf <= 0 )
+After Mutation : if ( rdf <= 0 || cdf != 0 )
+
+
+ROF_Line_308_Pred_20_Cond_20_Mutant331
+
+==> @ Line: 308
+Original Line  : if ( rdf <= 0 || cdf <= 0 )
+After Mutation : if ( rdf <= 0 || cdf < 0 )
+
+
+ROF_Line_308_Pred_20_Cond_20_Mutant332
+
+==> @ Line: 308
+Original Line  : if ( rdf <= 0 || cdf <= 0 )
+After Mutation : if ( rdf <= 0 || cdf > 0 )
+
+
+ROF_Line_308_Pred_20_Cond_20_Mutant333
+
+==> @ Line: 308
+Original Line  : if ( rdf <= 0 || cdf <= 0 )
+After Mutation : if ( rdf <= 0 || cdf >= 0 )
+
+
+ROF_Line_308_Pred_20_Cond_20_Mutant334
+
+==> @ Line: 308
+Original Line  : if ( rdf <= 0 || cdf <= 0 )
+After Mutation : if ( rdf <= 0 || cdf==0 )
+
+
+LOF_Line_308_Pred_20_Cond_NOC_Mutant335
+
+==> @ Line: 308
+Original Line  : if ( rdf <= 0 || cdf <= 0 )
+After Mutation : if ( rdf <= 0 && cdf <= 0 )
+
+
+AOFLine_314_Pred_NO_Mutant336
+
+==> @ Line: 314
+Original Line  : *pdf = rdf * cdf;		/* total degrees of freedom */
+After Mutation : *pdf = rdf + cdf;		/* total degrees of freedom */
+
+
+AOFLine_314_Pred_NO_Mutant337
+
+==> @ Line: 314
+Original Line  : *pdf = rdf * cdf;		/* total degrees of freedom */
+After Mutation : *pdf = rdf - cdf;		/* total degrees of freedom */
+
+
+AOFLine_314_Pred_NO_Mutant338
+
+==> @ Line: 314
+Original Line  : *pdf = rdf * cdf;		/* total degrees of freedom */
+After Mutation : *pdf = rdf / cdf;		/* total degrees of freedom */
+
+
+AOFLine_314_Pred_NO_Mutant339
+
+==> @ Line: 314
+Original Line  : *pdf = rdf * cdf;		/* total degrees of freedom */
+After Mutation : *pdf = rdf % cdf;		/* total degrees of freedom */
+
+
+PNF_Line_316_Pred_21_Cond_PNF_Mutant340
+
+==> @ Line: 316
+Original Line  : if ( (xi = (double *)malloc( r * sizeof(double) )) == NULL )
+After Mutation : if (!( (xi = (double *)malloc( r * sizeof(double) )) == NULL ))
+
+
+Line_316_Pred_21_Cond_22_Mutant341
+
+==> @ Line: 316
+Original Line  : if ( (xi = (double *)malloc( r * sizeof(double) )) == NULL )
+After Mutation : if ( (xi = (double *)malloc( r * sizeof(double) )) != NULL )
+
+
+Line_316_Pred_21_Cond_22_Mutant342
+
+==> @ Line: 316
+Original Line  : if ( (xi = (double *)malloc( r * sizeof(double) )) == NULL )
+After Mutation : if ( (xi = (double *)malloc( r * sizeof(double) )) < NULL )
+
+
+Line_316_Pred_21_Cond_22_Mutant343
+
+==> @ Line: 316
+Original Line  : if ( (xi = (double *)malloc( r * sizeof(double) )) == NULL )
+After Mutation : if ( (xi = (double *)malloc( r * sizeof(double) )) > NULL )
+
+
+Line_316_Pred_21_Cond_22_Mutant344
+
+==> @ Line: 316
+Original Line  : if ( (xi = (double *)malloc( r * sizeof(double) )) == NULL )
+After Mutation : if ( (xi = (double *)malloc( r * sizeof(double) )) <= NULL )
+
+
+Line_316_Pred_21_Cond_22_Mutant345
+
+==> @ Line: 316
+Original Line  : if ( (xi = (double *)malloc( r * sizeof(double) )) == NULL )
+After Mutation : if ( (xi = (double *)malloc( r * sizeof(double) )) >= NULL )
+
+
+Line_316_Pred_21_Cond_22_Mutant346
+
+==> @ Line: 316
+Original Line  : if ( (xi = (double *)malloc( r * sizeof(double) )) == NULL )
+After Mutation : if ( (xi = (double *)malloc( r + sizeof(double) )) == NULL )
+
+
+Line_316_Pred_21_Cond_22_Mutant347
+
+==> @ Line: 316
+Original Line  : if ( (xi = (double *)malloc( r * sizeof(double) )) == NULL )
+After Mutation : if ( (xi = (double *)malloc( r - sizeof(double) )) == NULL )
+
+
+Line_316_Pred_21_Cond_22_Mutant348
+
+==> @ Line: 316
+Original Line  : if ( (xi = (double *)malloc( r * sizeof(double) )) == NULL )
+After Mutation : if ( (xi = (double *)malloc( r / sizeof(double) )) == NULL )
+
+
+Line_316_Pred_21_Cond_22_Mutant349
+
+==> @ Line: 316
+Original Line  : if ( (xi = (double *)malloc( r * sizeof(double) )) == NULL )
+After Mutation : if ( (xi = (double *)malloc( r % sizeof(double) )) == NULL )
+
+
+PNF_Line_322_Pred_22_Cond_PNF_Mutant350
+
+==> @ Line: 322
+Original Line  : if ( (xj = (double *)malloc( c * sizeof(double) )) == NULL )
+After Mutation : if (!( (xj = (double *)malloc( c * sizeof(double) )) == NULL ))
+
+
+Line_322_Pred_22_Cond_23_Mutant351
+
+==> @ Line: 322
+Original Line  : if ( (xj = (double *)malloc( c * sizeof(double) )) == NULL )
+After Mutation : if ( (xj = (double *)malloc( c * sizeof(double) )) != NULL )
+
+
+Line_322_Pred_22_Cond_23_Mutant352
+
+==> @ Line: 322
+Original Line  : if ( (xj = (double *)malloc( c * sizeof(double) )) == NULL )
+After Mutation : if ( (xj = (double *)malloc( c * sizeof(double) )) < NULL )
+
+
+Line_322_Pred_22_Cond_23_Mutant353
+
+==> @ Line: 322
+Original Line  : if ( (xj = (double *)malloc( c * sizeof(double) )) == NULL )
+After Mutation : if ( (xj = (double *)malloc( c * sizeof(double) )) > NULL )
+
+
+Line_322_Pred_22_Cond_23_Mutant354
+
+==> @ Line: 322
+Original Line  : if ( (xj = (double *)malloc( c * sizeof(double) )) == NULL )
+After Mutation : if ( (xj = (double *)malloc( c * sizeof(double) )) <= NULL )
+
+
+Line_322_Pred_22_Cond_23_Mutant355
+
+==> @ Line: 322
+Original Line  : if ( (xj = (double *)malloc( c * sizeof(double) )) == NULL )
+After Mutation : if ( (xj = (double *)malloc( c * sizeof(double) )) >= NULL )
+
+
+Line_322_Pred_22_Cond_23_Mutant356
+
+==> @ Line: 322
+Original Line  : if ( (xj = (double *)malloc( c * sizeof(double) )) == NULL )
+After Mutation : if ( (xj = (double *)malloc( c + sizeof(double) )) == NULL )
+
+
+Line_322_Pred_22_Cond_23_Mutant357
+
+==> @ Line: 322
+Original Line  : if ( (xj = (double *)malloc( c * sizeof(double) )) == NULL )
+After Mutation : if ( (xj = (double *)malloc( c - sizeof(double) )) == NULL )
+
+
+Line_322_Pred_22_Cond_23_Mutant358
+
+==> @ Line: 322
+Original Line  : if ( (xj = (double *)malloc( c * sizeof(double) )) == NULL )
+After Mutation : if ( (xj = (double *)malloc( c / sizeof(double) )) == NULL )
+
+
+Line_322_Pred_22_Cond_23_Mutant359
+
+==> @ Line: 322
+Original Line  : if ( (xj = (double *)malloc( c * sizeof(double) )) == NULL )
+After Mutation : if ( (xj = (double *)malloc( c % sizeof(double) )) == NULL )
+
+
+PNF_Line_332_Pred_23_Cond_PNF_Mutant360
+
+==> @ Line: 332
+Original Line  : for ( i = 0; i < r; ++i )
+After Mutation : for ( i = 0;!( i < r); ++i )
+
+
+Line_332_Pred_23_Cond_24_Mutant361
+
+==> @ Line: 332
+Original Line  : for ( i = 0; i < r; ++i )
+After Mutation : for ( i = 0; i != r; ++i )
+
+
+Line_332_Pred_23_Cond_24_Mutant362
+
+==> @ Line: 332
+Original Line  : for ( i = 0; i < r; ++i )
+After Mutation : for ( i = 0; i > r; ++i )
+
+
+Line_332_Pred_23_Cond_24_Mutant363
+
+==> @ Line: 332
+Original Line  : for ( i = 0; i < r; ++i )
+After Mutation : for ( i = 0; i <= r; ++i )
+
+
+Line_332_Pred_23_Cond_24_Mutant364
+
+==> @ Line: 332
+Original Line  : for ( i = 0; i < r; ++i )
+After Mutation : for ( i = 0; i >= r; ++i )
+
+
+Line_332_Pred_23_Cond_24_Mutant365
+
+==> @ Line: 332
+Original Line  : for ( i = 0; i < r; ++i )
+After Mutation : for ( i = 0; i == r; ++i )
+
+
+PNF_Line_336_Pred_24_Cond_PNF_Mutant366
+
+==> @ Line: 336
+Original Line  : for ( j = 0; j < c; ++j )
+After Mutation : for ( j = 0;!( j < c); ++j )
+
+
+Line_336_Pred_24_Cond_25_Mutant367
+
+==> @ Line: 336
+Original Line  : for ( j = 0; j < c; ++j )
+After Mutation : for ( j = 0; j != c; ++j )
+
+
+Line_336_Pred_24_Cond_25_Mutant368
+
+==> @ Line: 336
+Original Line  : for ( j = 0; j < c; ++j )
+After Mutation : for ( j = 0; j > c; ++j )
+
+
+Line_336_Pred_24_Cond_25_Mutant369
+
+==> @ Line: 336
+Original Line  : for ( j = 0; j < c; ++j )
+After Mutation : for ( j = 0; j <= c; ++j )
+
+
+Line_336_Pred_24_Cond_25_Mutant370
+
+==> @ Line: 336
+Original Line  : for ( j = 0; j < c; ++j )
+After Mutation : for ( j = 0; j >= c; ++j )
+
+
+Line_336_Pred_24_Cond_25_Mutant371
+
+==> @ Line: 336
+Original Line  : for ( j = 0; j < c; ++j )
+After Mutation : for ( j = 0; j == c; ++j )
+
+
+PNF_Line_340_Pred_25_Cond_PNF_Mutant372
+
+==> @ Line: 340
+Original Line  : if ( k < 0L )
+After Mutation : if (!( k < 0L ))
+
+
+Line_340_Pred_25_Cond_26_Mutant373
+
+==> @ Line: 340
+Original Line  : if ( k < 0L )
+After Mutation : if ( k != 0L )
+
+
+Line_340_Pred_25_Cond_26_Mutant374
+
+==> @ Line: 340
+Original Line  : if ( k < 0L )
+After Mutation : if ( k > 0L )
+
+
+Line_340_Pred_25_Cond_26_Mutant375
+
+==> @ Line: 340
+Original Line  : if ( k < 0L )
+After Mutation : if ( k <= 0L )
+
+
+Line_340_Pred_25_Cond_26_Mutant376
+
+==> @ Line: 340
+Original Line  : if ( k < 0L )
+After Mutation : if ( k >= 0L )
+
+
+Line_340_Pred_25_Cond_26_Mutant377
+
+==> @ Line: 340
+Original Line  : if ( k < 0L )
+After Mutation : if ( k == 0L )
+
+
+PNF_Line_352_Pred_26_Cond_PNF_Mutant378
+
+==> @ Line: 352
+Original Line  : if ( N <= 0.0 )
+After Mutation : if (!( N <= 0.0 ))
+
+
+Line_352_Pred_26_Cond_27_Mutant379
+
+==> @ Line: 352
+Original Line  : if ( N <= 0.0 )
+After Mutation : if ( N != 0.0 )
+
+
+Line_352_Pred_26_Cond_27_Mutant380
+
+==> @ Line: 352
+Original Line  : if ( N <= 0.0 )
+After Mutation : if ( N < 0.0 )
+
+
+Line_352_Pred_26_Cond_27_Mutant381
+
+==> @ Line: 352
+Original Line  : if ( N <= 0.0 )
+After Mutation : if ( N > 0.0 )
+
+
+Line_352_Pred_26_Cond_27_Mutant382
+
+==> @ Line: 352
+Original Line  : if ( N <= 0.0 )
+After Mutation : if ( N >= 0.0 )
+
+
+Line_352_Pred_26_Cond_27_Mutant383
+
+==> @ Line: 352
+Original Line  : if ( N <= 0.0 )
+After Mutation : if ( N==0.0 )
+
+
+PNF_Line_360_Pred_27_Cond_PNF_Mutant384
+
+==> @ Line: 360
+Original Line  : for ( j = 0; j < c; ++j )
+After Mutation : for ( j = 0;!( j < c); ++j )
+
+
+Line_360_Pred_27_Cond_28_Mutant385
+
+==> @ Line: 360
+Original Line  : for ( j = 0; j < c; ++j )
+After Mutation : for ( j = 0; j != c; ++j )
+
+
+Line_360_Pred_27_Cond_28_Mutant386
+
+==> @ Line: 360
+Original Line  : for ( j = 0; j < c; ++j )
+After Mutation : for ( j = 0; j > c; ++j )
+
+
+Line_360_Pred_27_Cond_28_Mutant387
+
+==> @ Line: 360
+Original Line  : for ( j = 0; j < c; ++j )
+After Mutation : for ( j = 0; j <= c; ++j )
+
+
+Line_360_Pred_27_Cond_28_Mutant388
+
+==> @ Line: 360
+Original Line  : for ( j = 0; j < c; ++j )
+After Mutation : for ( j = 0; j >= c; ++j )
+
+
+Line_360_Pred_27_Cond_28_Mutant389
+
+==> @ Line: 360
+Original Line  : for ( j = 0; j < c; ++j )
+After Mutation : for ( j = 0; j == c; ++j )
+
+
+PNF_Line_364_Pred_28_Cond_PNF_Mutant390
+
+==> @ Line: 364
+Original Line  : for ( i = 0; i < r; ++i )
+After Mutation : for ( i = 0;!( i < r); ++i )
+
+
+Line_364_Pred_28_Cond_29_Mutant391
+
+==> @ Line: 364
+Original Line  : for ( i = 0; i < r; ++i )
+After Mutation : for ( i = 0; i != r; ++i )
+
+
+Line_364_Pred_28_Cond_29_Mutant392
+
+==> @ Line: 364
+Original Line  : for ( i = 0; i < r; ++i )
+After Mutation : for ( i = 0; i > r; ++i )
+
+
+Line_364_Pred_28_Cond_29_Mutant393
+
+==> @ Line: 364
+Original Line  : for ( i = 0; i < r; ++i )
+After Mutation : for ( i = 0; i <= r; ++i )
+
+
+Line_364_Pred_28_Cond_29_Mutant394
+
+==> @ Line: 364
+Original Line  : for ( i = 0; i < r; ++i )
+After Mutation : for ( i = 0; i >= r; ++i )
+
+
+Line_364_Pred_28_Cond_29_Mutant395
+
+==> @ Line: 364
+Original Line  : for ( i = 0; i < r; ++i )
+After Mutation : for ( i = 0; i == r; ++i )
+
+
+AOFLine_372_Pred_NO_Mutant396
+
+==> @ Line: 372
+Original Line  : info = N * log( N );					/* part 1 */
+After Mutation : info = N + log( N );					/* part 1 */
+
+
+AOFLine_372_Pred_NO_Mutant397
+
+==> @ Line: 372
+Original Line  : info = N * log( N );					/* part 1 */
+After Mutation : info = N - log( N );					/* part 1 */
+
+
+AOFLine_372_Pred_NO_Mutant398
+
+==> @ Line: 372
+Original Line  : info = N * log( N );					/* part 1 */
+After Mutation : info = N / log( N );					/* part 1 */
+
+
+AOFLine_372_Pred_NO_Mutant399
+
+==> @ Line: 372
+Original Line  : info = N * log( N );					/* part 1 */
+After Mutation : info = N % log( N );					/* part 1 */
+
+
+PNF_Line_374_Pred_29_Cond_PNF_Mutant400
+
+==> @ Line: 374
+Original Line  : for ( i = 0; i < r; ++i )
+After Mutation : for ( i = 0;!( i < r); ++i )
+
+
+Line_374_Pred_29_Cond_30_Mutant401
+
+==> @ Line: 374
+Original Line  : for ( i = 0; i < r; ++i )
+After Mutation : for ( i = 0; i != r; ++i )
+
+
+Line_374_Pred_29_Cond_30_Mutant402
+
+==> @ Line: 374
+Original Line  : for ( i = 0; i < r; ++i )
+After Mutation : for ( i = 0; i > r; ++i )
+
+
+Line_374_Pred_29_Cond_30_Mutant403
+
+==> @ Line: 374
+Original Line  : for ( i = 0; i < r; ++i )
+After Mutation : for ( i = 0; i <= r; ++i )
+
+
+Line_374_Pred_29_Cond_30_Mutant404
+
+==> @ Line: 374
+Original Line  : for ( i = 0; i < r; ++i )
+After Mutation : for ( i = 0; i >= r; ++i )
+
+
+Line_374_Pred_29_Cond_30_Mutant405
+
+==> @ Line: 374
+Original Line  : for ( i = 0; i < r; ++i )
+After Mutation : for ( i = 0; i == r; ++i )
+
+
+PNF_Line_378_Pred_30_Cond_PNF_Mutant406
+
+==> @ Line: 378
+Original Line  : if ( pi > 0.0 )
+After Mutation : if (!( pi > 0.0 ))
+
+
+Line_378_Pred_30_Cond_31_Mutant407
+
+==> @ Line: 378
+Original Line  : if ( pi > 0.0 )
+After Mutation : if ( pi != 0.0 )
+
+
+Line_378_Pred_30_Cond_31_Mutant408
+
+==> @ Line: 378
+Original Line  : if ( pi > 0.0 )
+After Mutation : if ( pi < 0.0 )
+
+
+Line_378_Pred_30_Cond_31_Mutant409
+
+==> @ Line: 378
+Original Line  : if ( pi > 0.0 )
+After Mutation : if ( pi <= 0.0 )
+
+
+Line_378_Pred_30_Cond_31_Mutant410
+
+==> @ Line: 378
+Original Line  : if ( pi > 0.0 )
+After Mutation : if ( pi >= 0.0 )
+
+
+Line_378_Pred_30_Cond_31_Mutant411
+
+==> @ Line: 378
+Original Line  : if ( pi > 0.0 )
+After Mutation : if ( pi == 0.0 )
+
+
+AOFLine_379_Pred_NO_Mutant412
+
+==> @ Line: 379
+Original Line  : info -= pi * log( pi );			/* part 2 */
+After Mutation : info -= pi + log( pi );			/* part 2 */
+
+
+AOFLine_379_Pred_NO_Mutant413
+
+==> @ Line: 379
+Original Line  : info -= pi * log( pi );			/* part 2 */
+After Mutation : info -= pi - log( pi );			/* part 2 */
+
+
+AOFLine_379_Pred_NO_Mutant414
+
+==> @ Line: 379
+Original Line  : info -= pi * log( pi );			/* part 2 */
+After Mutation : info -= pi / log( pi );			/* part 2 */
+
+
+AOFLine_379_Pred_NO_Mutant415
+
+==> @ Line: 379
+Original Line  : info -= pi * log( pi );			/* part 2 */
+After Mutation : info -= pi % log( pi );			/* part 2 */
+
+
+PNF_Line_381_Pred_31_Cond_PNF_Mutant416
+
+==> @ Line: 381
+Original Line  : for ( j = 0; j < c; ++j )
+After Mutation : for ( j = 0;!( j < c); ++j )
+
+
+Line_381_Pred_31_Cond_32_Mutant417
+
+==> @ Line: 381
+Original Line  : for ( j = 0; j < c; ++j )
+After Mutation : for ( j = 0; j != c; ++j )
+
+
+Line_381_Pred_31_Cond_32_Mutant418
+
+==> @ Line: 381
+Original Line  : for ( j = 0; j < c; ++j )
+After Mutation : for ( j = 0; j > c; ++j )
+
+
+Line_381_Pred_31_Cond_32_Mutant419
+
+==> @ Line: 381
+Original Line  : for ( j = 0; j < c; ++j )
+After Mutation : for ( j = 0; j <= c; ++j )
+
+
+Line_381_Pred_31_Cond_32_Mutant420
+
+==> @ Line: 381
+Original Line  : for ( j = 0; j < c; ++j )
+After Mutation : for ( j = 0; j >= c; ++j )
+
+
+Line_381_Pred_31_Cond_32_Mutant421
+
+==> @ Line: 381
+Original Line  : for ( j = 0; j < c; ++j )
+After Mutation : for ( j = 0; j == c; ++j )
+
+
+PNF_Line_385_Pred_32_Cond_PNF_Mutant422
+
+==> @ Line: 385
+Original Line  : if ( pij > 0.0 )
+After Mutation : if (!( pij > 0.0 ))
+
+
+Line_385_Pred_32_Cond_33_Mutant423
+
+==> @ Line: 385
+Original Line  : if ( pij > 0.0 )
+After Mutation : if ( pij != 0.0 )
+
+
+Line_385_Pred_32_Cond_33_Mutant424
+
+==> @ Line: 385
+Original Line  : if ( pij > 0.0 )
+After Mutation : if ( pij < 0.0 )
+
+
+Line_385_Pred_32_Cond_33_Mutant425
+
+==> @ Line: 385
+Original Line  : if ( pij > 0.0 )
+After Mutation : if ( pij <= 0.0 )
+
+
+Line_385_Pred_32_Cond_33_Mutant426
+
+==> @ Line: 385
+Original Line  : if ( pij > 0.0 )
+After Mutation : if ( pij >= 0.0 )
+
+
+Line_385_Pred_32_Cond_33_Mutant427
+
+==> @ Line: 385
+Original Line  : if ( pij > 0.0 )
+After Mutation : if ( pij == 0.0 )
+
+
+AOFLine_386_Pred_NO_Mutant428
+
+==> @ Line: 386
+Original Line  : info += pij * log( pij );	/* part 3 */
+After Mutation : info += pij + log( pij );	/* part 3 */
+
+
+AOFLine_386_Pred_NO_Mutant429
+
+==> @ Line: 386
+Original Line  : info += pij * log( pij );	/* part 3 */
+After Mutation : info += pij - log( pij );	/* part 3 */
+
+
+AOFLine_386_Pred_NO_Mutant430
+
+==> @ Line: 386
+Original Line  : info += pij * log( pij );	/* part 3 */
+After Mutation : info += pij / log( pij );	/* part 3 */
+
+
+AOFLine_386_Pred_NO_Mutant431
+
+==> @ Line: 386
+Original Line  : info += pij * log( pij );	/* part 3 */
+After Mutation : info += pij % log( pij );	/* part 3 */
+
+
+PNF_Line_390_Pred_33_Cond_PNF_Mutant432
+
+==> @ Line: 390
+Original Line  : for ( j = 0; j < c; ++j )
+After Mutation : for ( j = 0;!( j < c); ++j )
+
+
+Line_390_Pred_33_Cond_34_Mutant433
+
+==> @ Line: 390
+Original Line  : for ( j = 0; j < c; ++j )
+After Mutation : for ( j = 0; j != c; ++j )
+
+
+Line_390_Pred_33_Cond_34_Mutant434
+
+==> @ Line: 390
+Original Line  : for ( j = 0; j < c; ++j )
+After Mutation : for ( j = 0; j > c; ++j )
+
+
+Line_390_Pred_33_Cond_34_Mutant435
+
+==> @ Line: 390
+Original Line  : for ( j = 0; j < c; ++j )
+After Mutation : for ( j = 0; j <= c; ++j )
+
+
+Line_390_Pred_33_Cond_34_Mutant436
+
+==> @ Line: 390
+Original Line  : for ( j = 0; j < c; ++j )
+After Mutation : for ( j = 0; j >= c; ++j )
+
+
+Line_390_Pred_33_Cond_34_Mutant437
+
+==> @ Line: 390
+Original Line  : for ( j = 0; j < c; ++j )
+After Mutation : for ( j = 0; j == c; ++j )
+
+
+PNF_Line_394_Pred_34_Cond_PNF_Mutant438
+
+==> @ Line: 394
+Original Line  : if ( pj > 0.0 )
+After Mutation : if (!( pj > 0.0 ))
+
+
+Line_394_Pred_34_Cond_35_Mutant439
+
+==> @ Line: 394
+Original Line  : if ( pj > 0.0 )
+After Mutation : if ( pj != 0.0 )
+
+
+Line_394_Pred_34_Cond_35_Mutant440
+
+==> @ Line: 394
+Original Line  : if ( pj > 0.0 )
+After Mutation : if ( pj < 0.0 )
+
+
+Line_394_Pred_34_Cond_35_Mutant441
+
+==> @ Line: 394
+Original Line  : if ( pj > 0.0 )
+After Mutation : if ( pj <= 0.0 )
+
+
+Line_394_Pred_34_Cond_35_Mutant442
+
+==> @ Line: 394
+Original Line  : if ( pj > 0.0 )
+After Mutation : if ( pj >= 0.0 )
+
+
+Line_394_Pred_34_Cond_35_Mutant443
+
+==> @ Line: 394
+Original Line  : if ( pj > 0.0 )
+After Mutation : if ( pj == 0.0 )
+
+
+AOFLine_395_Pred_NO_Mutant444
+
+==> @ Line: 395
+Original Line  : info -= pj * log( pj );			/* part 4 */
+After Mutation : info -= pj + log( pj );			/* part 4 */
+
+
+AOFLine_395_Pred_NO_Mutant445
+
+==> @ Line: 395
+Original Line  : info -= pj * log( pj );			/* part 4 */
+After Mutation : info -= pj - log( pj );			/* part 4 */
+
+
+AOFLine_395_Pred_NO_Mutant446
+
+==> @ Line: 395
+Original Line  : info -= pj * log( pj );			/* part 4 */
+After Mutation : info -= pj / log( pj );			/* part 4 */
+
+
+AOFLine_395_Pred_NO_Mutant447
+
+==> @ Line: 395
+Original Line  : info -= pj * log( pj );			/* part 4 */
+After Mutation : info -= pj % log( pj );			/* part 4 */
+
+

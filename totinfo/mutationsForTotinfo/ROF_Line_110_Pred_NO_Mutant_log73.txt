@@ -1,0 +1,5 @@
+
+==> @ Line: 110
+
+Original Line  : : info < -2.5 ? "table too small\n"
+After Mutation : : info != -2.5 ? "table too small\n"

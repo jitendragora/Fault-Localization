@@ -1,0 +1,5 @@
+
+==> @ Line: 366
+
+Original Line  : if (locate(lin[*i], pat, j + 1))
+After Mutation : if (locate(lin[*i], pat, j - 1))

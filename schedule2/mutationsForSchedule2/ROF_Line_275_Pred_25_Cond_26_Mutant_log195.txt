@@ -1,0 +1,5 @@
+
+==> @ Line: 275
+
+Original Line  : if(prio > MAXPRIO || prio < 0) return(BADPRIO); /* Somebody goofed */
+After Mutation : if(prio > MAXPRIO || prio != 0) return(BADPRIO); /* Somebody goofed */

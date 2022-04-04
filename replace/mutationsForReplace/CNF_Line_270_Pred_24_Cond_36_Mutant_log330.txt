@@ -1,0 +1,5 @@
+
+==> @ Line: 270
+
+Original Line  : while ((arg[i] != delim) && (arg[i] != ENDSTR)) {
+After Mutation : while ((!(arg[i] != delim )) && (arg[i] != ENDSTR)) {

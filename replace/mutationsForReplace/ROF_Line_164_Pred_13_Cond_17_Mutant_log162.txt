@@ -1,0 +1,5 @@
+
+==> @ Line: 164
+
+Original Line  : for (jp = *j - 1; jp >= lastj ; jp--)
+After Mutation : for (jp = *j - 1; jp==lastj ; jp--)

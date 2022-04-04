@@ -1,0 +1,5 @@
+
+==> @ Line: 256
+
+Original Line  : return QGamma( (double)df / 2.0, chisq / 2.0 );
+After Mutation : return QGamma( (double)df % 2.0, chisq / 2.0 );

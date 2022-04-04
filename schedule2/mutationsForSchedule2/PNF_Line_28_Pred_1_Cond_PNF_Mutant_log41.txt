@@ -1,0 +1,5 @@
+
+==> @ Line: 28
+
+Original Line  : if(status = put_end(prio, new_process)) return(status); /* Error */
+After Mutation : if(!(status = put_end(prio, new_process)) return(status)); /* Error */

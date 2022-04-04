@@ -1,0 +1,5 @@
+
+==> @ Line: 64
+
+Original Line  : if(status < 0) exit_here(status); /* Real bad error */
+After Mutation : if(status <= 0) exit_here(status); /* Real bad error */

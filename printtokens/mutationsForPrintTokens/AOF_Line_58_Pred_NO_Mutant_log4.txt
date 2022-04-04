@@ -1,0 +1,5 @@
+
+==> @ Line: 58
+
+Original Line  : to stdin else it opens the respective file as input.                   * ******************************************************************* */
+After Mutation : to stdin else it opens the respective file as input.                   - ******************************************************************* */

@@ -1,0 +1,5 @@
+
+==> @ Line: 131
+
+Original Line  : if(strcmp(fname,"")==0)
+After Mutation : if(!(strcmp(fname,"")==0))

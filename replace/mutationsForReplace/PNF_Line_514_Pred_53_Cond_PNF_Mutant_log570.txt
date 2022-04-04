@@ -1,0 +1,5 @@
+
+==> @ Line: 514
+
+Original Line  : while ((result)) {
+After Mutation : while (!((result))) {

@@ -1,0 +1,5 @@
+
+==> @ Line: 370
+
+Original Line  : if ((lin[*i] != NEWLINE) && (!locate(lin[*i], pat, j+1)))
+After Mutation : if (!((lin[*i] != NEWLINE) && (!locate(lin[*i], pat, j+1))))

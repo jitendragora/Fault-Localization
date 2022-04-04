@@ -1,0 +1,5 @@
+
+==> @ Line: 183
+
+Original Line  : || c == CCL     || c == NCCL || c == CLOSURE);
+After Mutation : || c == CCL     || c == NCCL || c > CLOSURE);

@@ -1,0 +1,5 @@
+
+==> @ Line: 97
+
+Original Line  : result = !(Own_Above_Threat()) || ((Own_Above_Threat()) && (Up_Separation >= ALIM()));
+After Mutation : result = !(Own_Above_Threat()) || ((Own_Above_Threat()) && (Up_Separation != ALIM()));

@@ -1,0 +1,5 @@
+
+==> @ Line: 19
+
+Original Line  : static struct process * current_job;
+After Mutation : static struct process / current_job;

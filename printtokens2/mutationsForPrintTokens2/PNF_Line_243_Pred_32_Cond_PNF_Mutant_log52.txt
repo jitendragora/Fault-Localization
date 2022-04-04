@@ -1,0 +1,5 @@
+
+==> @ Line: 243
+
+Original Line  : if(is_num_constant(tok))return(num_constant);
+After Mutation : if(!(is_num_constant(tok))return(num_constant));

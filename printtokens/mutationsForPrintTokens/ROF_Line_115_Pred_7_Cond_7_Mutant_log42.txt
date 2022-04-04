@@ -1,0 +1,5 @@
+
+==> @ Line: 115
+
+Original Line  : if(stream_ptr->stream[stream_ptr->stream_ind-1] == EOF)
+After Mutation : if(stream_ptr->stream[stream_ptr->stream_ind-1] <= EOF)

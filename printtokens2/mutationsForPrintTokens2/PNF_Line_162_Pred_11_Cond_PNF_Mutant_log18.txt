@@ -1,0 +1,5 @@
+
+==> @ Line: 162
+
+Original Line  : if(is_spec_symbol(buffer)==TRUE)return(buffer);
+After Mutation : if(!(is_spec_symbol(buffer)==TRUE)return(buffer));

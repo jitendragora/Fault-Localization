@@ -1,0 +1,5 @@
+
+==> @ Line: 27
+
+Original Line  : if(argc==1)                  /* if not given filename,take as '""' */
+After Mutation : if(!(argc==1))                  /* if not given filename,take as '""' */

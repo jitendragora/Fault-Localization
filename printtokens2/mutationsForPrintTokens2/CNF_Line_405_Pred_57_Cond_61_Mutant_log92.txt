@@ -1,0 +1,5 @@
+
+==> @ Line: 405
+
+Original Line  : if(isalpha(*(str+i)) || isdigit(*(str+i)))
+After Mutation : if(isalpha(*(str+i)) || isdigit(*(str+i)))  !( isdigit*str+i)if(isalpha(*(str+i)) || isdigit(*(str+i)))

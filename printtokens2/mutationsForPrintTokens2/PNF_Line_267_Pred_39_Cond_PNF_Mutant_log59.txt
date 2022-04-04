@@ -1,0 +1,5 @@
+
+==> @ Line: 267
+
+Original Line  : if(type==spec_symbol)print_spec_symbol(tok);
+After Mutation : if(!(type==spec_symbol)print_spec_symbol(tok));

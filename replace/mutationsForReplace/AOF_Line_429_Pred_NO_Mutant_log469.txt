@@ -1,0 +1,5 @@
+
+==> @ Line: 429
+
+Original Line  : j = j + patsize(pat, j);
+After Mutation : j = j * patsize(pat, j);

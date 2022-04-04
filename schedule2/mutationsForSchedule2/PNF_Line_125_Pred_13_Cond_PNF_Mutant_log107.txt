@@ -1,0 +1,5 @@
+
+==> @ Line: 125
+
+Original Line  : if(status) next_pid--; /* Unsuccess. Restore pid */
+After Mutation : if(!(status)) next_pid--; /* Unsuccess. Restore pid */

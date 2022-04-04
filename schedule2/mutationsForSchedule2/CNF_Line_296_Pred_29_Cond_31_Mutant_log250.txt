@@ -1,0 +1,5 @@
+
+==> @ Line: 296
+
+Original Line  : for(next = &prio_queue[prio].head; index && *next; index--)
+After Mutation : for(next = &prio_queue[prio].head; !( index ) && *next; index--)

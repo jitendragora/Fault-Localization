@@ -1,0 +1,5 @@
+
+==> @ Line: 372
+
+Original Line  : info = N * log( N );					/* part 1 */
+After Mutation : info = N % log( N );					/* part 1 */

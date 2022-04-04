@@ -1,0 +1,5 @@
+
+==> @ Line: 198
+
+Original Line  : while(!finish());
+After Mutation : while(!(!finish()));

@@ -1,0 +1,5 @@
+
+==> @ Line: 75
+
+Original Line  : if(fgets(buf, CMDSIZE, stdin))
+After Mutation : if(!(fgets(buf, CMDSIZE, stdin)))

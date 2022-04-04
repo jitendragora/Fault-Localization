@@ -1,0 +1,5 @@
+
+==> @ Line: 156
+
+Original Line  : while(ch==' '||ch=='\n')      /* strip all blanks until meet characters */
+After Mutation : while(ch==' '||!(ch=='\n'))      /* strip all blanks until meet characters */

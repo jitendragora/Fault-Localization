@@ -1,0 +1,5 @@
+
+==> @ Line: 338
+
+Original Line  : if ((*str)=='#' && isalpha(*(str+1)))
+After Mutation : if ((*str)=='#' && isalpha(*(str+1))!( isalpha*str+1)=='#' && isalpha(*(str+1)))

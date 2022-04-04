@@ -1,0 +1,1771 @@
+AOFLine_3_Pred_NO_Mutant1
+
+==> @ Line: 3
+Original Line  : * Revision 1.4  1993/05/04  12:23:58  foster
+After Mutation : + Revision 1.4  1993/05/04  12:23:58  foster
+
+
+AOFLine_3_Pred_NO_Mutant2
+
+==> @ Line: 3
+Original Line  : * Revision 1.4  1993/05/04  12:23:58  foster
+After Mutation : - Revision 1.4  1993/05/04  12:23:58  foster
+
+
+AOFLine_3_Pred_NO_Mutant3
+
+==> @ Line: 3
+Original Line  : * Revision 1.4  1993/05/04  12:23:58  foster
+After Mutation : / Revision 1.4  1993/05/04  12:23:58  foster
+
+
+AOFLine_3_Pred_NO_Mutant4
+
+==> @ Line: 3
+Original Line  : * Revision 1.4  1993/05/04  12:23:58  foster
+After Mutation : % Revision 1.4  1993/05/04  12:23:58  foster
+
+
+AOFLine_4_Pred_NO_Mutant5
+
+==> @ Line: 4
+Original Line  : * Debug stuff removed
+After Mutation : + Debug stuff removed
+
+
+AOFLine_4_Pred_NO_Mutant6
+
+==> @ Line: 4
+Original Line  : * Debug stuff removed
+After Mutation : - Debug stuff removed
+
+
+AOFLine_4_Pred_NO_Mutant7
+
+==> @ Line: 4
+Original Line  : * Debug stuff removed
+After Mutation : / Debug stuff removed
+
+
+AOFLine_4_Pred_NO_Mutant8
+
+==> @ Line: 4
+Original Line  : * Debug stuff removed
+After Mutation : % Debug stuff removed
+
+
+AOFLine_6_Pred_NO_Mutant9
+
+==> @ Line: 6
+Original Line  : * Revision 1.3  1993/05/03  20:27:04  foster
+After Mutation : + Revision 1.3  1993/05/03  20:27:04  foster
+
+
+AOFLine_6_Pred_NO_Mutant10
+
+==> @ Line: 6
+Original Line  : * Revision 1.3  1993/05/03  20:27:04  foster
+After Mutation : - Revision 1.3  1993/05/03  20:27:04  foster
+
+
+AOFLine_6_Pred_NO_Mutant11
+
+==> @ Line: 6
+Original Line  : * Revision 1.3  1993/05/03  20:27:04  foster
+After Mutation : / Revision 1.3  1993/05/03  20:27:04  foster
+
+
+AOFLine_6_Pred_NO_Mutant12
+
+==> @ Line: 6
+Original Line  : * Revision 1.3  1993/05/03  20:27:04  foster
+After Mutation : % Revision 1.3  1993/05/03  20:27:04  foster
+
+
+AOFLine_7_Pred_NO_Mutant13
+
+==> @ Line: 7
+Original Line  : * Full Functionality
+After Mutation : + Full Functionality
+
+
+AOFLine_7_Pred_NO_Mutant14
+
+==> @ Line: 7
+Original Line  : * Full Functionality
+After Mutation : - Full Functionality
+
+
+AOFLine_7_Pred_NO_Mutant15
+
+==> @ Line: 7
+Original Line  : * Full Functionality
+After Mutation : / Full Functionality
+
+
+AOFLine_7_Pred_NO_Mutant16
+
+==> @ Line: 7
+Original Line  : * Full Functionality
+After Mutation : % Full Functionality
+
+
+AOFLine_9_Pred_NO_Mutant17
+
+==> @ Line: 9
+Original Line  : * Revision 1.2  1993/05/03  15:41:01  foster
+After Mutation : + Revision 1.2  1993/05/03  15:41:01  foster
+
+
+AOFLine_9_Pred_NO_Mutant18
+
+==> @ Line: 9
+Original Line  : * Revision 1.2  1993/05/03  15:41:01  foster
+After Mutation : - Revision 1.2  1993/05/03  15:41:01  foster
+
+
+AOFLine_9_Pred_NO_Mutant19
+
+==> @ Line: 9
+Original Line  : * Revision 1.2  1993/05/03  15:41:01  foster
+After Mutation : / Revision 1.2  1993/05/03  15:41:01  foster
+
+
+AOFLine_9_Pred_NO_Mutant20
+
+==> @ Line: 9
+Original Line  : * Revision 1.2  1993/05/03  15:41:01  foster
+After Mutation : % Revision 1.2  1993/05/03  15:41:01  foster
+
+
+AOFLine_10_Pred_NO_Mutant21
+
+==> @ Line: 10
+Original Line  : * Restructure functions
+After Mutation : + Restructure functions
+
+
+AOFLine_10_Pred_NO_Mutant22
+
+==> @ Line: 10
+Original Line  : * Restructure functions
+After Mutation : - Restructure functions
+
+
+AOFLine_10_Pred_NO_Mutant23
+
+==> @ Line: 10
+Original Line  : * Restructure functions
+After Mutation : / Restructure functions
+
+
+AOFLine_10_Pred_NO_Mutant24
+
+==> @ Line: 10
+Original Line  : * Restructure functions
+After Mutation : % Restructure functions
+
+
+AOFLine_12_Pred_NO_Mutant25
+
+==> @ Line: 12
+Original Line  : * Revision 1.1  1993/05/01  11:38:04  foster
+After Mutation : + Revision 1.1  1993/05/01  11:38:04  foster
+
+
+AOFLine_12_Pred_NO_Mutant26
+
+==> @ Line: 12
+Original Line  : * Revision 1.1  1993/05/01  11:38:04  foster
+After Mutation : - Revision 1.1  1993/05/01  11:38:04  foster
+
+
+AOFLine_12_Pred_NO_Mutant27
+
+==> @ Line: 12
+Original Line  : * Revision 1.1  1993/05/01  11:38:04  foster
+After Mutation : / Revision 1.1  1993/05/01  11:38:04  foster
+
+
+AOFLine_12_Pred_NO_Mutant28
+
+==> @ Line: 12
+Original Line  : * Revision 1.1  1993/05/01  11:38:04  foster
+After Mutation : % Revision 1.1  1993/05/01  11:38:04  foster
+
+
+AOFLine_13_Pred_NO_Mutant29
+
+==> @ Line: 13
+Original Line  : * Initial revision
+After Mutation : + Initial revision
+
+
+AOFLine_13_Pred_NO_Mutant30
+
+==> @ Line: 13
+Original Line  : * Initial revision
+After Mutation : - Initial revision
+
+
+AOFLine_13_Pred_NO_Mutant31
+
+==> @ Line: 13
+Original Line  : * Initial revision
+After Mutation : / Initial revision
+
+
+AOFLine_13_Pred_NO_Mutant32
+
+==> @ Line: 13
+Original Line  : * Initial revision
+After Mutation : % Initial revision
+
+
+AOFLine_14_Pred_NO_Mutant33
+
+==> @ Line: 14
+Original Line  : * */
+After Mutation : + */
+
+
+AOFLine_14_Pred_NO_Mutant34
+
+==> @ Line: 14
+Original Line  : * */
+After Mutation : - */
+
+
+AOFLine_14_Pred_NO_Mutant35
+
+==> @ Line: 14
+Original Line  : * */
+After Mutation : / */
+
+
+AOFLine_14_Pred_NO_Mutant36
+
+==> @ Line: 14
+Original Line  : * */
+After Mutation : % */
+
+
+AOFLine_19_Pred_NO_Mutant37
+
+==> @ Line: 19
+Original Line  : static struct process * current_job;
+After Mutation : static struct process + current_job;
+
+
+AOFLine_19_Pred_NO_Mutant38
+
+==> @ Line: 19
+Original Line  : static struct process * current_job;
+After Mutation : static struct process - current_job;
+
+
+AOFLine_19_Pred_NO_Mutant39
+
+==> @ Line: 19
+Original Line  : static struct process * current_job;
+After Mutation : static struct process / current_job;
+
+
+AOFLine_19_Pred_NO_Mutant40
+
+==> @ Line: 19
+Original Line  : static struct process * current_job;
+After Mutation : static struct process % current_job;
+
+
+PNF_Line_28_Pred_1_Cond_PNF_Mutant41
+
+==> @ Line: 28
+Original Line  : if(status = put_end(prio, new_process)) return(status); /* Error */
+After Mutation : if(!(status = put_end(prio, new_process)) return(status)); /* Error */
+
+
+AOFLine_38_Pred_NO_Mutant42
+
+==> @ Line: 38
+Original Line  : static struct queue prio_queue[MAXPRIO + 1]; /* blocked queue is [0] */
+After Mutation : static struct queue prio_queue[MAXPRIO - 1]; /* blocked queue is [0] */
+
+
+AOFLine_38_Pred_NO_Mutant43
+
+==> @ Line: 38
+Original Line  : static struct queue prio_queue[MAXPRIO + 1]; /* blocked queue is [0] */
+After Mutation : static struct queue prio_queue[MAXPRIO * 1]; /* blocked queue is [0] */
+
+
+AOFLine_38_Pred_NO_Mutant44
+
+==> @ Line: 38
+Original Line  : static struct queue prio_queue[MAXPRIO + 1]; /* blocked queue is [0] */
+After Mutation : static struct queue prio_queue[MAXPRIO / 1]; /* blocked queue is [0] */
+
+
+AOFLine_38_Pred_NO_Mutant45
+
+==> @ Line: 38
+Original Line  : static struct queue prio_queue[MAXPRIO + 1]; /* blocked queue is [0] */
+After Mutation : static struct queue prio_queue[MAXPRIO % 1]; /* blocked queue is [0] */
+
+
+PNF_Line_50_Pred_2_Cond_PNF_Mutant46
+
+==> @ Line: 50
+Original Line  : if(argc != MAXPRIO + 1) exit_here(BADNOARGS);
+After Mutation : if(!(argc != MAXPRIO + 1) exit_here(BADNOARGS));
+
+
+Line_50_Pred_2_Cond_2_Mutant47
+
+==> @ Line: 50
+Original Line  : if(argc != MAXPRIO + 1) exit_here(BADNOARGS);
+After Mutation : if(argc == MAXPRIO + 1) exit_here(BADNOARGS);
+
+
+Line_50_Pred_2_Cond_2_Mutant48
+
+==> @ Line: 50
+Original Line  : if(argc != MAXPRIO + 1) exit_here(BADNOARGS);
+After Mutation : if(argc < MAXPRIO + 1) exit_here(BADNOARGS);
+
+
+Line_50_Pred_2_Cond_2_Mutant49
+
+==> @ Line: 50
+Original Line  : if(argc != MAXPRIO + 1) exit_here(BADNOARGS);
+After Mutation : if(argc > MAXPRIO + 1) exit_here(BADNOARGS);
+
+
+Line_50_Pred_2_Cond_2_Mutant50
+
+==> @ Line: 50
+Original Line  : if(argc != MAXPRIO + 1) exit_here(BADNOARGS);
+After Mutation : if(argc <= MAXPRIO + 1) exit_here(BADNOARGS);
+
+
+Line_50_Pred_2_Cond_2_Mutant51
+
+==> @ Line: 50
+Original Line  : if(argc != MAXPRIO + 1) exit_here(BADNOARGS);
+After Mutation : if(argc >= MAXPRIO + 1) exit_here(BADNOARGS);
+
+
+Line_50_Pred_2_Cond_2_Mutant52
+
+==> @ Line: 50
+Original Line  : if(argc != MAXPRIO + 1) exit_here(BADNOARGS);
+After Mutation : if(argc != MAXPRIO - 1) exit_here(BADNOARGS);
+
+
+Line_50_Pred_2_Cond_2_Mutant53
+
+==> @ Line: 50
+Original Line  : if(argc != MAXPRIO + 1) exit_here(BADNOARGS);
+After Mutation : if(argc != MAXPRIO * 1) exit_here(BADNOARGS);
+
+
+Line_50_Pred_2_Cond_2_Mutant54
+
+==> @ Line: 50
+Original Line  : if(argc != MAXPRIO + 1) exit_here(BADNOARGS);
+After Mutation : if(argc != MAXPRIO / 1) exit_here(BADNOARGS);
+
+
+Line_50_Pred_2_Cond_2_Mutant55
+
+==> @ Line: 50
+Original Line  : if(argc != MAXPRIO + 1) exit_here(BADNOARGS);
+After Mutation : if(argc != MAXPRIO % 1) exit_here(BADNOARGS);
+
+
+PNF_Line_51_Pred_3_Cond_PNF_Mutant56
+
+==> @ Line: 51
+Original Line  : for(prio = MAXPRIO; prio > 0; prio--)
+After Mutation : for(prio = MAXPRIO;!( prio > 0); prio--)
+
+
+Line_51_Pred_3_Cond_3_Mutant57
+
+==> @ Line: 51
+Original Line  : for(prio = MAXPRIO; prio > 0; prio--)
+After Mutation : for(prio = MAXPRIO; prio != 0; prio--)
+
+
+Line_51_Pred_3_Cond_3_Mutant58
+
+==> @ Line: 51
+Original Line  : for(prio = MAXPRIO; prio > 0; prio--)
+After Mutation : for(prio = MAXPRIO; prio < 0; prio--)
+
+
+Line_51_Pred_3_Cond_3_Mutant59
+
+==> @ Line: 51
+Original Line  : for(prio = MAXPRIO; prio > 0; prio--)
+After Mutation : for(prio = MAXPRIO; prio <= 0; prio--)
+
+
+Line_51_Pred_3_Cond_3_Mutant60
+
+==> @ Line: 51
+Original Line  : for(prio = MAXPRIO; prio > 0; prio--)
+After Mutation : for(prio = MAXPRIO; prio >= 0; prio--)
+
+
+Line_51_Pred_3_Cond_3_Mutant61
+
+==> @ Line: 51
+Original Line  : for(prio = MAXPRIO; prio > 0; prio--)
+After Mutation : for(prio = MAXPRIO; prio == 0; prio--)
+
+
+PNF_Line_53_Pred_4_Cond_PNF_Mutant62
+
+==> @ Line: 53
+Original Line  : if((nprocs = atoi(argv[MAXPRIO + 1 - prio])) < 0) exit_here(BADARG);
+After Mutation : if(!((nprocs = atoi(argv[MAXPRIO + 1 - prio])) < 0) exit_here(BADARG));
+
+
+Line_53_Pred_4_Cond_4_Mutant63
+
+==> @ Line: 53
+Original Line  : if((nprocs = atoi(argv[MAXPRIO + 1 - prio])) < 0) exit_here(BADARG);
+After Mutation : if((nprocs = atoi(argv[MAXPRIO + 1 - prio])) != 0) exit_here(BADARG);
+
+
+Line_53_Pred_4_Cond_4_Mutant64
+
+==> @ Line: 53
+Original Line  : if((nprocs = atoi(argv[MAXPRIO + 1 - prio])) < 0) exit_here(BADARG);
+After Mutation : if((nprocs = atoi(argv[MAXPRIO + 1 - prio])) > 0) exit_here(BADARG);
+
+
+Line_53_Pred_4_Cond_4_Mutant65
+
+==> @ Line: 53
+Original Line  : if((nprocs = atoi(argv[MAXPRIO + 1 - prio])) < 0) exit_here(BADARG);
+After Mutation : if((nprocs = atoi(argv[MAXPRIO + 1 - prio])) <= 0) exit_here(BADARG);
+
+
+Line_53_Pred_4_Cond_4_Mutant66
+
+==> @ Line: 53
+Original Line  : if((nprocs = atoi(argv[MAXPRIO + 1 - prio])) < 0) exit_here(BADARG);
+After Mutation : if((nprocs = atoi(argv[MAXPRIO + 1 - prio])) >= 0) exit_here(BADARG);
+
+
+Line_53_Pred_4_Cond_4_Mutant67
+
+==> @ Line: 53
+Original Line  : if((nprocs = atoi(argv[MAXPRIO + 1 - prio])) < 0) exit_here(BADARG);
+After Mutation : if((nprocs = atoi(argv[MAXPRIO + 1 - prio])) == 0) exit_here(BADARG);
+
+
+Line_53_Pred_4_Cond_4_Mutant68
+
+==> @ Line: 53
+Original Line  : if((nprocs = atoi(argv[MAXPRIO + 1 - prio])) < 0) exit_here(BADARG);
+After Mutation : if((nprocs = atoi(argv[MAXPRIO - 1 - prio])) < 0) exit_here(BADARG);
+
+
+Line_53_Pred_4_Cond_4_Mutant69
+
+==> @ Line: 53
+Original Line  : if((nprocs = atoi(argv[MAXPRIO + 1 - prio])) < 0) exit_here(BADARG);
+After Mutation : if((nprocs = atoi(argv[MAXPRIO * 1 - prio])) < 0) exit_here(BADARG);
+
+
+Line_53_Pred_4_Cond_4_Mutant70
+
+==> @ Line: 53
+Original Line  : if((nprocs = atoi(argv[MAXPRIO + 1 - prio])) < 0) exit_here(BADARG);
+After Mutation : if((nprocs = atoi(argv[MAXPRIO / 1 - prio])) < 0) exit_here(BADARG);
+
+
+Line_53_Pred_4_Cond_4_Mutant71
+
+==> @ Line: 53
+Original Line  : if((nprocs = atoi(argv[MAXPRIO + 1 - prio])) < 0) exit_here(BADARG);
+After Mutation : if((nprocs = atoi(argv[MAXPRIO % 1 - prio])) < 0) exit_here(BADARG);
+
+
+Line_53_Pred_4_Cond_4_Mutant72
+
+==> @ Line: 53
+Original Line  : if((nprocs = atoi(argv[MAXPRIO + 1 - prio])) < 0) exit_here(BADARG);
+After Mutation : if((nprocs = atoi(argv[MAXPRIO + 1 + prio])) < 0) exit_here(BADARG);
+
+
+Line_53_Pred_4_Cond_4_Mutant73
+
+==> @ Line: 53
+Original Line  : if((nprocs = atoi(argv[MAXPRIO + 1 - prio])) < 0) exit_here(BADARG);
+After Mutation : if((nprocs = atoi(argv[MAXPRIO + 1 * prio])) < 0) exit_here(BADARG);
+
+
+Line_53_Pred_4_Cond_4_Mutant74
+
+==> @ Line: 53
+Original Line  : if((nprocs = atoi(argv[MAXPRIO + 1 - prio])) < 0) exit_here(BADARG);
+After Mutation : if((nprocs = atoi(argv[MAXPRIO + 1 / prio])) < 0) exit_here(BADARG);
+
+
+Line_53_Pred_4_Cond_4_Mutant75
+
+==> @ Line: 53
+Original Line  : if((nprocs = atoi(argv[MAXPRIO + 1 - prio])) < 0) exit_here(BADARG);
+After Mutation : if((nprocs = atoi(argv[MAXPRIO + 1 % prio])) < 0) exit_here(BADARG);
+
+
+PNF_Line_54_Pred_5_Cond_PNF_Mutant76
+
+==> @ Line: 54
+Original Line  : for(; nprocs > 0; nprocs--)
+After Mutation : for(;!( nprocs > 0); nprocs--)
+
+
+Line_54_Pred_5_Cond_5_Mutant77
+
+==> @ Line: 54
+Original Line  : for(; nprocs > 0; nprocs--)
+After Mutation : for(; nprocs != 0; nprocs--)
+
+
+Line_54_Pred_5_Cond_5_Mutant78
+
+==> @ Line: 54
+Original Line  : for(; nprocs > 0; nprocs--)
+After Mutation : for(; nprocs < 0; nprocs--)
+
+
+Line_54_Pred_5_Cond_5_Mutant79
+
+==> @ Line: 54
+Original Line  : for(; nprocs > 0; nprocs--)
+After Mutation : for(; nprocs <= 0; nprocs--)
+
+
+Line_54_Pred_5_Cond_5_Mutant80
+
+==> @ Line: 54
+Original Line  : for(; nprocs > 0; nprocs--)
+After Mutation : for(; nprocs >= 0; nprocs--)
+
+
+Line_54_Pred_5_Cond_5_Mutant81
+
+==> @ Line: 54
+Original Line  : for(; nprocs > 0; nprocs--)
+After Mutation : for(; nprocs == 0; nprocs--)
+
+
+PNF_Line_56_Pred_6_Cond_PNF_Mutant82
+
+==> @ Line: 56
+Original Line  : if(status = new_job(prio)) exit_here(status);
+After Mutation : if(!(status = new_job(prio)) exit_here(status));
+
+
+PNF_Line_60_Pred_7_Cond_PNF_Mutant83
+
+==> @ Line: 60
+Original Line  : while((status = get_command(&command, &prio, &ratio)) > 0)
+After Mutation : while(!((status = get_command(&command, &prio, &ratio)) > 0))
+
+
+Line_60_Pred_7_Cond_7_Mutant84
+
+==> @ Line: 60
+Original Line  : while((status = get_command(&command, &prio, &ratio)) > 0)
+After Mutation : while((status = get_command(&command, &prio, &ratio)) != 0)
+
+
+Line_60_Pred_7_Cond_7_Mutant85
+
+==> @ Line: 60
+Original Line  : while((status = get_command(&command, &prio, &ratio)) > 0)
+After Mutation : while((status = get_command(&command, &prio, &ratio)) < 0)
+
+
+Line_60_Pred_7_Cond_7_Mutant86
+
+==> @ Line: 60
+Original Line  : while((status = get_command(&command, &prio, &ratio)) > 0)
+After Mutation : while((status = get_command(&command, &prio, &ratio)) <= 0)
+
+
+Line_60_Pred_7_Cond_7_Mutant87
+
+==> @ Line: 60
+Original Line  : while((status = get_command(&command, &prio, &ratio)) > 0)
+After Mutation : while((status = get_command(&command, &prio, &ratio)) >= 0)
+
+
+Line_60_Pred_7_Cond_7_Mutant88
+
+==> @ Line: 60
+Original Line  : while((status = get_command(&command, &prio, &ratio)) > 0)
+After Mutation : while((status = get_command(&command, &prio, &ratio)) == 0)
+
+
+PNF_Line_64_Pred_8_Cond_PNF_Mutant89
+
+==> @ Line: 64
+Original Line  : if(status < 0) exit_here(status); /* Real bad error */
+After Mutation : if(!(status < 0) exit_here(status)); /* Real bad error */
+
+
+Line_64_Pred_8_Cond_8_Mutant90
+
+==> @ Line: 64
+Original Line  : if(status < 0) exit_here(status); /* Real bad error */
+After Mutation : if(status != 0) exit_here(status); /* Real bad error */
+
+
+Line_64_Pred_8_Cond_8_Mutant91
+
+==> @ Line: 64
+Original Line  : if(status < 0) exit_here(status); /* Real bad error */
+After Mutation : if(status > 0) exit_here(status); /* Real bad error */
+
+
+Line_64_Pred_8_Cond_8_Mutant92
+
+==> @ Line: 64
+Original Line  : if(status < 0) exit_here(status); /* Real bad error */
+After Mutation : if(status <= 0) exit_here(status); /* Real bad error */
+
+
+Line_64_Pred_8_Cond_8_Mutant93
+
+==> @ Line: 64
+Original Line  : if(status < 0) exit_here(status); /* Real bad error */
+After Mutation : if(status >= 0) exit_here(status); /* Real bad error */
+
+
+Line_64_Pred_8_Cond_8_Mutant94
+
+==> @ Line: 64
+Original Line  : if(status < 0) exit_here(status); /* Real bad error */
+After Mutation : if(status == 0) exit_here(status); /* Real bad error */
+
+
+PNF_Line_75_Pred_9_Cond_PNF_Mutant95
+
+==> @ Line: 75
+Original Line  : if(fgets(buf, CMDSIZE, stdin))
+After Mutation : if(!(fgets(buf, CMDSIZE, stdin)))
+
+
+PNF_Line_92_Pred_10_Cond_PNF_Mutant96
+
+==> @ Line: 92
+Original Line  : while(buf[strlen(buf)-1] != '\n' && fgets(buf, CMDSIZE, stdin));
+After Mutation : while(!(buf[strlen(buf)-1] != '\n' && fgets(buf, CMDSIZE, stdin)));
+
+
+CNF_Line_92_Pred_10_Cond_10_Mutant97
+
+==> @ Line: 92
+Original Line  : while(buf[strlen(buf)-1] != '\n' && fgets(buf, CMDSIZE, stdin));
+After Mutation : while(buf[strlen(buf)-1] != '\n' && fgets(buf, CMDSIZE, stdin))!(buf[strlenbuf-1] != '\n' )1] != '\n' && fgets(buf, CMDSIZE, stdin));
+
+
+CNF_Line_92_Pred_10_Cond_11_Mutant98
+
+==> @ Line: 92
+Original Line  : while(buf[strlen(buf)-1] != '\n' && fgets(buf, CMDSIZE, stdin));
+After Mutation : while(buf[strlen(buf)-1] != '\n' && fgets(buf, CMDSIZE, stdin))!( fgetsbuf, CMDSIZE, stdin)1] != '\n' && fgets(buf, CMDSIZE, stdin));
+
+
+ROF_Line_92_Pred_10_Cond_36_Mutant99
+
+==> @ Line: 92
+Original Line  : while(buf[strlen(buf)-1] != '\n' && fgets(buf, CMDSIZE, stdin));
+After Mutation : while(buf[strlen(buf)-1] == '\n' && fgets(buf, CMDSIZE, stdin));
+
+
+ROF_Line_92_Pred_10_Cond_36_Mutant100
+
+==> @ Line: 92
+Original Line  : while(buf[strlen(buf)-1] != '\n' && fgets(buf, CMDSIZE, stdin));
+After Mutation : while(buf[strlen(buf)-1] < '\n' && fgets(buf, CMDSIZE, stdin));
+
+
+ROF_Line_92_Pred_10_Cond_36_Mutant101
+
+==> @ Line: 92
+Original Line  : while(buf[strlen(buf)-1] != '\n' && fgets(buf, CMDSIZE, stdin));
+After Mutation : while(buf[strlen(buf)-1] > '\n' && fgets(buf, CMDSIZE, stdin));
+
+
+ROF_Line_92_Pred_10_Cond_36_Mutant102
+
+==> @ Line: 92
+Original Line  : while(buf[strlen(buf)-1] != '\n' && fgets(buf, CMDSIZE, stdin));
+After Mutation : while(buf[strlen(buf)-1] <= '\n' && fgets(buf, CMDSIZE, stdin));
+
+
+ROF_Line_92_Pred_10_Cond_36_Mutant103
+
+==> @ Line: 92
+Original Line  : while(buf[strlen(buf)-1] != '\n' && fgets(buf, CMDSIZE, stdin));
+After Mutation : while(buf[strlen(buf)-1] >= '\n' && fgets(buf, CMDSIZE, stdin));
+
+
+LOF_Line_92_Pred_10_Cond_NOC_Mutant104
+
+==> @ Line: 92
+Original Line  : while(buf[strlen(buf)-1] != '\n' && fgets(buf, CMDSIZE, stdin));
+After Mutation : while(buf[strlen(buf)-1] != '\n' || fgets(buf, CMDSIZE, stdin));
+
+
+PNF_Line_113_Pred_11_Cond_PNF_Mutant105
+
+==> @ Line: 113
+Original Line  : if(!new_process) status = MALLOC_ERR;
+After Mutation : if(!(!new_process)) status = MALLOC_ERR;
+
+
+PNF_Line_120_Pred_12_Cond_PNF_Mutant106
+
+==> @ Line: 120
+Original Line  : if(status)
+After Mutation : if(!(status))
+
+
+PNF_Line_125_Pred_13_Cond_PNF_Mutant107
+
+==> @ Line: 125
+Original Line  : if(status) next_pid--; /* Unsuccess. Restore pid */
+After Mutation : if(!(status)) next_pid--; /* Unsuccess. Restore pid */
+
+
+AOFLine_134_Pred_NO_Mutant108
+
+==> @ Line: 134
+Original Line  : struct process * job;
+After Mutation : struct process + job;
+
+
+AOFLine_134_Pred_NO_Mutant109
+
+==> @ Line: 134
+Original Line  : struct process * job;
+After Mutation : struct process - job;
+
+
+AOFLine_134_Pred_NO_Mutant110
+
+==> @ Line: 134
+Original Line  : struct process * job;
+After Mutation : struct process / job;
+
+
+AOFLine_134_Pred_NO_Mutant111
+
+==> @ Line: 134
+Original Line  : struct process * job;
+After Mutation : struct process % job;
+
+
+PNF_Line_135_Pred_14_Cond_PNF_Mutant112
+
+==> @ Line: 135
+Original Line  : if(prio < 1 || prio > MAXLOPRIO) return(BADPRIO);
+After Mutation : if(!(prio < 1 || prio > MAXLOPRIO) return(BADPRIO));
+
+
+CNF_Line_135_Pred_14_Cond_15_Mutant113
+
+==> @ Line: 135
+Original Line  : if(prio < 1 || prio > MAXLOPRIO) return(BADPRIO);
+After Mutation : if(!(prio < 1 ) || prio > MAXLOPRIO) return(BADPRIO);
+
+
+CNF_Line_135_Pred_14_Cond_16_Mutant114
+
+==> @ Line: 135
+Original Line  : if(prio < 1 || prio > MAXLOPRIO) return(BADPRIO);
+After Mutation : if(prio < 1 || prio > MAXLOPRIO) return(BADPRIO)!( prio > MAXLOPRIO returnBADPRIO)LOPRIO) return(BADPRIO);
+
+
+ROF_Line_135_Pred_14_Cond_27_Mutant115
+
+==> @ Line: 135
+Original Line  : if(prio < 1 || prio > MAXLOPRIO) return(BADPRIO);
+After Mutation : if(prio != 1 || prio > MAXLOPRIO) return(BADPRIO);
+
+
+ROF_Line_135_Pred_14_Cond_27_Mutant116
+
+==> @ Line: 135
+Original Line  : if(prio < 1 || prio > MAXLOPRIO) return(BADPRIO);
+After Mutation : if(prio > 1 || prio > MAXLOPRIO) return(BADPRIO);
+
+
+ROF_Line_135_Pred_14_Cond_28_Mutant117
+
+==> @ Line: 135
+Original Line  : if(prio < 1 || prio > MAXLOPRIO) return(BADPRIO);
+After Mutation : if(prio <= 1 || prio > MAXLOPRIO) return(BADPRIO);
+
+
+ROF_Line_135_Pred_14_Cond_27_Mutant118
+
+==> @ Line: 135
+Original Line  : if(prio < 1 || prio > MAXLOPRIO) return(BADPRIO);
+After Mutation : if(prio >= 1 || prio > MAXLOPRIO) return(BADPRIO);
+
+
+ROF_Line_135_Pred_14_Cond_27_Mutant119
+
+==> @ Line: 135
+Original Line  : if(prio < 1 || prio > MAXLOPRIO) return(BADPRIO);
+After Mutation : if(prio == 1 || prio > MAXLOPRIO) return(BADPRIO);
+
+
+ROF_Line_135_Pred_14_Cond_14_Mutant120
+
+==> @ Line: 135
+Original Line  : if(prio < 1 || prio > MAXLOPRIO) return(BADPRIO);
+After Mutation : if(prio < 1 || prio != MAXLOPRIO) return(BADPRIO);
+
+
+ROF_Line_135_Pred_14_Cond_14_Mutant121
+
+==> @ Line: 135
+Original Line  : if(prio < 1 || prio > MAXLOPRIO) return(BADPRIO);
+After Mutation : if(prio < 1 || prio < MAXLOPRIO) return(BADPRIO);
+
+
+ROF_Line_135_Pred_14_Cond_14_Mutant122
+
+==> @ Line: 135
+Original Line  : if(prio < 1 || prio > MAXLOPRIO) return(BADPRIO);
+After Mutation : if(prio < 1 || prio <= MAXLOPRIO) return(BADPRIO);
+
+
+ROF_Line_135_Pred_14_Cond_14_Mutant123
+
+==> @ Line: 135
+Original Line  : if(prio < 1 || prio > MAXLOPRIO) return(BADPRIO);
+After Mutation : if(prio < 1 || prio >= MAXLOPRIO) return(BADPRIO);
+
+
+ROF_Line_135_Pred_14_Cond_14_Mutant124
+
+==> @ Line: 135
+Original Line  : if(prio < 1 || prio > MAXLOPRIO) return(BADPRIO);
+After Mutation : if(prio < 1 || prio == MAXLOPRIO) return(BADPRIO);
+
+
+LOF_Line_135_Pred_14_Cond_NOC_Mutant125
+
+==> @ Line: 135
+Original Line  : if(prio < 1 || prio > MAXLOPRIO) return(BADPRIO);
+After Mutation : if(prio < 1 && prio > MAXLOPRIO) return(BADPRIO);
+
+
+PNF_Line_136_Pred_15_Cond_PNF_Mutant126
+
+==> @ Line: 136
+Original Line  : if((status = get_process(prio, ratio, &job)) <= 0) return(status);
+After Mutation : if(!((status = get_process(prio, ratio, &job)) <= 0) return(status));
+
+
+Line_136_Pred_15_Cond_16_Mutant127
+
+==> @ Line: 136
+Original Line  : if((status = get_process(prio, ratio, &job)) <= 0) return(status);
+After Mutation : if((status = get_process(prio, ratio, &job)) != 0) return(status);
+
+
+Line_136_Pred_15_Cond_16_Mutant128
+
+==> @ Line: 136
+Original Line  : if((status = get_process(prio, ratio, &job)) <= 0) return(status);
+After Mutation : if((status = get_process(prio, ratio, &job)) < 0) return(status);
+
+
+Line_136_Pred_15_Cond_16_Mutant129
+
+==> @ Line: 136
+Original Line  : if((status = get_process(prio, ratio, &job)) <= 0) return(status);
+After Mutation : if((status = get_process(prio, ratio, &job)) > 0) return(status);
+
+
+Line_136_Pred_15_Cond_16_Mutant130
+
+==> @ Line: 136
+Original Line  : if((status = get_process(prio, ratio, &job)) <= 0) return(status);
+After Mutation : if((status = get_process(prio, ratio, &job)) >= 0) return(status);
+
+
+Line_136_Pred_15_Cond_16_Mutant131
+
+==> @ Line: 136
+Original Line  : if((status = get_process(prio, ratio, &job)) <= 0) return(status);
+After Mutation : if((status = get_process(prio, ratio, &job))==0) return(status);
+
+
+AOFLine_138_Pred_NO_Mutant132
+
+==> @ Line: 138
+Original Line  : job->priority = prio + 1;
+After Mutation : job->priority = prio - 1;
+
+
+AOFLine_138_Pred_NO_Mutant133
+
+==> @ Line: 138
+Original Line  : job->priority = prio + 1;
+After Mutation : job->priority = prio * 1;
+
+
+AOFLine_138_Pred_NO_Mutant134
+
+==> @ Line: 138
+Original Line  : job->priority = prio + 1;
+After Mutation : job->priority = prio / 1;
+
+
+AOFLine_138_Pred_NO_Mutant135
+
+==> @ Line: 138
+Original Line  : job->priority = prio + 1;
+After Mutation : job->priority = prio % 1;
+
+
+AOFLine_139_Pred_NO_Mutant136
+
+==> @ Line: 139
+Original Line  : return(enqueue(prio + 1, job));
+After Mutation : return(enqueue(prio - 1, job));
+
+
+AOFLine_139_Pred_NO_Mutant137
+
+==> @ Line: 139
+Original Line  : return(enqueue(prio + 1, job));
+After Mutation : return(enqueue(prio * 1, job));
+
+
+AOFLine_139_Pred_NO_Mutant138
+
+==> @ Line: 139
+Original Line  : return(enqueue(prio + 1, job));
+After Mutation : return(enqueue(prio / 1, job));
+
+
+AOFLine_139_Pred_NO_Mutant139
+
+==> @ Line: 139
+Original Line  : return(enqueue(prio + 1, job));
+After Mutation : return(enqueue(prio % 1, job));
+
+
+AOFLine_145_Pred_NO_Mutant140
+
+==> @ Line: 145
+Original Line  : struct process * job;
+After Mutation : struct process + job;
+
+
+AOFLine_145_Pred_NO_Mutant141
+
+==> @ Line: 145
+Original Line  : struct process * job;
+After Mutation : struct process - job;
+
+
+AOFLine_145_Pred_NO_Mutant142
+
+==> @ Line: 145
+Original Line  : struct process * job;
+After Mutation : struct process / job;
+
+
+AOFLine_145_Pred_NO_Mutant143
+
+==> @ Line: 145
+Original Line  : struct process * job;
+After Mutation : struct process % job;
+
+
+PNF_Line_147_Pred_16_Cond_PNF_Mutant144
+
+==> @ Line: 147
+Original Line  : if(job)
+After Mutation : if(!(job))
+
+
+AOFLine_160_Pred_NO_Mutant145
+
+==> @ Line: 160
+Original Line  : struct process * job;
+After Mutation : struct process + job;
+
+
+AOFLine_160_Pred_NO_Mutant146
+
+==> @ Line: 160
+Original Line  : struct process * job;
+After Mutation : struct process - job;
+
+
+AOFLine_160_Pred_NO_Mutant147
+
+==> @ Line: 160
+Original Line  : struct process * job;
+After Mutation : struct process / job;
+
+
+AOFLine_160_Pred_NO_Mutant148
+
+==> @ Line: 160
+Original Line  : struct process * job;
+After Mutation : struct process % job;
+
+
+PNF_Line_161_Pred_17_Cond_PNF_Mutant149
+
+==> @ Line: 161
+Original Line  : if((status = get_process(BLOCKPRIO, ratio, &job)) <= 0) return(status);
+After Mutation : if(!((status = get_process(BLOCKPRIO, ratio, &job)) <= 0) return(status));
+
+
+Line_161_Pred_17_Cond_18_Mutant150
+
+==> @ Line: 161
+Original Line  : if((status = get_process(BLOCKPRIO, ratio, &job)) <= 0) return(status);
+After Mutation : if((status = get_process(BLOCKPRIO, ratio, &job)) != 0) return(status);
+
+
+Line_161_Pred_17_Cond_18_Mutant151
+
+==> @ Line: 161
+Original Line  : if((status = get_process(BLOCKPRIO, ratio, &job)) <= 0) return(status);
+After Mutation : if((status = get_process(BLOCKPRIO, ratio, &job)) < 0) return(status);
+
+
+Line_161_Pred_17_Cond_18_Mutant152
+
+==> @ Line: 161
+Original Line  : if((status = get_process(BLOCKPRIO, ratio, &job)) <= 0) return(status);
+After Mutation : if((status = get_process(BLOCKPRIO, ratio, &job)) > 0) return(status);
+
+
+Line_161_Pred_17_Cond_18_Mutant153
+
+==> @ Line: 161
+Original Line  : if((status = get_process(BLOCKPRIO, ratio, &job)) <= 0) return(status);
+After Mutation : if((status = get_process(BLOCKPRIO, ratio, &job)) >= 0) return(status);
+
+
+Line_161_Pred_17_Cond_18_Mutant154
+
+==> @ Line: 161
+Original Line  : if((status = get_process(BLOCKPRIO, ratio, &job)) <= 0) return(status);
+After Mutation : if((status = get_process(BLOCKPRIO, ratio, &job))==0) return(status);
+
+
+AOFLine_169_Pred_NO_Mutant155
+
+==> @ Line: 169
+Original Line  : struct process * job;
+After Mutation : struct process + job;
+
+
+AOFLine_169_Pred_NO_Mutant156
+
+==> @ Line: 169
+Original Line  : struct process * job;
+After Mutation : struct process - job;
+
+
+AOFLine_169_Pred_NO_Mutant157
+
+==> @ Line: 169
+Original Line  : struct process * job;
+After Mutation : struct process / job;
+
+
+AOFLine_169_Pred_NO_Mutant158
+
+==> @ Line: 169
+Original Line  : struct process * job;
+After Mutation : struct process % job;
+
+
+PNF_Line_171_Pred_18_Cond_PNF_Mutant159
+
+==> @ Line: 171
+Original Line  : if(job)
+After Mutation : if(!(job))
+
+
+AOFLine_182_Pred_NO_Mutant160
+
+==> @ Line: 182
+Original Line  : struct process * job;
+After Mutation : struct process + job;
+
+
+AOFLine_182_Pred_NO_Mutant161
+
+==> @ Line: 182
+Original Line  : struct process * job;
+After Mutation : struct process - job;
+
+
+AOFLine_182_Pred_NO_Mutant162
+
+==> @ Line: 182
+Original Line  : struct process * job;
+After Mutation : struct process / job;
+
+
+AOFLine_182_Pred_NO_Mutant163
+
+==> @ Line: 182
+Original Line  : struct process * job;
+After Mutation : struct process % job;
+
+
+PNF_Line_184_Pred_19_Cond_PNF_Mutant164
+
+==> @ Line: 184
+Original Line  : if(job)
+After Mutation : if(!(job))
+
+
+PNF_Line_198_Pred_20_Cond_PNF_Mutant165
+
+==> @ Line: 198
+Original Line  : while(!finish());
+After Mutation : while(!(!finish()));
+
+
+AOFLine_203_Pred_NO_Mutant166
+
+==> @ Line: 203
+Original Line  : struct process *
+After Mutation : struct process +
+
+
+AOFLine_203_Pred_NO_Mutant167
+
+==> @ Line: 203
+Original Line  : struct process *
+After Mutation : struct process -
+
+
+AOFLine_203_Pred_NO_Mutant168
+
+==> @ Line: 203
+Original Line  : struct process *
+After Mutation : struct process /
+
+
+AOFLine_203_Pred_NO_Mutant169
+
+==> @ Line: 203
+Original Line  : struct process *
+After Mutation : struct process %
+
+
+PNF_Line_207_Pred_21_Cond_PNF_Mutant170
+
+==> @ Line: 207
+Original Line  : if(!current_job)
+After Mutation : if(!(!current_job))
+
+
+PNF_Line_209_Pred_22_Cond_PNF_Mutant171
+
+==> @ Line: 209
+Original Line  : for(prio = MAXPRIO; prio > 0; prio--)
+After Mutation : for(prio = MAXPRIO;!( prio > 0); prio--)
+
+
+Line_209_Pred_22_Cond_23_Mutant172
+
+==> @ Line: 209
+Original Line  : for(prio = MAXPRIO; prio > 0; prio--)
+After Mutation : for(prio = MAXPRIO; prio != 0; prio--)
+
+
+Line_209_Pred_22_Cond_23_Mutant173
+
+==> @ Line: 209
+Original Line  : for(prio = MAXPRIO; prio > 0; prio--)
+After Mutation : for(prio = MAXPRIO; prio < 0; prio--)
+
+
+Line_209_Pred_22_Cond_23_Mutant174
+
+==> @ Line: 209
+Original Line  : for(prio = MAXPRIO; prio > 0; prio--)
+After Mutation : for(prio = MAXPRIO; prio <= 0; prio--)
+
+
+Line_209_Pred_22_Cond_23_Mutant175
+
+==> @ Line: 209
+Original Line  : for(prio = MAXPRIO; prio > 0; prio--)
+After Mutation : for(prio = MAXPRIO; prio >= 0; prio--)
+
+
+Line_209_Pred_22_Cond_23_Mutant176
+
+==> @ Line: 209
+Original Line  : for(prio = MAXPRIO; prio > 0; prio--)
+After Mutation : for(prio = MAXPRIO; prio == 0; prio--)
+
+
+PNF_Line_211_Pred_23_Cond_PNF_Mutant177
+
+==> @ Line: 211
+Original Line  : if(get_process(prio, 0.0, &current_job) > 0) break;
+After Mutation : if(!(get_process(prio, 0.0, &current_job) > 0)) break;
+
+
+Line_211_Pred_23_Cond_24_Mutant178
+
+==> @ Line: 211
+Original Line  : if(get_process(prio, 0.0, &current_job) > 0) break;
+After Mutation : if(get_process(prio, 0.0, &current_job) != 0) break;
+
+
+Line_211_Pred_23_Cond_24_Mutant179
+
+==> @ Line: 211
+Original Line  : if(get_process(prio, 0.0, &current_job) > 0) break;
+After Mutation : if(get_process(prio, 0.0, &current_job) < 0) break;
+
+
+Line_211_Pred_23_Cond_24_Mutant180
+
+==> @ Line: 211
+Original Line  : if(get_process(prio, 0.0, &current_job) > 0) break;
+After Mutation : if(get_process(prio, 0.0, &current_job) <= 0) break;
+
+
+Line_211_Pred_23_Cond_24_Mutant181
+
+==> @ Line: 211
+Original Line  : if(get_process(prio, 0.0, &current_job) > 0) break;
+After Mutation : if(get_process(prio, 0.0, &current_job) >= 0) break;
+
+
+Line_211_Pred_23_Cond_24_Mutant182
+
+==> @ Line: 211
+Original Line  : if(get_process(prio, 0.0, &current_job) > 0) break;
+After Mutation : if(get_process(prio, 0.0, &current_job) == 0) break;
+
+
+PNF_Line_221_Pred_24_Cond_PNF_Mutant183
+
+==> @ Line: 221
+Original Line  : if(current_job && prio > current_job->priority)
+After Mutation : if(!(current_job && prio > current_job->priority))
+
+
+CNF_Line_221_Pred_24_Cond_25_Mutant184
+
+==> @ Line: 221
+Original Line  : if(current_job && prio > current_job->priority)
+After Mutation : if(!(current_job ) && prio > current_job->priority)
+
+
+CNF_Line_221_Pred_24_Cond_26_Mutant185
+
+==> @ Line: 221
+Original Line  : if(current_job && prio > current_job->priority)
+After Mutation : if(current_job && !( prio > current_job->priority))
+
+
+ROF_Line_221_Pred_24_Cond_24_Mutant186
+
+==> @ Line: 221
+Original Line  : if(current_job && prio > current_job->priority)
+After Mutation : if(current_job && prio != current_job->priority)
+
+
+ROF_Line_221_Pred_24_Cond_24_Mutant187
+
+==> @ Line: 221
+Original Line  : if(current_job && prio > current_job->priority)
+After Mutation : if(current_job && prio < current_job->priority)
+
+
+ROF_Line_221_Pred_24_Cond_24_Mutant188
+
+==> @ Line: 221
+Original Line  : if(current_job && prio > current_job->priority)
+After Mutation : if(current_job && prio <= current_job->priority)
+
+
+ROF_Line_221_Pred_24_Cond_24_Mutant189
+
+==> @ Line: 221
+Original Line  : if(current_job && prio > current_job->priority)
+After Mutation : if(current_job && prio >= current_job->priority)
+
+
+ROF_Line_221_Pred_24_Cond_24_Mutant190
+
+==> @ Line: 221
+Original Line  : if(current_job && prio > current_job->priority)
+After Mutation : if(current_job && prio == current_job->priority)
+
+
+LOF_Line_221_Pred_24_Cond_NOC_Mutant191
+
+==> @ Line: 221
+Original Line  : if(current_job && prio > current_job->priority)
+After Mutation : if(current_job || prio > current_job->priority)
+
+
+PNF_Line_275_Pred_25_Cond_PNF_Mutant192
+
+==> @ Line: 275
+Original Line  : if(prio > MAXPRIO || prio < 0) return(BADPRIO); /* Somebody goofed */
+After Mutation : if(!(prio > MAXPRIO || prio < 0) return(BADPRIO)); /* Somebody goofed */
+
+
+CNF_Line_275_Pred_25_Cond_27_Mutant193
+
+==> @ Line: 275
+Original Line  : if(prio > MAXPRIO || prio < 0) return(BADPRIO); /* Somebody goofed */
+After Mutation : if(!(prio > MAXPRIO ) || prio < 0) return(BADPRIO); /* Somebody goofed */
+
+
+CNF_Line_275_Pred_25_Cond_28_Mutant194
+
+==> @ Line: 275
+Original Line  : if(prio > MAXPRIO || prio < 0) return(BADPRIO); /* Somebody goofed */
+After Mutation : if(prio > MAXPRIO || prio < 0) return(BADPRIO); /* Somebody goofed *!( prio < 0 returnBADPRIO) || prio < 0) return(BADPRIO); /* Somebody goofed */
+
+
+ROF_Line_275_Pred_25_Cond_26_Mutant195
+
+==> @ Line: 275
+Original Line  : if(prio > MAXPRIO || prio < 0) return(BADPRIO); /* Somebody goofed */
+After Mutation : if(prio > MAXPRIO || prio != 0) return(BADPRIO); /* Somebody goofed */
+
+
+ROF_Line_275_Pred_25_Cond_26_Mutant196
+
+==> @ Line: 275
+Original Line  : if(prio > MAXPRIO || prio < 0) return(BADPRIO); /* Somebody goofed */
+After Mutation : if(prio > MAXPRIO || prio > 0) return(BADPRIO); /* Somebody goofed */
+
+
+ROF_Line_275_Pred_25_Cond_26_Mutant197
+
+==> @ Line: 275
+Original Line  : if(prio > MAXPRIO || prio < 0) return(BADPRIO); /* Somebody goofed */
+After Mutation : if(prio > MAXPRIO || prio <= 0) return(BADPRIO); /* Somebody goofed */
+
+
+ROF_Line_275_Pred_25_Cond_26_Mutant198
+
+==> @ Line: 275
+Original Line  : if(prio > MAXPRIO || prio < 0) return(BADPRIO); /* Somebody goofed */
+After Mutation : if(prio > MAXPRIO || prio >= 0) return(BADPRIO); /* Somebody goofed */
+
+
+ROF_Line_275_Pred_25_Cond_26_Mutant199
+
+==> @ Line: 275
+Original Line  : if(prio > MAXPRIO || prio < 0) return(BADPRIO); /* Somebody goofed */
+After Mutation : if(prio > MAXPRIO || prio == 0) return(BADPRIO); /* Somebody goofed */
+
+
+ROF_Line_275_Pred_25_Cond_39_Mutant200
+
+==> @ Line: 275
+Original Line  : if(prio > MAXPRIO || prio < 0) return(BADPRIO); /* Somebody goofed */
+After Mutation : if(prio != MAXPRIO || prio < 0) return(BADPRIO); /* Somebody goofed */
+
+
+ROF_Line_275_Pred_25_Cond_39_Mutant201
+
+==> @ Line: 275
+Original Line  : if(prio > MAXPRIO || prio < 0) return(BADPRIO); /* Somebody goofed */
+After Mutation : if(prio < MAXPRIO || prio < 0) return(BADPRIO); /* Somebody goofed */
+
+
+ROF_Line_275_Pred_25_Cond_39_Mutant202
+
+==> @ Line: 275
+Original Line  : if(prio > MAXPRIO || prio < 0) return(BADPRIO); /* Somebody goofed */
+After Mutation : if(prio <= MAXPRIO || prio < 0) return(BADPRIO); /* Somebody goofed */
+
+
+ROF_Line_275_Pred_25_Cond_40_Mutant203
+
+==> @ Line: 275
+Original Line  : if(prio > MAXPRIO || prio < 0) return(BADPRIO); /* Somebody goofed */
+After Mutation : if(prio >= MAXPRIO || prio < 0) return(BADPRIO); /* Somebody goofed */
+
+
+ROF_Line_275_Pred_25_Cond_39_Mutant204
+
+==> @ Line: 275
+Original Line  : if(prio > MAXPRIO || prio < 0) return(BADPRIO); /* Somebody goofed */
+After Mutation : if(prio == MAXPRIO || prio < 0) return(BADPRIO); /* Somebody goofed */
+
+
+LOF_Line_275_Pred_25_Cond_NOC_Mutant205
+
+==> @ Line: 275
+Original Line  : if(prio > MAXPRIO || prio < 0) return(BADPRIO); /* Somebody goofed */
+After Mutation : if(prio > MAXPRIO && prio < 0) return(BADPRIO); /* Somebody goofed */
+
+
+PNF_Line_277_Pred_26_Cond_PNF_Mutant206
+
+==> @ Line: 277
+Original Line  : for(next = &prio_queue[prio].head; *next; next = &(*next)->next);
+After Mutation : for(next = &prio_queue[prio].head;!( *next; next = &(*next)->next));
+
+
+PNF_Line_291_Pred_27_Cond_PNF_Mutant207
+
+==> @ Line: 291
+Original Line  : if(prio > MAXPRIO || prio < 0) return(BADPRIO); /* Somebody goofed */
+After Mutation : if(!(prio > MAXPRIO || prio < 0) return(BADPRIO)); /* Somebody goofed */
+
+
+CNF_Line_291_Pred_27_Cond_29_Mutant208
+
+==> @ Line: 291
+Original Line  : if(prio > MAXPRIO || prio < 0) return(BADPRIO); /* Somebody goofed */
+After Mutation : if(!(prio > MAXPRIO ) || prio < 0) return(BADPRIO); /* Somebody goofed */
+
+
+CNF_Line_291_Pred_27_Cond_30_Mutant209
+
+==> @ Line: 291
+Original Line  : if(prio > MAXPRIO || prio < 0) return(BADPRIO); /* Somebody goofed */
+After Mutation : if(prio > MAXPRIO || prio < 0) return(BADPRIO); /* Somebody goofed *!( prio < 0 returnBADPRIO) || prio < 0) return(BADPRIO); /* Somebody goofed */
+
+
+ROF_Line_291_Pred_27_Cond_28_Mutant210
+
+==> @ Line: 291
+Original Line  : if(prio > MAXPRIO || prio < 0) return(BADPRIO); /* Somebody goofed */
+After Mutation : if(prio > MAXPRIO || prio != 0) return(BADPRIO); /* Somebody goofed */
+
+
+ROF_Line_291_Pred_27_Cond_28_Mutant211
+
+==> @ Line: 291
+Original Line  : if(prio > MAXPRIO || prio < 0) return(BADPRIO); /* Somebody goofed */
+After Mutation : if(prio > MAXPRIO || prio > 0) return(BADPRIO); /* Somebody goofed */
+
+
+ROF_Line_291_Pred_27_Cond_28_Mutant212
+
+==> @ Line: 291
+Original Line  : if(prio > MAXPRIO || prio < 0) return(BADPRIO); /* Somebody goofed */
+After Mutation : if(prio > MAXPRIO || prio <= 0) return(BADPRIO); /* Somebody goofed */
+
+
+ROF_Line_291_Pred_27_Cond_28_Mutant213
+
+==> @ Line: 291
+Original Line  : if(prio > MAXPRIO || prio < 0) return(BADPRIO); /* Somebody goofed */
+After Mutation : if(prio > MAXPRIO || prio >= 0) return(BADPRIO); /* Somebody goofed */
+
+
+ROF_Line_291_Pred_27_Cond_28_Mutant214
+
+==> @ Line: 291
+Original Line  : if(prio > MAXPRIO || prio < 0) return(BADPRIO); /* Somebody goofed */
+After Mutation : if(prio > MAXPRIO || prio == 0) return(BADPRIO); /* Somebody goofed */
+
+
+ROF_Line_291_Pred_27_Cond_41_Mutant215
+
+==> @ Line: 291
+Original Line  : if(prio > MAXPRIO || prio < 0) return(BADPRIO); /* Somebody goofed */
+After Mutation : if(prio != MAXPRIO || prio < 0) return(BADPRIO); /* Somebody goofed */
+
+
+ROF_Line_291_Pred_27_Cond_41_Mutant216
+
+==> @ Line: 291
+Original Line  : if(prio > MAXPRIO || prio < 0) return(BADPRIO); /* Somebody goofed */
+After Mutation : if(prio < MAXPRIO || prio < 0) return(BADPRIO); /* Somebody goofed */
+
+
+ROF_Line_291_Pred_27_Cond_41_Mutant217
+
+==> @ Line: 291
+Original Line  : if(prio > MAXPRIO || prio < 0) return(BADPRIO); /* Somebody goofed */
+After Mutation : if(prio <= MAXPRIO || prio < 0) return(BADPRIO); /* Somebody goofed */
+
+
+ROF_Line_291_Pred_27_Cond_42_Mutant218
+
+==> @ Line: 291
+Original Line  : if(prio > MAXPRIO || prio < 0) return(BADPRIO); /* Somebody goofed */
+After Mutation : if(prio >= MAXPRIO || prio < 0) return(BADPRIO); /* Somebody goofed */
+
+
+ROF_Line_291_Pred_27_Cond_41_Mutant219
+
+==> @ Line: 291
+Original Line  : if(prio > MAXPRIO || prio < 0) return(BADPRIO); /* Somebody goofed */
+After Mutation : if(prio == MAXPRIO || prio < 0) return(BADPRIO); /* Somebody goofed */
+
+
+LOF_Line_291_Pred_27_Cond_NOC_Mutant220
+
+==> @ Line: 291
+Original Line  : if(prio > MAXPRIO || prio < 0) return(BADPRIO); /* Somebody goofed */
+After Mutation : if(prio > MAXPRIO && prio < 0) return(BADPRIO); /* Somebody goofed */
+
+
+PNF_Line_292_Pred_28_Cond_PNF_Mutant221
+
+==> @ Line: 292
+Original Line  : if(ratio < 0.0 || ratio > 1.0) return(BADRATIO); /* Somebody else goofed */
+After Mutation : if(!(ratio < 0.0 || ratio > 1.0) return(BADRATIO)); /* Somebody else goofed */
+
+
+CNF_Line_292_Pred_28_Cond_30_Mutant222
+
+==> @ Line: 292
+Original Line  : if(ratio < 0.0 || ratio > 1.0) return(BADRATIO); /* Somebody else goofed */
+After Mutation : if(!(ratio < 0.0 ) || ratio > 1.0) return(BADRATIO); /* Somebody else goofed */
+
+
+CNF_Line_292_Pred_28_Cond_31_Mutant223
+
+==> @ Line: 292
+Original Line  : if(ratio < 0.0 || ratio > 1.0) return(BADRATIO); /* Somebody else goofed */
+After Mutation : if(ratio < 0.0 || ratio > 1.0) return(BADRATIO); /* Somebody else goofed *!( ratio > 1.0 returnBADRATIO)io > 1.0) return(BADRATIO); /* Somebody else goofed */
+
+
+ROF_Line_292_Pred_28_Cond_43_Mutant224
+
+==> @ Line: 292
+Original Line  : if(ratio < 0.0 || ratio > 1.0) return(BADRATIO); /* Somebody else goofed */
+After Mutation : if(ratio != 0.0 || ratio > 1.0) return(BADRATIO); /* Somebody else goofed */
+
+
+ROF_Line_292_Pred_28_Cond_43_Mutant225
+
+==> @ Line: 292
+Original Line  : if(ratio < 0.0 || ratio > 1.0) return(BADRATIO); /* Somebody else goofed */
+After Mutation : if(ratio > 0.0 || ratio > 1.0) return(BADRATIO); /* Somebody else goofed */
+
+
+ROF_Line_292_Pred_28_Cond_44_Mutant226
+
+==> @ Line: 292
+Original Line  : if(ratio < 0.0 || ratio > 1.0) return(BADRATIO); /* Somebody else goofed */
+After Mutation : if(ratio <= 0.0 || ratio > 1.0) return(BADRATIO); /* Somebody else goofed */
+
+
+ROF_Line_292_Pred_28_Cond_43_Mutant227
+
+==> @ Line: 292
+Original Line  : if(ratio < 0.0 || ratio > 1.0) return(BADRATIO); /* Somebody else goofed */
+After Mutation : if(ratio >= 0.0 || ratio > 1.0) return(BADRATIO); /* Somebody else goofed */
+
+
+ROF_Line_292_Pred_28_Cond_43_Mutant228
+
+==> @ Line: 292
+Original Line  : if(ratio < 0.0 || ratio > 1.0) return(BADRATIO); /* Somebody else goofed */
+After Mutation : if(ratio == 0.0 || ratio > 1.0) return(BADRATIO); /* Somebody else goofed */
+
+
+ROF_Line_292_Pred_28_Cond_29_Mutant229
+
+==> @ Line: 292
+Original Line  : if(ratio < 0.0 || ratio > 1.0) return(BADRATIO); /* Somebody else goofed */
+After Mutation : if(ratio < 0.0 || ratio != 1.0) return(BADRATIO); /* Somebody else goofed */
+
+
+ROF_Line_292_Pred_28_Cond_29_Mutant230
+
+==> @ Line: 292
+Original Line  : if(ratio < 0.0 || ratio > 1.0) return(BADRATIO); /* Somebody else goofed */
+After Mutation : if(ratio < 0.0 || ratio < 1.0) return(BADRATIO); /* Somebody else goofed */
+
+
+ROF_Line_292_Pred_28_Cond_29_Mutant231
+
+==> @ Line: 292
+Original Line  : if(ratio < 0.0 || ratio > 1.0) return(BADRATIO); /* Somebody else goofed */
+After Mutation : if(ratio < 0.0 || ratio <= 1.0) return(BADRATIO); /* Somebody else goofed */
+
+
+ROF_Line_292_Pred_28_Cond_29_Mutant232
+
+==> @ Line: 292
+Original Line  : if(ratio < 0.0 || ratio > 1.0) return(BADRATIO); /* Somebody else goofed */
+After Mutation : if(ratio < 0.0 || ratio >= 1.0) return(BADRATIO); /* Somebody else goofed */
+
+
+ROF_Line_292_Pred_28_Cond_29_Mutant233
+
+==> @ Line: 292
+Original Line  : if(ratio < 0.0 || ratio > 1.0) return(BADRATIO); /* Somebody else goofed */
+After Mutation : if(ratio < 0.0 || ratio == 1.0) return(BADRATIO); /* Somebody else goofed */
+
+
+LOF_Line_292_Pred_28_Cond_NOC_Mutant234
+
+==> @ Line: 292
+Original Line  : if(ratio < 0.0 || ratio > 1.0) return(BADRATIO); /* Somebody else goofed */
+After Mutation : if(ratio < 0.0 && ratio > 1.0) return(BADRATIO); /* Somebody else goofed */
+
+
+AOFLine_294_Pred_NO_Mutant235
+
+==> @ Line: 294
+Original Line  : index = ratio * length;
+After Mutation : index = ratio + length;
+
+
+AOFLine_294_Pred_NO_Mutant236
+
+==> @ Line: 294
+Original Line  : index = ratio * length;
+After Mutation : index = ratio - length;
+
+
+AOFLine_294_Pred_NO_Mutant237
+
+==> @ Line: 294
+Original Line  : index = ratio * length;
+After Mutation : index = ratio / length;
+
+
+AOFLine_294_Pred_NO_Mutant238
+
+==> @ Line: 294
+Original Line  : index = ratio * length;
+After Mutation : index = ratio % length;
+
+
+ROFLine_295_Pred_NO_Mutant239
+
+==> @ Line: 295
+Original Line  : index = index >= length ? length -1 : index; /* If ratio == 1.0 */
+After Mutation : index = index != length ? length -1 : index; /* If ratio == 1.0 */
+
+
+ROFLine_295_Pred_NO_Mutant240
+
+==> @ Line: 295
+Original Line  : index = index >= length ? length -1 : index; /* If ratio == 1.0 */
+After Mutation : index = index < length ? length -1 : index; /* If ratio == 1.0 */
+
+
+ROFLine_295_Pred_NO_Mutant241
+
+==> @ Line: 295
+Original Line  : index = index >= length ? length -1 : index; /* If ratio == 1.0 */
+After Mutation : index = index <= length ? length -1 : index; /* If ratio == 1.0 */
+
+
+ROFLine_295_Pred_NO_Mutant242
+
+==> @ Line: 295
+Original Line  : index = index >= length ? length -1 : index; /* If ratio == 1.0 */
+After Mutation : index = index > length ? length -1 : index; /* If ratio == 1.0 */
+
+
+ROFLine_295_Pred_NO_Mutant243
+
+==> @ Line: 295
+Original Line  : index = index >= length ? length -1 : index; /* If ratio == 1.0 */
+After Mutation : index = index==length ? length -1 : index; /* If ratio == 1.0 */
+
+
+ROFLine_295_Pred_NO_Mutant244
+
+==> @ Line: 295
+Original Line  : index = index >= length ? length -1 : index; /* If ratio == 1.0 */
+After Mutation : index = index >= length ? length -1 : index; /* If ratio != 1.0 */
+
+
+ROFLine_295_Pred_NO_Mutant245
+
+==> @ Line: 295
+Original Line  : index = index >= length ? length -1 : index; /* If ratio == 1.0 */
+After Mutation : index = index >= length ? length -1 : index; /* If ratio < 1.0 */
+
+
+ROFLine_295_Pred_NO_Mutant246
+
+==> @ Line: 295
+Original Line  : index = index >= length ? length -1 : index; /* If ratio == 1.0 */
+After Mutation : index = index >= length ? length -1 : index; /* If ratio > 1.0 */
+
+
+ROFLine_295_Pred_NO_Mutant247
+
+==> @ Line: 295
+Original Line  : index = index >= length ? length -1 : index; /* If ratio == 1.0 */
+After Mutation : index = index >= length ? length -1 : index; /* If ratio <= 1.0 */
+
+
+ROFLine_295_Pred_NO_Mutant248
+
+==> @ Line: 295
+Original Line  : index = index >= length ? length -1 : index; /* If ratio == 1.0 */
+After Mutation : index = index >= length ? length -1 : index; /* If ratio >= 1.0 */
+
+
+PNF_Line_296_Pred_29_Cond_PNF_Mutant249
+
+==> @ Line: 296
+Original Line  : for(next = &prio_queue[prio].head; index && *next; index--)
+After Mutation : for(next = &prio_queue[prio].head;!( index && *next); index--)
+
+
+CNF_Line_296_Pred_29_Cond_31_Mutant250
+
+==> @ Line: 296
+Original Line  : for(next = &prio_queue[prio].head; index && *next; index--)
+After Mutation : for(next = &prio_queue[prio].head; !( index ) && *next; index--)
+
+
+CNF_Line_296_Pred_29_Cond_32_Mutant251
+
+==> @ Line: 296
+Original Line  : for(next = &prio_queue[prio].head; index && *next; index--)
+After Mutation : for(next = &prio_queue[prio].head; index && !( *next); index--)
+
+
+LOF_Line_296_Pred_29_Cond_NOC_Mutant252
+
+==> @ Line: 296
+Original Line  : for(next = &prio_queue[prio].head; index && *next; index--)
+After Mutation : for(next = &prio_queue[prio].head; index || *next; index--)
+
+
+PNF_Line_299_Pred_30_Cond_PNF_Mutant253
+
+==> @ Line: 299
+Original Line  : if(*job)
+After Mutation : if(!(*job))
+
+

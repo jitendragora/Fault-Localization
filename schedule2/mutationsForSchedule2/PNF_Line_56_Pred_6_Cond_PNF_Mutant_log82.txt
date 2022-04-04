@@ -1,0 +1,5 @@
+
+==> @ Line: 56
+
+Original Line  : if(status = new_job(prio)) exit_here(status);
+After Mutation : if(!(status = new_job(prio)) exit_here(status));

@@ -1,0 +1,5 @@
+
+==> @ Line: 295
+
+Original Line  : if( *tok==EOF)
+After Mutation : if(!( *tok==EOF))

@@ -1,0 +1,5 @@
+
+==> @ Line: 39
+
+Original Line  : while(!is_eof_token((token_ptr=get_token(stream_ptr))))
+After Mutation : while(!(!is_eof_token((token_ptr=get_token(stream_ptr)))))

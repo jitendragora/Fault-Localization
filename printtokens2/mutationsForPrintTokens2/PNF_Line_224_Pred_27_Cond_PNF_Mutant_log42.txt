@@ -1,0 +1,5 @@
+
+==> @ Line: 224
+
+Original Line  : if(is_spec_symbol(ch1)==TRUE) return(TRUE); /* is special_symbol? */
+After Mutation : if(!(is_spec_symbol(ch1)==TRUE) return(TRUE)); /* is special_symbol? */

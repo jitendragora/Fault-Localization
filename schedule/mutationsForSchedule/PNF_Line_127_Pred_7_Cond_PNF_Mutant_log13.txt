@@ -1,0 +1,5 @@
+
+==> @ Line: 127
+
+Original Line  : if (d_ele->prev)
+After Mutation : if (!(d_ele->prev))

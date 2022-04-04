@@ -1,0 +1,5 @@
+
+==> @ Line: 428
+
+Original Line  : if ((pat[j] == CLOSURE)) {
+After Mutation : if ((pat[j] > CLOSURE)) {

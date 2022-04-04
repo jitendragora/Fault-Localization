@@ -1,0 +1,5 @@
+
+==> @ Line: 92
+
+Original Line  : if(stream_ptr->stream[stream_ptr->stream_ind] == '\0')
+After Mutation : if(stream_ptr->stream[stream_ptr->stream_ind] >= '\0')

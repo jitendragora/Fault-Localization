@@ -1,0 +1,5 @@
+
+==> @ Line: 386
+
+Original Line  : info += pij * log( pij );	/* part 3 */
+After Mutation : info += pij % log( pij );	/* part 3 */

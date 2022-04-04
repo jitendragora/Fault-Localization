@@ -1,0 +1,5 @@
+
+==> @ Line: 207
+
+Original Line  : if(!current_job)
+After Mutation : if(!(!current_job))

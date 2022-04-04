@@ -1,0 +1,5 @@
+
+==> @ Line: 69
+
+Original Line  : if ( sscanf( p, "%d %d\n", &r, &c ) != 2 )
+After Mutation : if ( sscanf( p, "%d %d\n", &r, &c ) == 2 )

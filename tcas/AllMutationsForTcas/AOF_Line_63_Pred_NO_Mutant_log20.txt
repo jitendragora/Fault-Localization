@@ -1,0 +1,5 @@
+
+==> @ Line: 63
+
+Original Line  : return (Climb_Inhibit ? Up_Separation + NOZCROSS : Up_Separation);
+After Mutation : return (Climb_Inhibit ? Up_Separation % NOZCROSS : Up_Separation);

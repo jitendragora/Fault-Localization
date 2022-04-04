@@ -1,0 +1,5 @@
+
+==> @ Line: 553
+
+Original Line  : for(ind=token_ind;ind>0 && isspace(token_str[ind-1]);--ind);
+After Mutation : for(ind=token_ind;!(ind>0 && isspace(token_str[ind-1]);--ind));

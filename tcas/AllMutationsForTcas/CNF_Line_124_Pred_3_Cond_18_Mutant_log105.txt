@@ -1,0 +1,5 @@
+
+==> @ Line: 124
+
+Original Line  : if (enabled && ((tcas_equipped && intent_not_known) || !tcas_equipped))
+After Mutation : if (!(enabled ) && ((tcas_equipped && intent_not_known) || !tcas_equipped))

@@ -1,0 +1,5 @@
+
+==> @ Line: 32
+
+Original Line  : else if(argc==2)
+After Mutation : else if(!(argc==2))

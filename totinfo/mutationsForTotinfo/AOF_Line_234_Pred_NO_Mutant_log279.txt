@@ -1,0 +1,5 @@
+
+==> @ Line: 234
+
+Original Line  : return exp( -x + a * log( x ) - LGamma( a ) ) * g;
+After Mutation : return exp( -x / a * log( x ) - LGamma( a ) ) * g;

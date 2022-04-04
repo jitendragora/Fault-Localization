@@ -1,0 +1,5 @@
+
+==> @ Line: 105
+
+Original Line  : while ((src[*i] != delim) && (src[*i] != ENDSTR))
+After Mutation : while ((src[*i] <= delim) && (src[*i] != ENDSTR))

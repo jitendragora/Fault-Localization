@@ -1,0 +1,5 @@
+
+==> @ Line: 380
+
+Original Line  : { while (*(str+i)!='\0')  /* until meet the token end sign */
+After Mutation : { while (!(*(str+i)!='\0'))  /* until meet the token end sign */

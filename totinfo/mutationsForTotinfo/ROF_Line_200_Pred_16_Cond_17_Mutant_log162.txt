@@ -1,0 +1,5 @@
+
+==> @ Line: 200
+
+Original Line  : if ( Abs( del ) < Abs( sum ) * EPS )
+After Mutation : if ( Abs( del ) != Abs( sum ) * EPS )

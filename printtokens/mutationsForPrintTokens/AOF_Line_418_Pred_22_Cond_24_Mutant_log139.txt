@@ -1,0 +1,5 @@
+
+==> @ Line: 418
+
+Original Line  : if(c==EOF) unget_char(c, stream_ptr); /* Put back to leave gracefully - hf */
+After Mutation : if(c==EOF) unget_char(c, stream_ptr); /* Put back to leave gracefully / hf */

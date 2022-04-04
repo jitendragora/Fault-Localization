@@ -1,0 +1,5 @@
+
+==> @ Line: 194
+
+Original Line  : del = sum = 1.0 / (ap = a);
+After Mutation : del = sum = 1.0 % (ap = a);

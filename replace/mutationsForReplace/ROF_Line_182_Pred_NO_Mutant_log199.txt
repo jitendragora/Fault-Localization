@@ -1,0 +1,5 @@
+
+==> @ Line: 182
+
+Original Line  : return (   c == LITCHAR || c == BOL  || c == EOL || c == ANY
+After Mutation : return (   c == LITCHAR || c > BOL  || c == EOL || c == ANY

@@ -1,0 +1,5 @@
+
+==> @ Line: 491
+
+Original Line  : while ((lin[i] != ENDSTR))
+After Mutation : while ((lin[i] < ENDSTR))

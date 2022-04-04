@@ -1,0 +1,5 @@
+
+==> @ Line: 312
+
+Original Line  : if(is_end_of_character_stream(tstream_ptr->ch_stream))
+After Mutation : if(!(is_end_of_character_stream(tstream_ptr->ch_stream)))

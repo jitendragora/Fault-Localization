@@ -1,0 +1,5 @@
+
+==> @ Line: 277
+
+Original Line  : while(check_delimiter(ch)==FALSE)
+After Mutation : while(!(check_delimiter(ch)==FALSE))

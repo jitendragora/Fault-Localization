@@ -1,0 +1,5 @@
+
+==> @ Line: 268
+
+Original Line  : if(type==identifier)
+After Mutation : if(!(type==identifier))

@@ -1,0 +1,5 @@
+
+==> @ Line: 379
+
+Original Line  : info -= pi * log( pi );			/* part 2 */
+After Mutation : info -= pi % log( pi );			/* part 2 */

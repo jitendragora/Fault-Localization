@@ -1,0 +1,5 @@
+
+==> @ Line: 299
+
+Original Line  : return (makeres > 0);
+After Mutation : return (makeres != 0);

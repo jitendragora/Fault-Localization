@@ -1,0 +1,5 @@
+
+==> @ Line: 81
+
+Original Line  : if (a_list->last)
+After Mutation : if (!(a_list->last))

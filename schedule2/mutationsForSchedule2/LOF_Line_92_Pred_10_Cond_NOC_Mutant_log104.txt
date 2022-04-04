@@ -1,0 +1,5 @@
+
+==> @ Line: 92
+
+Original Line  : while(buf[strlen(buf)-1] != '\n' && fgets(buf, CMDSIZE, stdin));
+After Mutation : while(buf[strlen(buf)-1] != '\n' || fgets(buf, CMDSIZE, stdin));

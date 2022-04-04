@@ -1,0 +1,5 @@
+
+==> @ Line: 170
+
+Original Line  : tmp -= (x + 0.5) * log( tmp );
+After Mutation : tmp -= (x + 0.5) - log( tmp );

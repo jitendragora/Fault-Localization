@@ -1,0 +1,5 @@
+
+==> @ Line: 229
+
+Original Line  : double	g = b1 * (fac = 1.0 / a1);
+After Mutation : double	g = b1 * (fac = 1.0 - a1);

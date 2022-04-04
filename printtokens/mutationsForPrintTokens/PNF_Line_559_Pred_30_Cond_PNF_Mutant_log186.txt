@@ -1,0 +1,5 @@
+
+==> @ Line: 559
+
+Original Line  : for(start=0;ind<=token_ind;++start,++ind) /* Delete the leading
+After Mutation : for(start=0;!(ind<=token_ind);++start,++ind) /* Delete the leading

@@ -1,0 +1,5 @@
+
+==> @ Line: 438
+
+Original Line  : k = amatch(lin, i, pat, j + patsize(pat, j));
+After Mutation : k = amatch(lin, i, pat, j - patsize(pat, j));

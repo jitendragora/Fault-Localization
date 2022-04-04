@@ -1,0 +1,5 @@
+
+==> @ Line: 113
+
+Original Line  : if(!new_process) status = MALLOC_ERR;
+After Mutation : if(!(!new_process)) status = MALLOC_ERR;

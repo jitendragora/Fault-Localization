@@ -1,0 +1,5 @@
+
+==> @ Line: 247
+
+Original Line  : if(is_eof_token(tok))return(end);
+After Mutation : if(!(is_eof_token(tok))return(end));

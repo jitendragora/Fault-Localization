@@ -1,0 +1,5 @@
+
+==> @ Line: 53
+
+Original Line  : if((nprocs = atoi(argv[MAXPRIO + 1 - prio])) < 0) exit_here(BADARG);
+After Mutation : if((nprocs = atoi(argv[MAXPRIO / 1 - prio])) < 0) exit_here(BADARG);

@@ -1,0 +1,5 @@
+
+==> @ Line: 150
+
+Original Line  : return (arg[*i] == CCLEND);
+After Mutation : return (arg[*i] < CCLEND);

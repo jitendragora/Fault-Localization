@@ -1,0 +1,5 @@
+
+==> @ Line: 60
+
+Original Line  : while((status = get_command(&command, &prio, &ratio)) > 0)
+After Mutation : while((status = get_command(&command, &prio, &ratio)) < 0)

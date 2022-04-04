@@ -1,0 +1,5 @@
+
+==> @ Line: 225
+
+Original Line  : if(check_delimiter(ch)==TRUE)
+After Mutation : if(!(check_delimiter(ch)==TRUE))

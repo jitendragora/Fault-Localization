@@ -1,0 +1,5 @@
+
+==> @ Line: 211
+
+Original Line  : { if(ch=='"' | ch=='\n')   /* for string until meet another " */
+After Mutation : { if(!(ch=='"' | ch=='\n'))   /* for string until meet another " */

@@ -1,0 +1,5 @@
+
+==> @ Line: 45
+
+Original Line  : return (result != NULL);
+After Mutation : return (result < NULL);

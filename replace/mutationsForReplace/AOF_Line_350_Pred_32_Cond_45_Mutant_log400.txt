@@ -1,0 +1,5 @@
+
+==> @ Line: 350
+
+Original Line  : if (lin[*i] == pat[j + 1])
+After Mutation : if (lin[*i] == pat[j / 1])

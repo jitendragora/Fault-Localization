@@ -1,0 +1,5 @@
+
+==> @ Line: 557
+
+Original Line  : if(!isspace(token_str[ind]))
+After Mutation : if(!(!isspace(token_str[ind])))

@@ -1,0 +1,5 @@
+
+==> @ Line: 209
+
+Original Line  : if(is_eof_token(ch1)==TRUE)return(TRUE); /* is eof token? */
+After Mutation : if(!(is_eof_token(ch1)==TRUE)return(TRUE)); /* is eof token? */

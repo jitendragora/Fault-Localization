@@ -1,0 +1,5 @@
+
+==> @ Line: 60
+
+Original Line  : if ( *p == '\0' )
+After Mutation : if ( *p < '\0' )

@@ -1,0 +1,5 @@
+
+==> @ Line: 264
+
+Original Line  : if(type==keyword)
+After Mutation : if(!(type==keyword))

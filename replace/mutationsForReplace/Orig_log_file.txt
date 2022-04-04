@@ -1,0 +1,4088 @@
+ROFLine_45_Pred_NO_Mutant1
+
+==> @ Line: 45
+Original Line  : return (result != NULL);
+After Mutation : return (result == NULL);
+
+
+ROFLine_45_Pred_NO_Mutant2
+
+==> @ Line: 45
+Original Line  : return (result != NULL);
+After Mutation : return (result < NULL);
+
+
+ROFLine_45_Pred_NO_Mutant3
+
+==> @ Line: 45
+Original Line  : return (result != NULL);
+After Mutation : return (result > NULL);
+
+
+ROFLine_45_Pred_NO_Mutant4
+
+==> @ Line: 45
+Original Line  : return (result != NULL);
+After Mutation : return (result <= NULL);
+
+
+ROFLine_45_Pred_NO_Mutant5
+
+==> @ Line: 45
+Original Line  : return (result != NULL);
+After Mutation : return (result >= NULL);
+
+
+PNF_Line_55_Pred_1_Cond_PNF_Mutant6
+
+==> @ Line: 55
+Original Line  : if (*j >= maxset)
+After Mutation : if (!(*j >= maxset))
+
+
+Line_55_Pred_1_Cond_1_Mutant7
+
+==> @ Line: 55
+Original Line  : if (*j >= maxset)
+After Mutation : if (*j != maxset)
+
+
+Line_55_Pred_1_Cond_1_Mutant8
+
+==> @ Line: 55
+Original Line  : if (*j >= maxset)
+After Mutation : if (*j < maxset)
+
+
+Line_55_Pred_1_Cond_1_Mutant9
+
+==> @ Line: 55
+Original Line  : if (*j >= maxset)
+After Mutation : if (*j <= maxset)
+
+
+Line_55_Pred_1_Cond_1_Mutant10
+
+==> @ Line: 55
+Original Line  : if (*j >= maxset)
+After Mutation : if (*j > maxset)
+
+
+Line_55_Pred_1_Cond_1_Mutant11
+
+==> @ Line: 55
+Original Line  : if (*j >= maxset)
+After Mutation : if (*j==maxset)
+
+
+AOFLine_59_Pred_NO_Mutant12
+
+==> @ Line: 59
+Original Line  : *j = *j + 1;
+After Mutation : *j = *j - 1;
+
+
+AOFLine_59_Pred_NO_Mutant13
+
+==> @ Line: 59
+Original Line  : *j = *j + 1;
+After Mutation : *j = *j * 1;
+
+
+AOFLine_59_Pred_NO_Mutant14
+
+==> @ Line: 59
+Original Line  : *j = *j + 1;
+After Mutation : *j = *j / 1;
+
+
+AOFLine_59_Pred_NO_Mutant15
+
+==> @ Line: 59
+Original Line  : *j = *j + 1;
+After Mutation : *j = *j % 1;
+
+
+PNF_Line_71_Pred_2_Cond_PNF_Mutant16
+
+==> @ Line: 71
+Original Line  : if (s[*i] != ESCAPE)
+After Mutation : if (!(s[*i] != ESCAPE))
+
+
+Line_71_Pred_2_Cond_2_Mutant17
+
+==> @ Line: 71
+Original Line  : if (s[*i] != ESCAPE)
+After Mutation : if (s[*i] == ESCAPE)
+
+
+Line_71_Pred_2_Cond_2_Mutant18
+
+==> @ Line: 71
+Original Line  : if (s[*i] != ESCAPE)
+After Mutation : if (s[*i] < ESCAPE)
+
+
+Line_71_Pred_2_Cond_2_Mutant19
+
+==> @ Line: 71
+Original Line  : if (s[*i] != ESCAPE)
+After Mutation : if (s[*i] > ESCAPE)
+
+
+Line_71_Pred_2_Cond_2_Mutant20
+
+==> @ Line: 71
+Original Line  : if (s[*i] != ESCAPE)
+After Mutation : if (s[*i] <= ESCAPE)
+
+
+Line_71_Pred_2_Cond_2_Mutant21
+
+==> @ Line: 71
+Original Line  : if (s[*i] != ESCAPE)
+After Mutation : if (s[*i] >= ESCAPE)
+
+
+PNF_Line_74_Pred_3_Cond_PNF_Mutant22
+
+==> @ Line: 74
+Original Line  : if (s[*i + 1] == ENDSTR)
+After Mutation : if (!(s[*i + 1] == ENDSTR))
+
+
+Line_74_Pred_3_Cond_3_Mutant23
+
+==> @ Line: 74
+Original Line  : if (s[*i + 1] == ENDSTR)
+After Mutation : if (s[*i + 1] != ENDSTR)
+
+
+Line_74_Pred_3_Cond_3_Mutant24
+
+==> @ Line: 74
+Original Line  : if (s[*i + 1] == ENDSTR)
+After Mutation : if (s[*i + 1] < ENDSTR)
+
+
+Line_74_Pred_3_Cond_3_Mutant25
+
+==> @ Line: 74
+Original Line  : if (s[*i + 1] == ENDSTR)
+After Mutation : if (s[*i + 1] > ENDSTR)
+
+
+Line_74_Pred_3_Cond_3_Mutant26
+
+==> @ Line: 74
+Original Line  : if (s[*i + 1] == ENDSTR)
+After Mutation : if (s[*i + 1] <= ENDSTR)
+
+
+Line_74_Pred_3_Cond_3_Mutant27
+
+==> @ Line: 74
+Original Line  : if (s[*i + 1] == ENDSTR)
+After Mutation : if (s[*i + 1] >= ENDSTR)
+
+
+Line_74_Pred_3_Cond_3_Mutant28
+
+==> @ Line: 74
+Original Line  : if (s[*i + 1] == ENDSTR)
+After Mutation : if (s[*i - 1] == ENDSTR)
+
+
+Line_74_Pred_3_Cond_3_Mutant29
+
+==> @ Line: 74
+Original Line  : if (s[*i + 1] == ENDSTR)
+After Mutation : if (s[*i * 1] == ENDSTR)
+
+
+Line_74_Pred_3_Cond_3_Mutant30
+
+==> @ Line: 74
+Original Line  : if (s[*i + 1] == ENDSTR)
+After Mutation : if (s[*i / 1] == ENDSTR)
+
+
+Line_74_Pred_3_Cond_3_Mutant31
+
+==> @ Line: 74
+Original Line  : if (s[*i + 1] == ENDSTR)
+After Mutation : if (s[*i % 1] == ENDSTR)
+
+
+AOFLine_78_Pred_NO_Mutant32
+
+==> @ Line: 78
+Original Line  : *i = *i + 1;
+After Mutation : *i = *i - 1;
+
+
+AOFLine_78_Pred_NO_Mutant33
+
+==> @ Line: 78
+Original Line  : *i = *i + 1;
+After Mutation : *i = *i * 1;
+
+
+AOFLine_78_Pred_NO_Mutant34
+
+==> @ Line: 78
+Original Line  : *i = *i + 1;
+After Mutation : *i = *i / 1;
+
+
+AOFLine_78_Pred_NO_Mutant35
+
+==> @ Line: 78
+Original Line  : *i = *i + 1;
+After Mutation : *i = *i % 1;
+
+
+PNF_Line_79_Pred_4_Cond_PNF_Mutant36
+
+==> @ Line: 79
+Original Line  : if (s[*i] == 'n')
+After Mutation : if (!(s[*i] == 'n'))
+
+
+Line_79_Pred_4_Cond_4_Mutant37
+
+==> @ Line: 79
+Original Line  : if (s[*i] == 'n')
+After Mutation : if (s[*i] != 'n')
+
+
+Line_79_Pred_4_Cond_4_Mutant38
+
+==> @ Line: 79
+Original Line  : if (s[*i] == 'n')
+After Mutation : if (s[*i] < 'n')
+
+
+Line_79_Pred_4_Cond_4_Mutant39
+
+==> @ Line: 79
+Original Line  : if (s[*i] == 'n')
+After Mutation : if (s[*i] > 'n')
+
+
+Line_79_Pred_4_Cond_4_Mutant40
+
+==> @ Line: 79
+Original Line  : if (s[*i] == 'n')
+After Mutation : if (s[*i] <= 'n')
+
+
+Line_79_Pred_4_Cond_4_Mutant41
+
+==> @ Line: 79
+Original Line  : if (s[*i] == 'n')
+After Mutation : if (s[*i] >= 'n')
+
+
+PNF_Line_82_Pred_5_Cond_PNF_Mutant42
+
+==> @ Line: 82
+Original Line  : if (s[*i] == 't')
+After Mutation : if (!(s[*i] == 't'))
+
+
+Line_82_Pred_5_Cond_5_Mutant43
+
+==> @ Line: 82
+Original Line  : if (s[*i] == 't')
+After Mutation : if (s[*i] != 't')
+
+
+Line_82_Pred_5_Cond_5_Mutant44
+
+==> @ Line: 82
+Original Line  : if (s[*i] == 't')
+After Mutation : if (s[*i] < 't')
+
+
+Line_82_Pred_5_Cond_5_Mutant45
+
+==> @ Line: 82
+Original Line  : if (s[*i] == 't')
+After Mutation : if (s[*i] > 't')
+
+
+Line_82_Pred_5_Cond_5_Mutant46
+
+==> @ Line: 82
+Original Line  : if (s[*i] == 't')
+After Mutation : if (s[*i] <= 't')
+
+
+Line_82_Pred_5_Cond_5_Mutant47
+
+==> @ Line: 82
+Original Line  : if (s[*i] == 't')
+After Mutation : if (s[*i] >= 't')
+
+
+PNF_Line_105_Pred_6_Cond_PNF_Mutant48
+
+==> @ Line: 105
+Original Line  : while ((src[*i] != delim) && (src[*i] != ENDSTR))
+After Mutation : while (!((src[*i] != delim) && (src[*i] != ENDSTR)))
+
+
+CNF_Line_105_Pred_6_Cond_6_Mutant49
+
+==> @ Line: 105
+Original Line  : while ((src[*i] != delim) && (src[*i] != ENDSTR))
+After Mutation : while ((!(src[*i] != delim )) && (src[*i] != ENDSTR))
+
+
+CNF_Line_105_Pred_6_Cond_7_Mutant50
+
+==> @ Line: 105
+Original Line  : while ((src[*i] != delim) && (src[*i] != ENDSTR))
+After Mutation : while ((src[*i] != delim) && (!( src[*i] != ENDSTR)))
+
+
+ROF_Line_105_Pred_6_Cond_26_Mutant51
+
+==> @ Line: 105
+Original Line  : while ((src[*i] != delim) && (src[*i] != ENDSTR))
+After Mutation : while ((src[*i] == delim) && (src[*i] != ENDSTR))
+
+
+ROF_Line_105_Pred_6_Cond_26_Mutant52
+
+==> @ Line: 105
+Original Line  : while ((src[*i] != delim) && (src[*i] != ENDSTR))
+After Mutation : while ((src[*i] < delim) && (src[*i] != ENDSTR))
+
+
+ROF_Line_105_Pred_6_Cond_26_Mutant53
+
+==> @ Line: 105
+Original Line  : while ((src[*i] != delim) && (src[*i] != ENDSTR))
+After Mutation : while ((src[*i] > delim) && (src[*i] != ENDSTR))
+
+
+ROF_Line_105_Pred_6_Cond_26_Mutant54
+
+==> @ Line: 105
+Original Line  : while ((src[*i] != delim) && (src[*i] != ENDSTR))
+After Mutation : while ((src[*i] <= delim) && (src[*i] != ENDSTR))
+
+
+ROF_Line_105_Pred_6_Cond_26_Mutant55
+
+==> @ Line: 105
+Original Line  : while ((src[*i] != delim) && (src[*i] != ENDSTR))
+After Mutation : while ((src[*i] >= delim) && (src[*i] != ENDSTR))
+
+
+ROF_Line_105_Pred_6_Cond_5_Mutant56
+
+==> @ Line: 105
+Original Line  : while ((src[*i] != delim) && (src[*i] != ENDSTR))
+After Mutation : while ((src[*i] != delim) && (src[*i] == ENDSTR))
+
+
+ROF_Line_105_Pred_6_Cond_5_Mutant57
+
+==> @ Line: 105
+Original Line  : while ((src[*i] != delim) && (src[*i] != ENDSTR))
+After Mutation : while ((src[*i] != delim) && (src[*i] < ENDSTR))
+
+
+ROF_Line_105_Pred_6_Cond_5_Mutant58
+
+==> @ Line: 105
+Original Line  : while ((src[*i] != delim) && (src[*i] != ENDSTR))
+After Mutation : while ((src[*i] != delim) && (src[*i] > ENDSTR))
+
+
+ROF_Line_105_Pred_6_Cond_5_Mutant59
+
+==> @ Line: 105
+Original Line  : while ((src[*i] != delim) && (src[*i] != ENDSTR))
+After Mutation : while ((src[*i] != delim) && (src[*i] <= ENDSTR))
+
+
+ROF_Line_105_Pred_6_Cond_5_Mutant60
+
+==> @ Line: 105
+Original Line  : while ((src[*i] != delim) && (src[*i] != ENDSTR))
+After Mutation : while ((src[*i] != delim) && (src[*i] >= ENDSTR))
+
+
+LOF_Line_105_Pred_6_Cond_NOC_Mutant61
+
+==> @ Line: 105
+Original Line  : while ((src[*i] != delim) && (src[*i] != ENDSTR))
+After Mutation : while ((src[*i] != delim) || (src[*i] != ENDSTR))
+
+
+PNF_Line_107_Pred_7_Cond_PNF_Mutant62
+
+==> @ Line: 107
+Original Line  : if (src[*i - 1] == ESCAPE) {
+After Mutation : if (!(src[*i - 1] == ESCAPE)) {
+
+
+Line_107_Pred_7_Cond_8_Mutant63
+
+==> @ Line: 107
+Original Line  : if (src[*i - 1] == ESCAPE) {
+After Mutation : if (src[*i - 1] != ESCAPE) {
+
+
+Line_107_Pred_7_Cond_8_Mutant64
+
+==> @ Line: 107
+Original Line  : if (src[*i - 1] == ESCAPE) {
+After Mutation : if (src[*i - 1] < ESCAPE) {
+
+
+Line_107_Pred_7_Cond_8_Mutant65
+
+==> @ Line: 107
+Original Line  : if (src[*i - 1] == ESCAPE) {
+After Mutation : if (src[*i - 1] > ESCAPE) {
+
+
+Line_107_Pred_7_Cond_8_Mutant66
+
+==> @ Line: 107
+Original Line  : if (src[*i - 1] == ESCAPE) {
+After Mutation : if (src[*i - 1] <= ESCAPE) {
+
+
+Line_107_Pred_7_Cond_8_Mutant67
+
+==> @ Line: 107
+Original Line  : if (src[*i - 1] == ESCAPE) {
+After Mutation : if (src[*i - 1] >= ESCAPE) {
+
+
+Line_107_Pred_7_Cond_8_Mutant68
+
+==> @ Line: 107
+Original Line  : if (src[*i - 1] == ESCAPE) {
+After Mutation : if (src[*i + 1] == ESCAPE) {
+
+
+Line_107_Pred_7_Cond_8_Mutant69
+
+==> @ Line: 107
+Original Line  : if (src[*i - 1] == ESCAPE) {
+After Mutation : if (src[*i * 1] == ESCAPE) {
+
+
+Line_107_Pred_7_Cond_8_Mutant70
+
+==> @ Line: 107
+Original Line  : if (src[*i - 1] == ESCAPE) {
+After Mutation : if (src[*i / 1] == ESCAPE) {
+
+
+Line_107_Pred_7_Cond_8_Mutant71
+
+==> @ Line: 107
+Original Line  : if (src[*i - 1] == ESCAPE) {
+After Mutation : if (src[*i % 1] == ESCAPE) {
+
+
+PNF_Line_111_Pred_8_Cond_PNF_Mutant72
+
+==> @ Line: 111
+Original Line  : if (src[*i] != DASH)
+After Mutation : if (!(src[*i] != DASH))
+
+
+Line_111_Pred_8_Cond_9_Mutant73
+
+==> @ Line: 111
+Original Line  : if (src[*i] != DASH)
+After Mutation : if (src[*i] == DASH)
+
+
+Line_111_Pred_8_Cond_9_Mutant74
+
+==> @ Line: 111
+Original Line  : if (src[*i] != DASH)
+After Mutation : if (src[*i] < DASH)
+
+
+Line_111_Pred_8_Cond_9_Mutant75
+
+==> @ Line: 111
+Original Line  : if (src[*i] != DASH)
+After Mutation : if (src[*i] > DASH)
+
+
+Line_111_Pred_8_Cond_9_Mutant76
+
+==> @ Line: 111
+Original Line  : if (src[*i] != DASH)
+After Mutation : if (src[*i] <= DASH)
+
+
+Line_111_Pred_8_Cond_9_Mutant77
+
+==> @ Line: 111
+Original Line  : if (src[*i] != DASH)
+After Mutation : if (src[*i] >= DASH)
+
+
+PNF_Line_113_Pred_9_Cond_PNF_Mutant78
+
+==> @ Line: 113
+Original Line  : else if (*j <= 1 || src[*i + 1] == ENDSTR)
+After Mutation : else if (!(*j <= 1 || src[*i + 1] == ENDSTR))
+
+
+CNF_Line_113_Pred_9_Cond_10_Mutant79
+
+==> @ Line: 113
+Original Line  : else if (*j <= 1 || src[*i + 1] == ENDSTR)
+After Mutation : else if (!(*j <= 1 ) || src[*i + 1] == ENDSTR)
+
+
+CNF_Line_113_Pred_9_Cond_11_Mutant80
+
+==> @ Line: 113
+Original Line  : else if (*j <= 1 || src[*i + 1] == ENDSTR)
+After Mutation : else if (*j <= 1 || !( src[*i + 1] == ENDSTR))
+
+
+ROF_Line_113_Pred_9_Cond_27_Mutant81
+
+==> @ Line: 113
+Original Line  : else if (*j <= 1 || src[*i + 1] == ENDSTR)
+After Mutation : else if (*j != 1 || src[*i + 1] == ENDSTR)
+
+
+ROF_Line_113_Pred_9_Cond_28_Mutant82
+
+==> @ Line: 113
+Original Line  : else if (*j <= 1 || src[*i + 1] == ENDSTR)
+After Mutation : else if (*j < 1 || src[*i + 1] == ENDSTR)
+
+
+ROF_Line_113_Pred_9_Cond_27_Mutant83
+
+==> @ Line: 113
+Original Line  : else if (*j <= 1 || src[*i + 1] == ENDSTR)
+After Mutation : else if (*j > 1 || src[*i + 1] == ENDSTR)
+
+
+ROF_Line_113_Pred_9_Cond_27_Mutant84
+
+==> @ Line: 113
+Original Line  : else if (*j <= 1 || src[*i + 1] == ENDSTR)
+After Mutation : else if (*j >= 1 || src[*i + 1] == ENDSTR)
+
+
+ROF_Line_113_Pred_9_Cond_26_Mutant85
+
+==> @ Line: 113
+Original Line  : else if (*j <= 1 || src[*i + 1] == ENDSTR)
+After Mutation : else if (*j==1 || src[*i + 1] == ENDSTR)
+
+
+ROF_Line_113_Pred_9_Cond_9_Mutant86
+
+==> @ Line: 113
+Original Line  : else if (*j <= 1 || src[*i + 1] == ENDSTR)
+After Mutation : else if (*j <= 1 || src[*i + 1] != ENDSTR)
+
+
+ROF_Line_113_Pred_9_Cond_9_Mutant87
+
+==> @ Line: 113
+Original Line  : else if (*j <= 1 || src[*i + 1] == ENDSTR)
+After Mutation : else if (*j <= 1 || src[*i + 1] < ENDSTR)
+
+
+ROF_Line_113_Pred_9_Cond_9_Mutant88
+
+==> @ Line: 113
+Original Line  : else if (*j <= 1 || src[*i + 1] == ENDSTR)
+After Mutation : else if (*j <= 1 || src[*i + 1] > ENDSTR)
+
+
+ROF_Line_113_Pred_9_Cond_9_Mutant89
+
+==> @ Line: 113
+Original Line  : else if (*j <= 1 || src[*i + 1] == ENDSTR)
+After Mutation : else if (*j <= 1 || src[*i + 1] <= ENDSTR)
+
+
+ROF_Line_113_Pred_9_Cond_9_Mutant90
+
+==> @ Line: 113
+Original Line  : else if (*j <= 1 || src[*i + 1] == ENDSTR)
+After Mutation : else if (*j <= 1 || src[*i + 1] >= ENDSTR)
+
+
+AOF_Line_113_Pred_9_Cond_9_Mutant91
+
+==> @ Line: 113
+Original Line  : else if (*j <= 1 || src[*i + 1] == ENDSTR)
+After Mutation : else if (*j <= 1 || src[*i - 1] == ENDSTR)
+
+
+AOF_Line_113_Pred_9_Cond_9_Mutant92
+
+==> @ Line: 113
+Original Line  : else if (*j <= 1 || src[*i + 1] == ENDSTR)
+After Mutation : else if (*j <= 1 || src[*i * 1] == ENDSTR)
+
+
+AOF_Line_113_Pred_9_Cond_9_Mutant93
+
+==> @ Line: 113
+Original Line  : else if (*j <= 1 || src[*i + 1] == ENDSTR)
+After Mutation : else if (*j <= 1 || src[*i / 1] == ENDSTR)
+
+
+AOF_Line_113_Pred_9_Cond_9_Mutant94
+
+==> @ Line: 113
+Original Line  : else if (*j <= 1 || src[*i + 1] == ENDSTR)
+After Mutation : else if (*j <= 1 || src[*i % 1] == ENDSTR)
+
+
+LOF_Line_113_Pred_9_Cond_NOC_Mutant95
+
+==> @ Line: 113
+Original Line  : else if (*j <= 1 || src[*i + 1] == ENDSTR)
+After Mutation : else if (*j <= 1 && src[*i + 1] == ENDSTR)
+
+
+PNF_Line_115_Pred_10_Cond_PNF_Mutant96
+
+==> @ Line: 115
+Original Line  : else if ((isalnum(src[*i - 1])) && (isalnum(src[*i + 1]))
+After Mutation : else if (!((isalnum(src[*i - 1])) && (isalnum(src[*i + 1])))
+
+
+CNF_Line_115_Pred_10_Cond_11_Mutant97
+
+==> @ Line: 115
+Original Line  : else if ((isalnum(src[*i - 1])) && (isalnum(src[*i + 1]))
+After Mutation : else if ((isalnum(src[*i - 1])) && (isalnum(src[*i + 1]))!(isalnumsrc[*i - 1] )alnum(src[*i - 1])) && (isalnum(src[*i + 1]))
+
+
+CNF_Line_115_Pred_10_Cond_12_Mutant98
+
+==> @ Line: 115
+Original Line  : else if ((isalnum(src[*i - 1])) && (isalnum(src[*i + 1]))
+After Mutation : else if ((isalnum(src[*i - 1])) && (isalnum(src[*i + 1]))!( isalnumsrc[*i + 1])alnum(src[*i - 1])) && (isalnum(src[*i + 1]))
+
+
+AOF_Line_115_Pred_10_Cond_10_Mutant99
+
+==> @ Line: 115
+Original Line  : else if ((isalnum(src[*i - 1])) && (isalnum(src[*i + 1]))
+After Mutation : else if ((isalnum(src[*i - 1])) && (isalnum(src[*i - 1]))
+
+
+AOF_Line_115_Pred_10_Cond_10_Mutant100
+
+==> @ Line: 115
+Original Line  : else if ((isalnum(src[*i - 1])) && (isalnum(src[*i + 1]))
+After Mutation : else if ((isalnum(src[*i - 1])) && (isalnum(src[*i * 1]))
+
+
+AOF_Line_115_Pred_10_Cond_10_Mutant101
+
+==> @ Line: 115
+Original Line  : else if ((isalnum(src[*i - 1])) && (isalnum(src[*i + 1]))
+After Mutation : else if ((isalnum(src[*i - 1])) && (isalnum(src[*i / 1]))
+
+
+AOF_Line_115_Pred_10_Cond_10_Mutant102
+
+==> @ Line: 115
+Original Line  : else if ((isalnum(src[*i - 1])) && (isalnum(src[*i + 1]))
+After Mutation : else if ((isalnum(src[*i - 1])) && (isalnum(src[*i % 1]))
+
+
+AOF_Line_115_Pred_10_Cond_41_Mutant103
+
+==> @ Line: 115
+Original Line  : else if ((isalnum(src[*i - 1])) && (isalnum(src[*i + 1]))
+After Mutation : else if ((isalnum(src[*i + 1])) && (isalnum(src[*i + 1]))
+
+
+AOF_Line_115_Pred_10_Cond_41_Mutant104
+
+==> @ Line: 115
+Original Line  : else if ((isalnum(src[*i - 1])) && (isalnum(src[*i + 1]))
+After Mutation : else if ((isalnum(src[*i * 1])) && (isalnum(src[*i + 1]))
+
+
+AOF_Line_115_Pred_10_Cond_41_Mutant105
+
+==> @ Line: 115
+Original Line  : else if ((isalnum(src[*i - 1])) && (isalnum(src[*i + 1]))
+After Mutation : else if ((isalnum(src[*i / 1])) && (isalnum(src[*i + 1]))
+
+
+AOF_Line_115_Pred_10_Cond_41_Mutant106
+
+==> @ Line: 115
+Original Line  : else if ((isalnum(src[*i - 1])) && (isalnum(src[*i + 1]))
+After Mutation : else if ((isalnum(src[*i % 1])) && (isalnum(src[*i + 1]))
+
+
+LOF_Line_115_Pred_10_Cond_NOC_Mutant107
+
+==> @ Line: 115
+Original Line  : else if ((isalnum(src[*i - 1])) && (isalnum(src[*i + 1]))
+After Mutation : else if ((isalnum(src[*i - 1])) || (isalnum(src[*i + 1]))
+
+
+ROFLine_116_Pred_NO_Mutant108
+
+==> @ Line: 116
+Original Line  : && (src[*i - 1] <= src[*i + 1]))
+After Mutation : && (src[*i - 1] != src[*i + 1]))
+
+
+ROFLine_116_Pred_NO_Mutant109
+
+==> @ Line: 116
+Original Line  : && (src[*i - 1] <= src[*i + 1]))
+After Mutation : && (src[*i - 1] < src[*i + 1]))
+
+
+ROFLine_116_Pred_NO_Mutant110
+
+==> @ Line: 116
+Original Line  : && (src[*i - 1] <= src[*i + 1]))
+After Mutation : && (src[*i - 1] > src[*i + 1]))
+
+
+ROFLine_116_Pred_NO_Mutant111
+
+==> @ Line: 116
+Original Line  : && (src[*i - 1] <= src[*i + 1]))
+After Mutation : && (src[*i - 1] >= src[*i + 1]))
+
+
+ROFLine_116_Pred_NO_Mutant112
+
+==> @ Line: 116
+Original Line  : && (src[*i - 1] <= src[*i + 1]))
+After Mutation : && (src[*i - 1]==src[*i + 1]))
+
+
+AOFLine_116_Pred_NO_Mutant113
+
+==> @ Line: 116
+Original Line  : && (src[*i - 1] <= src[*i + 1]))
+After Mutation : && (src[*i - 1] <= src[*i - 1]))
+
+
+AOFLine_116_Pred_NO_Mutant114
+
+==> @ Line: 116
+Original Line  : && (src[*i - 1] <= src[*i + 1]))
+After Mutation : && (src[*i - 1] <= src[*i * 1]))
+
+
+AOFLine_116_Pred_NO_Mutant115
+
+==> @ Line: 116
+Original Line  : && (src[*i - 1] <= src[*i + 1]))
+After Mutation : && (src[*i - 1] <= src[*i / 1]))
+
+
+AOFLine_116_Pred_NO_Mutant116
+
+==> @ Line: 116
+Original Line  : && (src[*i - 1] <= src[*i + 1]))
+After Mutation : && (src[*i - 1] <= src[*i % 1]))
+
+
+AOFLine_116_Pred_NO_Mutant117
+
+==> @ Line: 116
+Original Line  : && (src[*i - 1] <= src[*i + 1]))
+After Mutation : && (src[*i + 1] <= src[*i + 1]))
+
+
+AOFLine_116_Pred_NO_Mutant118
+
+==> @ Line: 116
+Original Line  : && (src[*i - 1] <= src[*i + 1]))
+After Mutation : && (src[*i * 1] <= src[*i + 1]))
+
+
+AOFLine_116_Pred_NO_Mutant119
+
+==> @ Line: 116
+Original Line  : && (src[*i - 1] <= src[*i + 1]))
+After Mutation : && (src[*i / 1] <= src[*i + 1]))
+
+
+AOFLine_116_Pred_NO_Mutant120
+
+==> @ Line: 116
+Original Line  : && (src[*i - 1] <= src[*i + 1]))
+After Mutation : && (src[*i % 1] <= src[*i + 1]))
+
+
+PNF_Line_118_Pred_11_Cond_PNF_Mutant121
+
+==> @ Line: 118
+Original Line  : for (k = src[*i-1]+1; k<=src[*i+1]; k++)
+After Mutation : for (k = src[*i-1]+1;!( k<=src[*i+1]); k++)
+
+
+AOFLine_122_Pred_NO_Mutant122
+
+==> @ Line: 122
+Original Line  : *i = *i + 1;
+After Mutation : *i = *i - 1;
+
+
+AOFLine_122_Pred_NO_Mutant123
+
+==> @ Line: 122
+Original Line  : *i = *i + 1;
+After Mutation : *i = *i * 1;
+
+
+AOFLine_122_Pred_NO_Mutant124
+
+==> @ Line: 122
+Original Line  : *i = *i + 1;
+After Mutation : *i = *i / 1;
+
+
+AOFLine_122_Pred_NO_Mutant125
+
+==> @ Line: 122
+Original Line  : *i = *i + 1;
+After Mutation : *i = *i % 1;
+
+
+AOFLine_126_Pred_NO_Mutant126
+
+==> @ Line: 126
+Original Line  : (*i) = (*i) + 1;
+After Mutation : (*i) = (*i) - 1;
+
+
+AOFLine_126_Pred_NO_Mutant127
+
+==> @ Line: 126
+Original Line  : (*i) = (*i) + 1;
+After Mutation : (*i) = (*i) * 1;
+
+
+AOFLine_126_Pred_NO_Mutant128
+
+==> @ Line: 126
+Original Line  : (*i) = (*i) + 1;
+After Mutation : (*i) = (*i) / 1;
+
+
+AOFLine_126_Pred_NO_Mutant129
+
+==> @ Line: 126
+Original Line  : (*i) = (*i) + 1;
+After Mutation : (*i) = (*i) % 1;
+
+
+AOFLine_140_Pred_NO_Mutant130
+
+==> @ Line: 140
+Original Line  : *i = *i + 1;
+After Mutation : *i = *i - 1;
+
+
+AOFLine_140_Pred_NO_Mutant131
+
+==> @ Line: 140
+Original Line  : *i = *i + 1;
+After Mutation : *i = *i * 1;
+
+
+AOFLine_140_Pred_NO_Mutant132
+
+==> @ Line: 140
+Original Line  : *i = *i + 1;
+After Mutation : *i = *i / 1;
+
+
+AOFLine_140_Pred_NO_Mutant133
+
+==> @ Line: 140
+Original Line  : *i = *i + 1;
+After Mutation : *i = *i % 1;
+
+
+PNF_Line_141_Pred_12_Cond_PNF_Mutant134
+
+==> @ Line: 141
+Original Line  : if (arg[*i] == NEGATE) {
+After Mutation : if (!(arg[*i] == NEGATE)) {
+
+
+Line_141_Pred_12_Cond_16_Mutant135
+
+==> @ Line: 141
+Original Line  : if (arg[*i] == NEGATE) {
+After Mutation : if (arg[*i] != NEGATE) {
+
+
+Line_141_Pred_12_Cond_16_Mutant136
+
+==> @ Line: 141
+Original Line  : if (arg[*i] == NEGATE) {
+After Mutation : if (arg[*i] < NEGATE) {
+
+
+Line_141_Pred_12_Cond_16_Mutant137
+
+==> @ Line: 141
+Original Line  : if (arg[*i] == NEGATE) {
+After Mutation : if (arg[*i] > NEGATE) {
+
+
+Line_141_Pred_12_Cond_16_Mutant138
+
+==> @ Line: 141
+Original Line  : if (arg[*i] == NEGATE) {
+After Mutation : if (arg[*i] <= NEGATE) {
+
+
+Line_141_Pred_12_Cond_16_Mutant139
+
+==> @ Line: 141
+Original Line  : if (arg[*i] == NEGATE) {
+After Mutation : if (arg[*i] >= NEGATE) {
+
+
+AOFLine_143_Pred_NO_Mutant140
+
+==> @ Line: 143
+Original Line  : *i = *i + 1;
+After Mutation : *i = *i - 1;
+
+
+AOFLine_143_Pred_NO_Mutant141
+
+==> @ Line: 143
+Original Line  : *i = *i + 1;
+After Mutation : *i = *i * 1;
+
+
+AOFLine_143_Pred_NO_Mutant142
+
+==> @ Line: 143
+Original Line  : *i = *i + 1;
+After Mutation : *i = *i / 1;
+
+
+AOFLine_143_Pred_NO_Mutant143
+
+==> @ Line: 143
+Original Line  : *i = *i + 1;
+After Mutation : *i = *i % 1;
+
+
+AOFLine_149_Pred_NO_Mutant144
+
+==> @ Line: 149
+Original Line  : pat[jstart] = *j - jstart - 1;
+After Mutation : pat[jstart] = *j + jstart - 1;
+
+
+AOFLine_149_Pred_NO_Mutant145
+
+==> @ Line: 149
+Original Line  : pat[jstart] = *j - jstart - 1;
+After Mutation : pat[jstart] = *j * jstart - 1;
+
+
+AOFLine_149_Pred_NO_Mutant146
+
+==> @ Line: 149
+Original Line  : pat[jstart] = *j - jstart - 1;
+After Mutation : pat[jstart] = *j / jstart - 1;
+
+
+AOFLine_149_Pred_NO_Mutant147
+
+==> @ Line: 149
+Original Line  : pat[jstart] = *j - jstart - 1;
+After Mutation : pat[jstart] = *j % jstart - 1;
+
+
+AOFLine_149_Pred_NO_Mutant148
+
+==> @ Line: 149
+Original Line  : pat[jstart] = *j - jstart - 1;
+After Mutation : pat[jstart] = *j - jstart + 1;
+
+
+AOFLine_149_Pred_NO_Mutant149
+
+==> @ Line: 149
+Original Line  : pat[jstart] = *j - jstart - 1;
+After Mutation : pat[jstart] = *j - jstart * 1;
+
+
+AOFLine_149_Pred_NO_Mutant150
+
+==> @ Line: 149
+Original Line  : pat[jstart] = *j - jstart - 1;
+After Mutation : pat[jstart] = *j - jstart / 1;
+
+
+AOFLine_149_Pred_NO_Mutant151
+
+==> @ Line: 149
+Original Line  : pat[jstart] = *j - jstart - 1;
+After Mutation : pat[jstart] = *j - jstart % 1;
+
+
+ROFLine_150_Pred_NO_Mutant152
+
+==> @ Line: 150
+Original Line  : return (arg[*i] == CCLEND);
+After Mutation : return (arg[*i] != CCLEND);
+
+
+ROFLine_150_Pred_NO_Mutant153
+
+==> @ Line: 150
+Original Line  : return (arg[*i] == CCLEND);
+After Mutation : return (arg[*i] < CCLEND);
+
+
+ROFLine_150_Pred_NO_Mutant154
+
+==> @ Line: 150
+Original Line  : return (arg[*i] == CCLEND);
+After Mutation : return (arg[*i] > CCLEND);
+
+
+ROFLine_150_Pred_NO_Mutant155
+
+==> @ Line: 150
+Original Line  : return (arg[*i] == CCLEND);
+After Mutation : return (arg[*i] <= CCLEND);
+
+
+ROFLine_150_Pred_NO_Mutant156
+
+==> @ Line: 150
+Original Line  : return (arg[*i] == CCLEND);
+After Mutation : return (arg[*i] >= CCLEND);
+
+
+PNF_Line_164_Pred_13_Cond_PNF_Mutant157
+
+==> @ Line: 164
+Original Line  : for (jp = *j - 1; jp >= lastj ; jp--)
+After Mutation : for (jp = *j - 1;!( jp >= lastj ); jp--)
+
+
+Line_164_Pred_13_Cond_17_Mutant158
+
+==> @ Line: 164
+Original Line  : for (jp = *j - 1; jp >= lastj ; jp--)
+After Mutation : for (jp = *j - 1; jp != lastj ; jp--)
+
+
+Line_164_Pred_13_Cond_17_Mutant159
+
+==> @ Line: 164
+Original Line  : for (jp = *j - 1; jp >= lastj ; jp--)
+After Mutation : for (jp = *j - 1; jp < lastj ; jp--)
+
+
+Line_164_Pred_13_Cond_17_Mutant160
+
+==> @ Line: 164
+Original Line  : for (jp = *j - 1; jp >= lastj ; jp--)
+After Mutation : for (jp = *j - 1; jp <= lastj ; jp--)
+
+
+Line_164_Pred_13_Cond_17_Mutant161
+
+==> @ Line: 164
+Original Line  : for (jp = *j - 1; jp >= lastj ; jp--)
+After Mutation : for (jp = *j - 1; jp > lastj ; jp--)
+
+
+Line_164_Pred_13_Cond_17_Mutant162
+
+==> @ Line: 164
+Original Line  : for (jp = *j - 1; jp >= lastj ; jp--)
+After Mutation : for (jp = *j - 1; jp==lastj ; jp--)
+
+
+Line_164_Pred_13_Cond_17_Mutant163
+
+==> @ Line: 164
+Original Line  : for (jp = *j - 1; jp >= lastj ; jp--)
+After Mutation : for (jp = *j + 1; jp >= lastj ; jp--)
+
+
+Line_164_Pred_13_Cond_17_Mutant164
+
+==> @ Line: 164
+Original Line  : for (jp = *j - 1; jp >= lastj ; jp--)
+After Mutation : for (jp = *j * 1; jp >= lastj ; jp--)
+
+
+Line_164_Pred_13_Cond_17_Mutant165
+
+==> @ Line: 164
+Original Line  : for (jp = *j - 1; jp >= lastj ; jp--)
+After Mutation : for (jp = *j / 1; jp >= lastj ; jp--)
+
+
+Line_164_Pred_13_Cond_17_Mutant166
+
+==> @ Line: 164
+Original Line  : for (jp = *j - 1; jp >= lastj ; jp--)
+After Mutation : for (jp = *j % 1; jp >= lastj ; jp--)
+
+
+AOFLine_166_Pred_NO_Mutant167
+
+==> @ Line: 166
+Original Line  : jt = jp + CLOSIZE;
+After Mutation : jt = jp - CLOSIZE;
+
+
+AOFLine_166_Pred_NO_Mutant168
+
+==> @ Line: 166
+Original Line  : jt = jp + CLOSIZE;
+After Mutation : jt = jp * CLOSIZE;
+
+
+AOFLine_166_Pred_NO_Mutant169
+
+==> @ Line: 166
+Original Line  : jt = jp + CLOSIZE;
+After Mutation : jt = jp / CLOSIZE;
+
+
+AOFLine_166_Pred_NO_Mutant170
+
+==> @ Line: 166
+Original Line  : jt = jp + CLOSIZE;
+After Mutation : jt = jp % CLOSIZE;
+
+
+AOFLine_169_Pred_NO_Mutant171
+
+==> @ Line: 169
+Original Line  : *j = *j + CLOSIZE;
+After Mutation : *j = *j - CLOSIZE;
+
+
+AOFLine_169_Pred_NO_Mutant172
+
+==> @ Line: 169
+Original Line  : *j = *j + CLOSIZE;
+After Mutation : *j = *j * CLOSIZE;
+
+
+AOFLine_169_Pred_NO_Mutant173
+
+==> @ Line: 169
+Original Line  : *j = *j + CLOSIZE;
+After Mutation : *j = *j / CLOSIZE;
+
+
+AOFLine_169_Pred_NO_Mutant174
+
+==> @ Line: 169
+Original Line  : *j = *j + CLOSIZE;
+After Mutation : *j = *j % CLOSIZE;
+
+
+ROFLine_176_Pred_NO_Mutant175
+
+==> @ Line: 176
+Original Line  : return (c == BOL || c == EOL || c == CLOSURE);
+After Mutation : return (c != BOL || c == EOL || c == CLOSURE);
+
+
+ROFLine_176_Pred_NO_Mutant176
+
+==> @ Line: 176
+Original Line  : return (c == BOL || c == EOL || c == CLOSURE);
+After Mutation : return (c < BOL || c == EOL || c == CLOSURE);
+
+
+ROFLine_176_Pred_NO_Mutant177
+
+==> @ Line: 176
+Original Line  : return (c == BOL || c == EOL || c == CLOSURE);
+After Mutation : return (c > BOL || c == EOL || c == CLOSURE);
+
+
+ROFLine_176_Pred_NO_Mutant178
+
+==> @ Line: 176
+Original Line  : return (c == BOL || c == EOL || c == CLOSURE);
+After Mutation : return (c <= BOL || c == EOL || c == CLOSURE);
+
+
+ROFLine_176_Pred_NO_Mutant179
+
+==> @ Line: 176
+Original Line  : return (c == BOL || c == EOL || c == CLOSURE);
+After Mutation : return (c >= BOL || c == EOL || c == CLOSURE);
+
+
+ROFLine_176_Pred_NO_Mutant180
+
+==> @ Line: 176
+Original Line  : return (c == BOL || c == EOL || c == CLOSURE);
+After Mutation : return (c == BOL || c != EOL || c == CLOSURE);
+
+
+ROFLine_176_Pred_NO_Mutant181
+
+==> @ Line: 176
+Original Line  : return (c == BOL || c == EOL || c == CLOSURE);
+After Mutation : return (c == BOL || c < EOL || c == CLOSURE);
+
+
+ROFLine_176_Pred_NO_Mutant182
+
+==> @ Line: 176
+Original Line  : return (c == BOL || c == EOL || c == CLOSURE);
+After Mutation : return (c == BOL || c > EOL || c == CLOSURE);
+
+
+ROFLine_176_Pred_NO_Mutant183
+
+==> @ Line: 176
+Original Line  : return (c == BOL || c == EOL || c == CLOSURE);
+After Mutation : return (c == BOL || c <= EOL || c == CLOSURE);
+
+
+ROFLine_176_Pred_NO_Mutant184
+
+==> @ Line: 176
+Original Line  : return (c == BOL || c == EOL || c == CLOSURE);
+After Mutation : return (c == BOL || c >= EOL || c == CLOSURE);
+
+
+ROFLine_176_Pred_NO_Mutant185
+
+==> @ Line: 176
+Original Line  : return (c == BOL || c == EOL || c == CLOSURE);
+After Mutation : return (c == BOL || c == EOL || c != CLOSURE);
+
+
+ROFLine_176_Pred_NO_Mutant186
+
+==> @ Line: 176
+Original Line  : return (c == BOL || c == EOL || c == CLOSURE);
+After Mutation : return (c == BOL || c == EOL || c < CLOSURE);
+
+
+ROFLine_176_Pred_NO_Mutant187
+
+==> @ Line: 176
+Original Line  : return (c == BOL || c == EOL || c == CLOSURE);
+After Mutation : return (c == BOL || c == EOL || c > CLOSURE);
+
+
+ROFLine_176_Pred_NO_Mutant188
+
+==> @ Line: 176
+Original Line  : return (c == BOL || c == EOL || c == CLOSURE);
+After Mutation : return (c == BOL || c == EOL || c <= CLOSURE);
+
+
+ROFLine_176_Pred_NO_Mutant189
+
+==> @ Line: 176
+Original Line  : return (c == BOL || c == EOL || c == CLOSURE);
+After Mutation : return (c == BOL || c == EOL || c >= CLOSURE);
+
+
+LOFLine_176_Pred_NO_Mutant190
+
+==> @ Line: 176
+Original Line  : return (c == BOL || c == EOL || c == CLOSURE);
+After Mutation : return (c == BOL && c == EOL || c == CLOSURE);
+
+
+LOFLine_176_Pred_NO_Mutant191
+
+==> @ Line: 176
+Original Line  : return (c == BOL || c == EOL || c == CLOSURE);
+After Mutation : return (c == BOL || c == EOL && c == CLOSURE);
+
+
+ROFLine_182_Pred_NO_Mutant192
+
+==> @ Line: 182
+Original Line  : return (   c == LITCHAR || c == BOL  || c == EOL || c == ANY
+After Mutation : return (   c != LITCHAR || c == BOL  || c == EOL || c == ANY
+
+
+ROFLine_182_Pred_NO_Mutant193
+
+==> @ Line: 182
+Original Line  : return (   c == LITCHAR || c == BOL  || c == EOL || c == ANY
+After Mutation : return (   c < LITCHAR || c == BOL  || c == EOL || c == ANY
+
+
+ROFLine_182_Pred_NO_Mutant194
+
+==> @ Line: 182
+Original Line  : return (   c == LITCHAR || c == BOL  || c == EOL || c == ANY
+After Mutation : return (   c > LITCHAR || c == BOL  || c == EOL || c == ANY
+
+
+ROFLine_182_Pred_NO_Mutant195
+
+==> @ Line: 182
+Original Line  : return (   c == LITCHAR || c == BOL  || c == EOL || c == ANY
+After Mutation : return (   c <= LITCHAR || c == BOL  || c == EOL || c == ANY
+
+
+ROFLine_182_Pred_NO_Mutant196
+
+==> @ Line: 182
+Original Line  : return (   c == LITCHAR || c == BOL  || c == EOL || c == ANY
+After Mutation : return (   c >= LITCHAR || c == BOL  || c == EOL || c == ANY
+
+
+ROFLine_182_Pred_NO_Mutant197
+
+==> @ Line: 182
+Original Line  : return (   c == LITCHAR || c == BOL  || c == EOL || c == ANY
+After Mutation : return (   c == LITCHAR || c != BOL  || c == EOL || c == ANY
+
+
+ROFLine_182_Pred_NO_Mutant198
+
+==> @ Line: 182
+Original Line  : return (   c == LITCHAR || c == BOL  || c == EOL || c == ANY
+After Mutation : return (   c == LITCHAR || c < BOL  || c == EOL || c == ANY
+
+
+ROFLine_182_Pred_NO_Mutant199
+
+==> @ Line: 182
+Original Line  : return (   c == LITCHAR || c == BOL  || c == EOL || c == ANY
+After Mutation : return (   c == LITCHAR || c > BOL  || c == EOL || c == ANY
+
+
+ROFLine_182_Pred_NO_Mutant200
+
+==> @ Line: 182
+Original Line  : return (   c == LITCHAR || c == BOL  || c == EOL || c == ANY
+After Mutation : return (   c == LITCHAR || c <= BOL  || c == EOL || c == ANY
+
+
+ROFLine_182_Pred_NO_Mutant201
+
+==> @ Line: 182
+Original Line  : return (   c == LITCHAR || c == BOL  || c == EOL || c == ANY
+After Mutation : return (   c == LITCHAR || c >= BOL  || c == EOL || c == ANY
+
+
+ROFLine_182_Pred_NO_Mutant202
+
+==> @ Line: 182
+Original Line  : return (   c == LITCHAR || c == BOL  || c == EOL || c == ANY
+After Mutation : return (   c == LITCHAR || c == BOL  || c != EOL || c == ANY
+
+
+ROFLine_182_Pred_NO_Mutant203
+
+==> @ Line: 182
+Original Line  : return (   c == LITCHAR || c == BOL  || c == EOL || c == ANY
+After Mutation : return (   c == LITCHAR || c == BOL  || c < EOL || c == ANY
+
+
+ROFLine_182_Pred_NO_Mutant204
+
+==> @ Line: 182
+Original Line  : return (   c == LITCHAR || c == BOL  || c == EOL || c == ANY
+After Mutation : return (   c == LITCHAR || c == BOL  || c > EOL || c == ANY
+
+
+ROFLine_182_Pred_NO_Mutant205
+
+==> @ Line: 182
+Original Line  : return (   c == LITCHAR || c == BOL  || c == EOL || c == ANY
+After Mutation : return (   c == LITCHAR || c == BOL  || c <= EOL || c == ANY
+
+
+ROFLine_182_Pred_NO_Mutant206
+
+==> @ Line: 182
+Original Line  : return (   c == LITCHAR || c == BOL  || c == EOL || c == ANY
+After Mutation : return (   c == LITCHAR || c == BOL  || c >= EOL || c == ANY
+
+
+ROFLine_182_Pred_NO_Mutant207
+
+==> @ Line: 182
+Original Line  : return (   c == LITCHAR || c == BOL  || c == EOL || c == ANY
+After Mutation : return (   c == LITCHAR || c == BOL  || c == EOL || c != ANY
+
+
+ROFLine_182_Pred_NO_Mutant208
+
+==> @ Line: 182
+Original Line  : return (   c == LITCHAR || c == BOL  || c == EOL || c == ANY
+After Mutation : return (   c == LITCHAR || c == BOL  || c == EOL || c < ANY
+
+
+ROFLine_182_Pred_NO_Mutant209
+
+==> @ Line: 182
+Original Line  : return (   c == LITCHAR || c == BOL  || c == EOL || c == ANY
+After Mutation : return (   c == LITCHAR || c == BOL  || c == EOL || c > ANY
+
+
+ROFLine_182_Pred_NO_Mutant210
+
+==> @ Line: 182
+Original Line  : return (   c == LITCHAR || c == BOL  || c == EOL || c == ANY
+After Mutation : return (   c == LITCHAR || c == BOL  || c == EOL || c <= ANY
+
+
+ROFLine_182_Pred_NO_Mutant211
+
+==> @ Line: 182
+Original Line  : return (   c == LITCHAR || c == BOL  || c == EOL || c == ANY
+After Mutation : return (   c == LITCHAR || c == BOL  || c == EOL || c >= ANY
+
+
+LOFLine_182_Pred_NO_Mutant212
+
+==> @ Line: 182
+Original Line  : return (   c == LITCHAR || c == BOL  || c == EOL || c == ANY
+After Mutation : return (   c == LITCHAR && c == BOL  || c == EOL || c == ANY
+
+
+LOFLine_182_Pred_NO_Mutant213
+
+==> @ Line: 182
+Original Line  : return (   c == LITCHAR || c == BOL  || c == EOL || c == ANY
+After Mutation : return (   c == LITCHAR || c == BOL  && c == EOL || c == ANY
+
+
+LOFLine_182_Pred_NO_Mutant214
+
+==> @ Line: 182
+Original Line  : return (   c == LITCHAR || c == BOL  || c == EOL || c == ANY
+After Mutation : return (   c == LITCHAR || c == BOL  || c == EOL && c == ANY
+
+
+ROFLine_183_Pred_NO_Mutant215
+
+==> @ Line: 183
+Original Line  : || c == CCL     || c == NCCL || c == CLOSURE);
+After Mutation : || c != CCL     || c == NCCL || c == CLOSURE);
+
+
+ROFLine_183_Pred_NO_Mutant216
+
+==> @ Line: 183
+Original Line  : || c == CCL     || c == NCCL || c == CLOSURE);
+After Mutation : || c < CCL     || c == NCCL || c == CLOSURE);
+
+
+ROFLine_183_Pred_NO_Mutant217
+
+==> @ Line: 183
+Original Line  : || c == CCL     || c == NCCL || c == CLOSURE);
+After Mutation : || c > CCL     || c == NCCL || c == CLOSURE);
+
+
+ROFLine_183_Pred_NO_Mutant218
+
+==> @ Line: 183
+Original Line  : || c == CCL     || c == NCCL || c == CLOSURE);
+After Mutation : || c <= CCL     || c == NCCL || c == CLOSURE);
+
+
+ROFLine_183_Pred_NO_Mutant219
+
+==> @ Line: 183
+Original Line  : || c == CCL     || c == NCCL || c == CLOSURE);
+After Mutation : || c >= CCL     || c == NCCL || c == CLOSURE);
+
+
+ROFLine_183_Pred_NO_Mutant220
+
+==> @ Line: 183
+Original Line  : || c == CCL     || c == NCCL || c == CLOSURE);
+After Mutation : || c == CCL     || c != NCCL || c == CLOSURE);
+
+
+ROFLine_183_Pred_NO_Mutant221
+
+==> @ Line: 183
+Original Line  : || c == CCL     || c == NCCL || c == CLOSURE);
+After Mutation : || c == CCL     || c < NCCL || c == CLOSURE);
+
+
+ROFLine_183_Pred_NO_Mutant222
+
+==> @ Line: 183
+Original Line  : || c == CCL     || c == NCCL || c == CLOSURE);
+After Mutation : || c == CCL     || c > NCCL || c == CLOSURE);
+
+
+ROFLine_183_Pred_NO_Mutant223
+
+==> @ Line: 183
+Original Line  : || c == CCL     || c == NCCL || c == CLOSURE);
+After Mutation : || c == CCL     || c <= NCCL || c == CLOSURE);
+
+
+ROFLine_183_Pred_NO_Mutant224
+
+==> @ Line: 183
+Original Line  : || c == CCL     || c == NCCL || c == CLOSURE);
+After Mutation : || c == CCL     || c >= NCCL || c == CLOSURE);
+
+
+ROFLine_183_Pred_NO_Mutant225
+
+==> @ Line: 183
+Original Line  : || c == CCL     || c == NCCL || c == CLOSURE);
+After Mutation : || c == CCL     || c == NCCL || c != CLOSURE);
+
+
+ROFLine_183_Pred_NO_Mutant226
+
+==> @ Line: 183
+Original Line  : || c == CCL     || c == NCCL || c == CLOSURE);
+After Mutation : || c == CCL     || c == NCCL || c < CLOSURE);
+
+
+ROFLine_183_Pred_NO_Mutant227
+
+==> @ Line: 183
+Original Line  : || c == CCL     || c == NCCL || c == CLOSURE);
+After Mutation : || c == CCL     || c == NCCL || c > CLOSURE);
+
+
+ROFLine_183_Pred_NO_Mutant228
+
+==> @ Line: 183
+Original Line  : || c == CCL     || c == NCCL || c == CLOSURE);
+After Mutation : || c == CCL     || c == NCCL || c <= CLOSURE);
+
+
+ROFLine_183_Pred_NO_Mutant229
+
+==> @ Line: 183
+Original Line  : || c == CCL     || c == NCCL || c == CLOSURE);
+After Mutation : || c == CCL     || c == NCCL || c >= CLOSURE);
+
+
+LOFLine_183_Pred_NO_Mutant230
+
+==> @ Line: 183
+Original Line  : || c == CCL     || c == NCCL || c == CLOSURE);
+After Mutation : && c == CCL     || c == NCCL || c == CLOSURE);
+
+
+LOFLine_183_Pred_NO_Mutant231
+
+==> @ Line: 183
+Original Line  : || c == CCL     || c == NCCL || c == CLOSURE);
+After Mutation : || c == CCL     && c == NCCL || c == CLOSURE);
+
+
+LOFLine_183_Pred_NO_Mutant232
+
+==> @ Line: 183
+Original Line  : || c == CCL     || c == NCCL || c == CLOSURE);
+After Mutation : || c == CCL     || c == NCCL && c == CLOSURE);
+
+
+PNF_Line_203_Pred_14_Cond_PNF_Mutant233
+
+==> @ Line: 203
+Original Line  : while ((!done) && (arg[i] != delim) && (arg[i] != ENDSTR)) {
+After Mutation : while (!((!done) && (arg[i] != delim) && (arg[i] != ENDSTR))) {
+
+
+CNF_Line_203_Pred_14_Cond_21_Mutant234
+
+==> @ Line: 203
+Original Line  : while ((!done) && (arg[i] != delim) && (arg[i] != ENDSTR)) {
+After Mutation : while ((!!(done )) && (arg[i] != delim) && (arg[i] != ENDSTR)) {
+
+
+CNF_Line_203_Pred_14_Cond_22_Mutant235
+
+==> @ Line: 203
+Original Line  : while ((!done) && (arg[i] != delim) && (arg[i] != ENDSTR)) {
+After Mutation : while ((!done) && (!( arg[i] != delim )) && (arg[i] != ENDSTR)) {
+
+
+CNF_Line_203_Pred_14_Cond_23_Mutant236
+
+==> @ Line: 203
+Original Line  : while ((!done) && (arg[i] != delim) && (arg[i] != ENDSTR)) {
+After Mutation : while ((!done) && (arg[i] != delim) && (!( arg[i] != ENDSTR))) {
+
+
+ROF_Line_203_Pred_14_Cond_20_Mutant237
+
+==> @ Line: 203
+Original Line  : while ((!done) && (arg[i] != delim) && (arg[i] != ENDSTR)) {
+After Mutation : while ((!done) && (arg[i] == delim) && (arg[i] != ENDSTR)) {
+
+
+ROF_Line_203_Pred_14_Cond_20_Mutant238
+
+==> @ Line: 203
+Original Line  : while ((!done) && (arg[i] != delim) && (arg[i] != ENDSTR)) {
+After Mutation : while ((!done) && (arg[i] < delim) && (arg[i] != ENDSTR)) {
+
+
+ROF_Line_203_Pred_14_Cond_20_Mutant239
+
+==> @ Line: 203
+Original Line  : while ((!done) && (arg[i] != delim) && (arg[i] != ENDSTR)) {
+After Mutation : while ((!done) && (arg[i] > delim) && (arg[i] != ENDSTR)) {
+
+
+ROF_Line_203_Pred_14_Cond_20_Mutant240
+
+==> @ Line: 203
+Original Line  : while ((!done) && (arg[i] != delim) && (arg[i] != ENDSTR)) {
+After Mutation : while ((!done) && (arg[i] <= delim) && (arg[i] != ENDSTR)) {
+
+
+ROF_Line_203_Pred_14_Cond_20_Mutant241
+
+==> @ Line: 203
+Original Line  : while ((!done) && (arg[i] != delim) && (arg[i] != ENDSTR)) {
+After Mutation : while ((!done) && (arg[i] >= delim) && (arg[i] != ENDSTR)) {
+
+
+ROF_Line_203_Pred_14_Cond_20_Mutant242
+
+==> @ Line: 203
+Original Line  : while ((!done) && (arg[i] != delim) && (arg[i] != ENDSTR)) {
+After Mutation : while ((!done) && (arg[i] != delim) && (arg[i] == ENDSTR)) {
+
+
+ROF_Line_203_Pred_14_Cond_20_Mutant243
+
+==> @ Line: 203
+Original Line  : while ((!done) && (arg[i] != delim) && (arg[i] != ENDSTR)) {
+After Mutation : while ((!done) && (arg[i] != delim) && (arg[i] < ENDSTR)) {
+
+
+ROF_Line_203_Pred_14_Cond_20_Mutant244
+
+==> @ Line: 203
+Original Line  : while ((!done) && (arg[i] != delim) && (arg[i] != ENDSTR)) {
+After Mutation : while ((!done) && (arg[i] != delim) && (arg[i] > ENDSTR)) {
+
+
+ROF_Line_203_Pred_14_Cond_20_Mutant245
+
+==> @ Line: 203
+Original Line  : while ((!done) && (arg[i] != delim) && (arg[i] != ENDSTR)) {
+After Mutation : while ((!done) && (arg[i] != delim) && (arg[i] <= ENDSTR)) {
+
+
+ROF_Line_203_Pred_14_Cond_20_Mutant246
+
+==> @ Line: 203
+Original Line  : while ((!done) && (arg[i] != delim) && (arg[i] != ENDSTR)) {
+After Mutation : while ((!done) && (arg[i] != delim) && (arg[i] >= ENDSTR)) {
+
+
+LOF_Line_203_Pred_14_Cond_NOC_Mutant247
+
+==> @ Line: 203
+Original Line  : while ((!done) && (arg[i] != delim) && (arg[i] != ENDSTR)) {
+After Mutation : while ((!done) || (arg[i] != delim) && (arg[i] != ENDSTR)) {
+
+
+LOF_Line_203_Pred_14_Cond_NOC_Mutant248
+
+==> @ Line: 203
+Original Line  : while ((!done) && (arg[i] != delim) && (arg[i] != ENDSTR)) {
+After Mutation : while ((!done) && (arg[i] != delim) || (arg[i] != ENDSTR)) {
+
+
+PNF_Line_205_Pred_15_Cond_PNF_Mutant249
+
+==> @ Line: 205
+Original Line  : if ((arg[i] == ANY))
+After Mutation : if (!((arg[i] == ANY)))
+
+
+Line_205_Pred_15_Cond_24_Mutant250
+
+==> @ Line: 205
+Original Line  : if ((arg[i] == ANY))
+After Mutation : if ((arg[i] != ANY))
+
+
+Line_205_Pred_15_Cond_24_Mutant251
+
+==> @ Line: 205
+Original Line  : if ((arg[i] == ANY))
+After Mutation : if ((arg[i] < ANY))
+
+
+Line_205_Pred_15_Cond_24_Mutant252
+
+==> @ Line: 205
+Original Line  : if ((arg[i] == ANY))
+After Mutation : if ((arg[i] > ANY))
+
+
+Line_205_Pred_15_Cond_24_Mutant253
+
+==> @ Line: 205
+Original Line  : if ((arg[i] == ANY))
+After Mutation : if ((arg[i] <= ANY))
+
+
+Line_205_Pred_15_Cond_24_Mutant254
+
+==> @ Line: 205
+Original Line  : if ((arg[i] == ANY))
+After Mutation : if ((arg[i] >= ANY))
+
+
+PNF_Line_207_Pred_16_Cond_PNF_Mutant255
+
+==> @ Line: 207
+Original Line  : else if ((arg[i] == BOL) && (i == start))
+After Mutation : else if (!((arg[i] == BOL) && (i == start)))
+
+
+CNF_Line_207_Pred_16_Cond_25_Mutant256
+
+==> @ Line: 207
+Original Line  : else if ((arg[i] == BOL) && (i == start))
+After Mutation : else if ((!(arg[i] == BOL )) && (i == start))
+
+
+CNF_Line_207_Pred_16_Cond_26_Mutant257
+
+==> @ Line: 207
+Original Line  : else if ((arg[i] == BOL) && (i == start))
+After Mutation : else if ((arg[i] == BOL) && (!( i == start)))
+
+
+ROF_Line_207_Pred_16_Cond_43_Mutant258
+
+==> @ Line: 207
+Original Line  : else if ((arg[i] == BOL) && (i == start))
+After Mutation : else if ((arg[i] != BOL) && (i == start))
+
+
+ROF_Line_207_Pred_16_Cond_43_Mutant259
+
+==> @ Line: 207
+Original Line  : else if ((arg[i] == BOL) && (i == start))
+After Mutation : else if ((arg[i] < BOL) && (i == start))
+
+
+ROF_Line_207_Pred_16_Cond_43_Mutant260
+
+==> @ Line: 207
+Original Line  : else if ((arg[i] == BOL) && (i == start))
+After Mutation : else if ((arg[i] > BOL) && (i == start))
+
+
+ROF_Line_207_Pred_16_Cond_43_Mutant261
+
+==> @ Line: 207
+Original Line  : else if ((arg[i] == BOL) && (i == start))
+After Mutation : else if ((arg[i] <= BOL) && (i == start))
+
+
+ROF_Line_207_Pred_16_Cond_43_Mutant262
+
+==> @ Line: 207
+Original Line  : else if ((arg[i] == BOL) && (i == start))
+After Mutation : else if ((arg[i] >= BOL) && (i == start))
+
+
+ROF_Line_207_Pred_16_Cond_24_Mutant263
+
+==> @ Line: 207
+Original Line  : else if ((arg[i] == BOL) && (i == start))
+After Mutation : else if ((arg[i] == BOL) && (i != start))
+
+
+ROF_Line_207_Pred_16_Cond_24_Mutant264
+
+==> @ Line: 207
+Original Line  : else if ((arg[i] == BOL) && (i == start))
+After Mutation : else if ((arg[i] == BOL) && (i < start))
+
+
+ROF_Line_207_Pred_16_Cond_24_Mutant265
+
+==> @ Line: 207
+Original Line  : else if ((arg[i] == BOL) && (i == start))
+After Mutation : else if ((arg[i] == BOL) && (i > start))
+
+
+ROF_Line_207_Pred_16_Cond_24_Mutant266
+
+==> @ Line: 207
+Original Line  : else if ((arg[i] == BOL) && (i == start))
+After Mutation : else if ((arg[i] == BOL) && (i <= start))
+
+
+ROF_Line_207_Pred_16_Cond_24_Mutant267
+
+==> @ Line: 207
+Original Line  : else if ((arg[i] == BOL) && (i == start))
+After Mutation : else if ((arg[i] == BOL) && (i >= start))
+
+
+LOF_Line_207_Pred_16_Cond_NOC_Mutant268
+
+==> @ Line: 207
+Original Line  : else if ((arg[i] == BOL) && (i == start))
+After Mutation : else if ((arg[i] == BOL) || (i == start))
+
+
+PNF_Line_209_Pred_17_Cond_PNF_Mutant269
+
+==> @ Line: 209
+Original Line  : else if ((arg[i] == EOL) && (arg[i+1] == delim))
+After Mutation : else if (!((arg[i] == EOL) && (arg[i+1] == delim)))
+
+
+CNF_Line_209_Pred_17_Cond_27_Mutant270
+
+==> @ Line: 209
+Original Line  : else if ((arg[i] == EOL) && (arg[i+1] == delim))
+After Mutation : else if ((!(arg[i] == EOL )) && (arg[i+1] == delim))
+
+
+CNF_Line_209_Pred_17_Cond_28_Mutant271
+
+==> @ Line: 209
+Original Line  : else if ((arg[i] == EOL) && (arg[i+1] == delim))
+After Mutation : else if ((arg[i] == EOL) && (!( arg[i+1] == delim)))
+
+
+ROF_Line_209_Pred_17_Cond_45_Mutant272
+
+==> @ Line: 209
+Original Line  : else if ((arg[i] == EOL) && (arg[i+1] == delim))
+After Mutation : else if ((arg[i] != EOL) && (arg[i+1] == delim))
+
+
+ROF_Line_209_Pred_17_Cond_45_Mutant273
+
+==> @ Line: 209
+Original Line  : else if ((arg[i] == EOL) && (arg[i+1] == delim))
+After Mutation : else if ((arg[i] < EOL) && (arg[i+1] == delim))
+
+
+ROF_Line_209_Pred_17_Cond_45_Mutant274
+
+==> @ Line: 209
+Original Line  : else if ((arg[i] == EOL) && (arg[i+1] == delim))
+After Mutation : else if ((arg[i] > EOL) && (arg[i+1] == delim))
+
+
+ROF_Line_209_Pred_17_Cond_45_Mutant275
+
+==> @ Line: 209
+Original Line  : else if ((arg[i] == EOL) && (arg[i+1] == delim))
+After Mutation : else if ((arg[i] <= EOL) && (arg[i+1] == delim))
+
+
+ROF_Line_209_Pred_17_Cond_45_Mutant276
+
+==> @ Line: 209
+Original Line  : else if ((arg[i] == EOL) && (arg[i+1] == delim))
+After Mutation : else if ((arg[i] >= EOL) && (arg[i+1] == delim))
+
+
+ROF_Line_209_Pred_17_Cond_26_Mutant277
+
+==> @ Line: 209
+Original Line  : else if ((arg[i] == EOL) && (arg[i+1] == delim))
+After Mutation : else if ((arg[i] == EOL) && (arg[i+1] != delim))
+
+
+ROF_Line_209_Pred_17_Cond_26_Mutant278
+
+==> @ Line: 209
+Original Line  : else if ((arg[i] == EOL) && (arg[i+1] == delim))
+After Mutation : else if ((arg[i] == EOL) && (arg[i+1] < delim))
+
+
+ROF_Line_209_Pred_17_Cond_26_Mutant279
+
+==> @ Line: 209
+Original Line  : else if ((arg[i] == EOL) && (arg[i+1] == delim))
+After Mutation : else if ((arg[i] == EOL) && (arg[i+1] > delim))
+
+
+ROF_Line_209_Pred_17_Cond_26_Mutant280
+
+==> @ Line: 209
+Original Line  : else if ((arg[i] == EOL) && (arg[i+1] == delim))
+After Mutation : else if ((arg[i] == EOL) && (arg[i+1] <= delim))
+
+
+ROF_Line_209_Pred_17_Cond_26_Mutant281
+
+==> @ Line: 209
+Original Line  : else if ((arg[i] == EOL) && (arg[i+1] == delim))
+After Mutation : else if ((arg[i] == EOL) && (arg[i+1] >= delim))
+
+
+LOF_Line_209_Pred_17_Cond_NOC_Mutant282
+
+==> @ Line: 209
+Original Line  : else if ((arg[i] == EOL) && (arg[i+1] == delim))
+After Mutation : else if ((arg[i] == EOL) || (arg[i+1] == delim))
+
+
+PNF_Line_211_Pred_18_Cond_PNF_Mutant283
+
+==> @ Line: 211
+Original Line  : else if ((arg[i] == CCL))
+After Mutation : else if (!((arg[i] == CCL)))
+
+
+Line_211_Pred_18_Cond_29_Mutant284
+
+==> @ Line: 211
+Original Line  : else if ((arg[i] == CCL))
+After Mutation : else if ((arg[i] != CCL))
+
+
+Line_211_Pred_18_Cond_29_Mutant285
+
+==> @ Line: 211
+Original Line  : else if ((arg[i] == CCL))
+After Mutation : else if ((arg[i] < CCL))
+
+
+Line_211_Pred_18_Cond_29_Mutant286
+
+==> @ Line: 211
+Original Line  : else if ((arg[i] == CCL))
+After Mutation : else if ((arg[i] > CCL))
+
+
+Line_211_Pred_18_Cond_29_Mutant287
+
+==> @ Line: 211
+Original Line  : else if ((arg[i] == CCL))
+After Mutation : else if ((arg[i] <= CCL))
+
+
+Line_211_Pred_18_Cond_29_Mutant288
+
+==> @ Line: 211
+Original Line  : else if ((arg[i] == CCL))
+After Mutation : else if ((arg[i] >= CCL))
+
+
+ROFLine_214_Pred_NO_Mutant289
+
+==> @ Line: 214
+Original Line  : done = (bool)(getres == false);
+After Mutation : done = (bool)(getres != false);
+
+
+ROFLine_214_Pred_NO_Mutant290
+
+==> @ Line: 214
+Original Line  : done = (bool)(getres == false);
+After Mutation : done = (bool)(getres < false);
+
+
+ROFLine_214_Pred_NO_Mutant291
+
+==> @ Line: 214
+Original Line  : done = (bool)(getres == false);
+After Mutation : done = (bool)(getres > false);
+
+
+ROFLine_214_Pred_NO_Mutant292
+
+==> @ Line: 214
+Original Line  : done = (bool)(getres == false);
+After Mutation : done = (bool)(getres <= false);
+
+
+ROFLine_214_Pred_NO_Mutant293
+
+==> @ Line: 214
+Original Line  : done = (bool)(getres == false);
+After Mutation : done = (bool)(getres >= false);
+
+
+PNF_Line_216_Pred_19_Cond_PNF_Mutant294
+
+==> @ Line: 216
+Original Line  : else if ((arg[i] == CLOSURE) && (i > start))
+After Mutation : else if (!((arg[i] == CLOSURE) && (i > start)))
+
+
+CNF_Line_216_Pred_19_Cond_30_Mutant295
+
+==> @ Line: 216
+Original Line  : else if ((arg[i] == CLOSURE) && (i > start))
+After Mutation : else if ((!(arg[i] == CLOSURE )) && (i > start))
+
+
+CNF_Line_216_Pred_19_Cond_31_Mutant296
+
+==> @ Line: 216
+Original Line  : else if ((arg[i] == CLOSURE) && (i > start))
+After Mutation : else if ((arg[i] == CLOSURE) && (!( i > start)))
+
+
+ROF_Line_216_Pred_19_Cond_29_Mutant297
+
+==> @ Line: 216
+Original Line  : else if ((arg[i] == CLOSURE) && (i > start))
+After Mutation : else if ((arg[i] == CLOSURE) && (i != start))
+
+
+ROF_Line_216_Pred_19_Cond_29_Mutant298
+
+==> @ Line: 216
+Original Line  : else if ((arg[i] == CLOSURE) && (i > start))
+After Mutation : else if ((arg[i] == CLOSURE) && (i < start))
+
+
+ROF_Line_216_Pred_19_Cond_29_Mutant299
+
+==> @ Line: 216
+Original Line  : else if ((arg[i] == CLOSURE) && (i > start))
+After Mutation : else if ((arg[i] == CLOSURE) && (i <= start))
+
+
+ROF_Line_216_Pred_19_Cond_29_Mutant300
+
+==> @ Line: 216
+Original Line  : else if ((arg[i] == CLOSURE) && (i > start))
+After Mutation : else if ((arg[i] == CLOSURE) && (i >= start))
+
+
+ROF_Line_216_Pred_19_Cond_29_Mutant301
+
+==> @ Line: 216
+Original Line  : else if ((arg[i] == CLOSURE) && (i > start))
+After Mutation : else if ((arg[i] == CLOSURE) && (i == start))
+
+
+ROF_Line_216_Pred_19_Cond_48_Mutant302
+
+==> @ Line: 216
+Original Line  : else if ((arg[i] == CLOSURE) && (i > start))
+After Mutation : else if ((arg[i] != CLOSURE) && (i > start))
+
+
+ROF_Line_216_Pred_19_Cond_48_Mutant303
+
+==> @ Line: 216
+Original Line  : else if ((arg[i] == CLOSURE) && (i > start))
+After Mutation : else if ((arg[i] < CLOSURE) && (i > start))
+
+
+ROF_Line_216_Pred_19_Cond_48_Mutant304
+
+==> @ Line: 216
+Original Line  : else if ((arg[i] == CLOSURE) && (i > start))
+After Mutation : else if ((arg[i] > CLOSURE) && (i > start))
+
+
+ROF_Line_216_Pred_19_Cond_48_Mutant305
+
+==> @ Line: 216
+Original Line  : else if ((arg[i] == CLOSURE) && (i > start))
+After Mutation : else if ((arg[i] <= CLOSURE) && (i > start))
+
+
+ROF_Line_216_Pred_19_Cond_48_Mutant306
+
+==> @ Line: 216
+Original Line  : else if ((arg[i] == CLOSURE) && (i > start))
+After Mutation : else if ((arg[i] >= CLOSURE) && (i > start))
+
+
+LOF_Line_216_Pred_19_Cond_NOC_Mutant307
+
+==> @ Line: 216
+Original Line  : else if ((arg[i] == CLOSURE) && (i > start))
+After Mutation : else if ((arg[i] == CLOSURE) || (i > start))
+
+
+PNF_Line_219_Pred_20_Cond_PNF_Mutant308
+
+==> @ Line: 219
+Original Line  : if (in_set_2(pat[lj]))
+After Mutation : if (!(in_set_2(pat[lj])))
+
+
+PNF_Line_231_Pred_21_Cond_PNF_Mutant309
+
+==> @ Line: 231
+Original Line  : if ((!done))
+After Mutation : if (!((!done)))
+
+
+AOFLine_232_Pred_NO_Mutant310
+
+==> @ Line: 232
+Original Line  : i = i + 1;
+After Mutation : i = i - 1;
+
+
+AOFLine_232_Pred_NO_Mutant311
+
+==> @ Line: 232
+Original Line  : i = i + 1;
+After Mutation : i = i * 1;
+
+
+AOFLine_232_Pred_NO_Mutant312
+
+==> @ Line: 232
+Original Line  : i = i + 1;
+After Mutation : i = i / 1;
+
+
+AOFLine_232_Pred_NO_Mutant313
+
+==> @ Line: 232
+Original Line  : i = i + 1;
+After Mutation : i = i % 1;
+
+
+PNF_Line_235_Pred_22_Cond_PNF_Mutant314
+
+==> @ Line: 235
+Original Line  : if ((done) || (arg[i] != delim))
+After Mutation : if (!((done) || (arg[i] != delim)))
+
+
+CNF_Line_235_Pred_22_Cond_34_Mutant315
+
+==> @ Line: 235
+Original Line  : if ((done) || (arg[i] != delim))
+After Mutation : if ((!(done )) || (arg[i] != delim))
+
+
+CNF_Line_235_Pred_22_Cond_35_Mutant316
+
+==> @ Line: 235
+Original Line  : if ((done) || (arg[i] != delim))
+After Mutation : if ((done) || (!( arg[i] != delim)))
+
+
+ROF_Line_235_Pred_22_Cond_33_Mutant317
+
+==> @ Line: 235
+Original Line  : if ((done) || (arg[i] != delim))
+After Mutation : if ((done) || (arg[i] == delim))
+
+
+ROF_Line_235_Pred_22_Cond_33_Mutant318
+
+==> @ Line: 235
+Original Line  : if ((done) || (arg[i] != delim))
+After Mutation : if ((done) || (arg[i] < delim))
+
+
+ROF_Line_235_Pred_22_Cond_33_Mutant319
+
+==> @ Line: 235
+Original Line  : if ((done) || (arg[i] != delim))
+After Mutation : if ((done) || (arg[i] > delim))
+
+
+ROF_Line_235_Pred_22_Cond_33_Mutant320
+
+==> @ Line: 235
+Original Line  : if ((done) || (arg[i] != delim))
+After Mutation : if ((done) || (arg[i] <= delim))
+
+
+ROF_Line_235_Pred_22_Cond_33_Mutant321
+
+==> @ Line: 235
+Original Line  : if ((done) || (arg[i] != delim))
+After Mutation : if ((done) || (arg[i] >= delim))
+
+
+LOF_Line_235_Pred_22_Cond_NOC_Mutant322
+
+==> @ Line: 235
+Original Line  : if ((done) || (arg[i] != delim))
+After Mutation : if ((done) && (arg[i] != delim))
+
+
+PNF_Line_238_Pred_23_Cond_PNF_Mutant323
+
+==> @ Line: 238
+Original Line  : if ((!junk))
+After Mutation : if (!((!junk)))
+
+
+ROFLine_253_Pred_NO_Mutant324
+
+==> @ Line: 253
+Original Line  : return (makeres > 0);
+After Mutation : return (makeres != 0);
+
+
+ROFLine_253_Pred_NO_Mutant325
+
+==> @ Line: 253
+Original Line  : return (makeres > 0);
+After Mutation : return (makeres < 0);
+
+
+ROFLine_253_Pred_NO_Mutant326
+
+==> @ Line: 253
+Original Line  : return (makeres > 0);
+After Mutation : return (makeres <= 0);
+
+
+ROFLine_253_Pred_NO_Mutant327
+
+==> @ Line: 253
+Original Line  : return (makeres > 0);
+After Mutation : return (makeres >= 0);
+
+
+ROFLine_253_Pred_NO_Mutant328
+
+==> @ Line: 253
+Original Line  : return (makeres > 0);
+After Mutation : return (makeres == 0);
+
+
+PNF_Line_270_Pred_24_Cond_PNF_Mutant329
+
+==> @ Line: 270
+Original Line  : while ((arg[i] != delim) && (arg[i] != ENDSTR)) {
+After Mutation : while (!((arg[i] != delim) && (arg[i] != ENDSTR))) {
+
+
+CNF_Line_270_Pred_24_Cond_36_Mutant330
+
+==> @ Line: 270
+Original Line  : while ((arg[i] != delim) && (arg[i] != ENDSTR)) {
+After Mutation : while ((!(arg[i] != delim )) && (arg[i] != ENDSTR)) {
+
+
+CNF_Line_270_Pred_24_Cond_37_Mutant331
+
+==> @ Line: 270
+Original Line  : while ((arg[i] != delim) && (arg[i] != ENDSTR)) {
+After Mutation : while ((arg[i] != delim) && (!( arg[i] != ENDSTR))) {
+
+
+ROF_Line_270_Pred_24_Cond_55_Mutant332
+
+==> @ Line: 270
+Original Line  : while ((arg[i] != delim) && (arg[i] != ENDSTR)) {
+After Mutation : while ((arg[i] == delim) && (arg[i] != ENDSTR)) {
+
+
+ROF_Line_270_Pred_24_Cond_55_Mutant333
+
+==> @ Line: 270
+Original Line  : while ((arg[i] != delim) && (arg[i] != ENDSTR)) {
+After Mutation : while ((arg[i] < delim) && (arg[i] != ENDSTR)) {
+
+
+ROF_Line_270_Pred_24_Cond_55_Mutant334
+
+==> @ Line: 270
+Original Line  : while ((arg[i] != delim) && (arg[i] != ENDSTR)) {
+After Mutation : while ((arg[i] > delim) && (arg[i] != ENDSTR)) {
+
+
+ROF_Line_270_Pred_24_Cond_55_Mutant335
+
+==> @ Line: 270
+Original Line  : while ((arg[i] != delim) && (arg[i] != ENDSTR)) {
+After Mutation : while ((arg[i] <= delim) && (arg[i] != ENDSTR)) {
+
+
+ROF_Line_270_Pred_24_Cond_55_Mutant336
+
+==> @ Line: 270
+Original Line  : while ((arg[i] != delim) && (arg[i] != ENDSTR)) {
+After Mutation : while ((arg[i] >= delim) && (arg[i] != ENDSTR)) {
+
+
+ROF_Line_270_Pred_24_Cond_35_Mutant337
+
+==> @ Line: 270
+Original Line  : while ((arg[i] != delim) && (arg[i] != ENDSTR)) {
+After Mutation : while ((arg[i] != delim) && (arg[i] == ENDSTR)) {
+
+
+ROF_Line_270_Pred_24_Cond_35_Mutant338
+
+==> @ Line: 270
+Original Line  : while ((arg[i] != delim) && (arg[i] != ENDSTR)) {
+After Mutation : while ((arg[i] != delim) && (arg[i] < ENDSTR)) {
+
+
+ROF_Line_270_Pred_24_Cond_35_Mutant339
+
+==> @ Line: 270
+Original Line  : while ((arg[i] != delim) && (arg[i] != ENDSTR)) {
+After Mutation : while ((arg[i] != delim) && (arg[i] > ENDSTR)) {
+
+
+ROF_Line_270_Pred_24_Cond_35_Mutant340
+
+==> @ Line: 270
+Original Line  : while ((arg[i] != delim) && (arg[i] != ENDSTR)) {
+After Mutation : while ((arg[i] != delim) && (arg[i] <= ENDSTR)) {
+
+
+ROF_Line_270_Pred_24_Cond_35_Mutant341
+
+==> @ Line: 270
+Original Line  : while ((arg[i] != delim) && (arg[i] != ENDSTR)) {
+After Mutation : while ((arg[i] != delim) && (arg[i] >= ENDSTR)) {
+
+
+LOF_Line_270_Pred_24_Cond_NOC_Mutant342
+
+==> @ Line: 270
+Original Line  : while ((arg[i] != delim) && (arg[i] != ENDSTR)) {
+After Mutation : while ((arg[i] != delim) || (arg[i] != ENDSTR)) {
+
+
+PNF_Line_271_Pred_25_Cond_PNF_Mutant343
+
+==> @ Line: 271
+Original Line  : if ((arg[i] == (unsigned)('&')))
+After Mutation : if (!((arg[i] == (unsigned)('&'))))
+
+
+Line_271_Pred_25_Cond_38_Mutant344
+
+==> @ Line: 271
+Original Line  : if ((arg[i] == (unsigned)('&')))
+After Mutation : if ((arg[i] != (unsigned)('&')))
+
+
+Line_271_Pred_25_Cond_38_Mutant345
+
+==> @ Line: 271
+Original Line  : if ((arg[i] == (unsigned)('&')))
+After Mutation : if ((arg[i] < (unsigned)('&')))
+
+
+Line_271_Pred_25_Cond_38_Mutant346
+
+==> @ Line: 271
+Original Line  : if ((arg[i] == (unsigned)('&')))
+After Mutation : if ((arg[i] > (unsigned)('&')))
+
+
+Line_271_Pred_25_Cond_38_Mutant347
+
+==> @ Line: 271
+Original Line  : if ((arg[i] == (unsigned)('&')))
+After Mutation : if ((arg[i] <= (unsigned)('&')))
+
+
+Line_271_Pred_25_Cond_38_Mutant348
+
+==> @ Line: 271
+Original Line  : if ((arg[i] == (unsigned)('&')))
+After Mutation : if ((arg[i] >= (unsigned)('&')))
+
+
+AOFLine_277_Pred_NO_Mutant349
+
+==> @ Line: 277
+Original Line  : i = i + 1;
+After Mutation : i = i - 1;
+
+
+AOFLine_277_Pred_NO_Mutant350
+
+==> @ Line: 277
+Original Line  : i = i + 1;
+After Mutation : i = i * 1;
+
+
+AOFLine_277_Pred_NO_Mutant351
+
+==> @ Line: 277
+Original Line  : i = i + 1;
+After Mutation : i = i / 1;
+
+
+AOFLine_277_Pred_NO_Mutant352
+
+==> @ Line: 277
+Original Line  : i = i + 1;
+After Mutation : i = i % 1;
+
+
+PNF_Line_279_Pred_26_Cond_PNF_Mutant353
+
+==> @ Line: 279
+Original Line  : if (arg[i] != delim)
+After Mutation : if (!(arg[i] != delim))
+
+
+Line_279_Pred_26_Cond_39_Mutant354
+
+==> @ Line: 279
+Original Line  : if (arg[i] != delim)
+After Mutation : if (arg[i] == delim)
+
+
+Line_279_Pred_26_Cond_39_Mutant355
+
+==> @ Line: 279
+Original Line  : if (arg[i] != delim)
+After Mutation : if (arg[i] < delim)
+
+
+Line_279_Pred_26_Cond_39_Mutant356
+
+==> @ Line: 279
+Original Line  : if (arg[i] != delim)
+After Mutation : if (arg[i] > delim)
+
+
+Line_279_Pred_26_Cond_39_Mutant357
+
+==> @ Line: 279
+Original Line  : if (arg[i] != delim)
+After Mutation : if (arg[i] <= delim)
+
+
+Line_279_Pred_26_Cond_39_Mutant358
+
+==> @ Line: 279
+Original Line  : if (arg[i] != delim)
+After Mutation : if (arg[i] >= delim)
+
+
+PNF_Line_283_Pred_27_Cond_PNF_Mutant359
+
+==> @ Line: 283
+Original Line  : if ((!junk))
+After Mutation : if (!((!junk)))
+
+
+ROFLine_299_Pred_NO_Mutant360
+
+==> @ Line: 299
+Original Line  : return (makeres > 0);
+After Mutation : return (makeres != 0);
+
+
+ROFLine_299_Pred_NO_Mutant361
+
+==> @ Line: 299
+Original Line  : return (makeres > 0);
+After Mutation : return (makeres < 0);
+
+
+ROFLine_299_Pred_NO_Mutant362
+
+==> @ Line: 299
+Original Line  : return (makeres > 0);
+After Mutation : return (makeres <= 0);
+
+
+ROFLine_299_Pred_NO_Mutant363
+
+==> @ Line: 299
+Original Line  : return (makeres > 0);
+After Mutation : return (makeres >= 0);
+
+
+ROFLine_299_Pred_NO_Mutant364
+
+==> @ Line: 299
+Original Line  : return (makeres > 0);
+After Mutation : return (makeres == 0);
+
+
+AOFLine_314_Pred_NO_Mutant365
+
+==> @ Line: 314
+Original Line  : i = offset + pat[offset];
+After Mutation : i = offset - pat[offset];
+
+
+AOFLine_314_Pred_NO_Mutant366
+
+==> @ Line: 314
+Original Line  : i = offset + pat[offset];
+After Mutation : i = offset * pat[offset];
+
+
+AOFLine_314_Pred_NO_Mutant367
+
+==> @ Line: 314
+Original Line  : i = offset + pat[offset];
+After Mutation : i = offset / pat[offset];
+
+
+AOFLine_314_Pred_NO_Mutant368
+
+==> @ Line: 314
+Original Line  : i = offset + pat[offset];
+After Mutation : i = offset % pat[offset];
+
+
+PNF_Line_315_Pred_28_Cond_PNF_Mutant369
+
+==> @ Line: 315
+Original Line  : while ((i > offset))
+After Mutation : while (!((i > offset)))
+
+
+Line_315_Pred_28_Cond_41_Mutant370
+
+==> @ Line: 315
+Original Line  : while ((i > offset))
+After Mutation : while ((i != offset))
+
+
+Line_315_Pred_28_Cond_41_Mutant371
+
+==> @ Line: 315
+Original Line  : while ((i > offset))
+After Mutation : while ((i < offset))
+
+
+Line_315_Pred_28_Cond_41_Mutant372
+
+==> @ Line: 315
+Original Line  : while ((i > offset))
+After Mutation : while ((i <= offset))
+
+
+Line_315_Pred_28_Cond_41_Mutant373
+
+==> @ Line: 315
+Original Line  : while ((i > offset))
+After Mutation : while ((i >= offset))
+
+
+Line_315_Pred_28_Cond_41_Mutant374
+
+==> @ Line: 315
+Original Line  : while ((i > offset))
+After Mutation : while ((i == offset))
+
+
+PNF_Line_317_Pred_29_Cond_PNF_Mutant375
+
+==> @ Line: 317
+Original Line  : if (c == pat[i]) {
+After Mutation : if (!(c == pat[i])) {
+
+
+Line_317_Pred_29_Cond_42_Mutant376
+
+==> @ Line: 317
+Original Line  : if (c == pat[i]) {
+After Mutation : if (c != pat[i]) {
+
+
+Line_317_Pred_29_Cond_42_Mutant377
+
+==> @ Line: 317
+Original Line  : if (c == pat[i]) {
+After Mutation : if (c < pat[i]) {
+
+
+Line_317_Pred_29_Cond_42_Mutant378
+
+==> @ Line: 317
+Original Line  : if (c == pat[i]) {
+After Mutation : if (c > pat[i]) {
+
+
+Line_317_Pred_29_Cond_42_Mutant379
+
+==> @ Line: 317
+Original Line  : if (c == pat[i]) {
+After Mutation : if (c <= pat[i]) {
+
+
+Line_317_Pred_29_Cond_42_Mutant380
+
+==> @ Line: 317
+Original Line  : if (c == pat[i]) {
+After Mutation : if (c >= pat[i]) {
+
+
+AOFLine_321_Pred_NO_Mutant381
+
+==> @ Line: 321
+Original Line  : i = i - 1;
+After Mutation : i = i + 1;
+
+
+AOFLine_321_Pred_NO_Mutant382
+
+==> @ Line: 321
+Original Line  : i = i - 1;
+After Mutation : i = i * 1;
+
+
+AOFLine_321_Pred_NO_Mutant383
+
+==> @ Line: 321
+Original Line  : i = i - 1;
+After Mutation : i = i / 1;
+
+
+AOFLine_321_Pred_NO_Mutant384
+
+==> @ Line: 321
+Original Line  : i = i - 1;
+After Mutation : i = i % 1;
+
+
+PNF_Line_337_Pred_30_Cond_PNF_Mutant385
+
+==> @ Line: 337
+Original Line  : if ((lin[*i] == ENDSTR))
+After Mutation : if (!((lin[*i] == ENDSTR)))
+
+
+Line_337_Pred_30_Cond_43_Mutant386
+
+==> @ Line: 337
+Original Line  : if ((lin[*i] == ENDSTR))
+After Mutation : if ((lin[*i] != ENDSTR))
+
+
+Line_337_Pred_30_Cond_43_Mutant387
+
+==> @ Line: 337
+Original Line  : if ((lin[*i] == ENDSTR))
+After Mutation : if ((lin[*i] < ENDSTR))
+
+
+Line_337_Pred_30_Cond_43_Mutant388
+
+==> @ Line: 337
+Original Line  : if ((lin[*i] == ENDSTR))
+After Mutation : if ((lin[*i] > ENDSTR))
+
+
+Line_337_Pred_30_Cond_43_Mutant389
+
+==> @ Line: 337
+Original Line  : if ((lin[*i] == ENDSTR))
+After Mutation : if ((lin[*i] <= ENDSTR))
+
+
+Line_337_Pred_30_Cond_43_Mutant390
+
+==> @ Line: 337
+Original Line  : if ((lin[*i] == ENDSTR))
+After Mutation : if ((lin[*i] >= ENDSTR))
+
+
+PNF_Line_341_Pred_31_Cond_PNF_Mutant391
+
+==> @ Line: 341
+Original Line  : if (!in_pat_set(pat[j]))
+After Mutation : if (!(!in_pat_set(pat[j])))
+
+
+PNF_Line_350_Pred_32_Cond_PNF_Mutant392
+
+==> @ Line: 350
+Original Line  : if (lin[*i] == pat[j + 1])
+After Mutation : if (!(lin[*i] == pat[j + 1]))
+
+
+Line_350_Pred_32_Cond_45_Mutant393
+
+==> @ Line: 350
+Original Line  : if (lin[*i] == pat[j + 1])
+After Mutation : if (lin[*i] != pat[j + 1])
+
+
+Line_350_Pred_32_Cond_45_Mutant394
+
+==> @ Line: 350
+Original Line  : if (lin[*i] == pat[j + 1])
+After Mutation : if (lin[*i] < pat[j + 1])
+
+
+Line_350_Pred_32_Cond_45_Mutant395
+
+==> @ Line: 350
+Original Line  : if (lin[*i] == pat[j + 1])
+After Mutation : if (lin[*i] > pat[j + 1])
+
+
+Line_350_Pred_32_Cond_45_Mutant396
+
+==> @ Line: 350
+Original Line  : if (lin[*i] == pat[j + 1])
+After Mutation : if (lin[*i] <= pat[j + 1])
+
+
+Line_350_Pred_32_Cond_45_Mutant397
+
+==> @ Line: 350
+Original Line  : if (lin[*i] == pat[j + 1])
+After Mutation : if (lin[*i] >= pat[j + 1])
+
+
+Line_350_Pred_32_Cond_45_Mutant398
+
+==> @ Line: 350
+Original Line  : if (lin[*i] == pat[j + 1])
+After Mutation : if (lin[*i] == pat[j - 1])
+
+
+Line_350_Pred_32_Cond_45_Mutant399
+
+==> @ Line: 350
+Original Line  : if (lin[*i] == pat[j + 1])
+After Mutation : if (lin[*i] == pat[j * 1])
+
+
+Line_350_Pred_32_Cond_45_Mutant400
+
+==> @ Line: 350
+Original Line  : if (lin[*i] == pat[j + 1])
+After Mutation : if (lin[*i] == pat[j / 1])
+
+
+Line_350_Pred_32_Cond_45_Mutant401
+
+==> @ Line: 350
+Original Line  : if (lin[*i] == pat[j + 1])
+After Mutation : if (lin[*i] == pat[j % 1])
+
+
+PNF_Line_354_Pred_33_Cond_PNF_Mutant402
+
+==> @ Line: 354
+Original Line  : if (*i == 0)
+After Mutation : if (!(*i == 0))
+
+
+Line_354_Pred_33_Cond_46_Mutant403
+
+==> @ Line: 354
+Original Line  : if (*i == 0)
+After Mutation : if (*i != 0)
+
+
+Line_354_Pred_33_Cond_46_Mutant404
+
+==> @ Line: 354
+Original Line  : if (*i == 0)
+After Mutation : if (*i < 0)
+
+
+Line_354_Pred_33_Cond_46_Mutant405
+
+==> @ Line: 354
+Original Line  : if (*i == 0)
+After Mutation : if (*i > 0)
+
+
+Line_354_Pred_33_Cond_46_Mutant406
+
+==> @ Line: 354
+Original Line  : if (*i == 0)
+After Mutation : if (*i <= 0)
+
+
+Line_354_Pred_33_Cond_46_Mutant407
+
+==> @ Line: 354
+Original Line  : if (*i == 0)
+After Mutation : if (*i >= 0)
+
+
+PNF_Line_358_Pred_34_Cond_PNF_Mutant408
+
+==> @ Line: 358
+Original Line  : if (lin[*i] != NEWLINE)
+After Mutation : if (!(lin[*i] != NEWLINE))
+
+
+Line_358_Pred_34_Cond_47_Mutant409
+
+==> @ Line: 358
+Original Line  : if (lin[*i] != NEWLINE)
+After Mutation : if (lin[*i] == NEWLINE)
+
+
+Line_358_Pred_34_Cond_47_Mutant410
+
+==> @ Line: 358
+Original Line  : if (lin[*i] != NEWLINE)
+After Mutation : if (lin[*i] < NEWLINE)
+
+
+Line_358_Pred_34_Cond_47_Mutant411
+
+==> @ Line: 358
+Original Line  : if (lin[*i] != NEWLINE)
+After Mutation : if (lin[*i] > NEWLINE)
+
+
+Line_358_Pred_34_Cond_47_Mutant412
+
+==> @ Line: 358
+Original Line  : if (lin[*i] != NEWLINE)
+After Mutation : if (lin[*i] <= NEWLINE)
+
+
+Line_358_Pred_34_Cond_47_Mutant413
+
+==> @ Line: 358
+Original Line  : if (lin[*i] != NEWLINE)
+After Mutation : if (lin[*i] >= NEWLINE)
+
+
+PNF_Line_362_Pred_35_Cond_PNF_Mutant414
+
+==> @ Line: 362
+Original Line  : if (lin[*i] == NEWLINE)
+After Mutation : if (!(lin[*i] == NEWLINE))
+
+
+Line_362_Pred_35_Cond_48_Mutant415
+
+==> @ Line: 362
+Original Line  : if (lin[*i] == NEWLINE)
+After Mutation : if (lin[*i] != NEWLINE)
+
+
+Line_362_Pred_35_Cond_48_Mutant416
+
+==> @ Line: 362
+Original Line  : if (lin[*i] == NEWLINE)
+After Mutation : if (lin[*i] < NEWLINE)
+
+
+Line_362_Pred_35_Cond_48_Mutant417
+
+==> @ Line: 362
+Original Line  : if (lin[*i] == NEWLINE)
+After Mutation : if (lin[*i] > NEWLINE)
+
+
+Line_362_Pred_35_Cond_48_Mutant418
+
+==> @ Line: 362
+Original Line  : if (lin[*i] == NEWLINE)
+After Mutation : if (lin[*i] <= NEWLINE)
+
+
+Line_362_Pred_35_Cond_48_Mutant419
+
+==> @ Line: 362
+Original Line  : if (lin[*i] == NEWLINE)
+After Mutation : if (lin[*i] >= NEWLINE)
+
+
+PNF_Line_366_Pred_36_Cond_PNF_Mutant420
+
+==> @ Line: 366
+Original Line  : if (locate(lin[*i], pat, j + 1))
+After Mutation : if (!(locate(lin[*i], pat, j + 1)))
+
+
+Line_366_Pred_36_Cond_49_Mutant421
+
+==> @ Line: 366
+Original Line  : if (locate(lin[*i], pat, j + 1))
+After Mutation : if (locate(lin[*i], pat, j - 1))
+
+
+Line_366_Pred_36_Cond_49_Mutant422
+
+==> @ Line: 366
+Original Line  : if (locate(lin[*i], pat, j + 1))
+After Mutation : if (locate(lin[*i], pat, j * 1))
+
+
+Line_366_Pred_36_Cond_49_Mutant423
+
+==> @ Line: 366
+Original Line  : if (locate(lin[*i], pat, j + 1))
+After Mutation : if (locate(lin[*i], pat, j / 1))
+
+
+Line_366_Pred_36_Cond_49_Mutant424
+
+==> @ Line: 366
+Original Line  : if (locate(lin[*i], pat, j + 1))
+After Mutation : if (locate(lin[*i], pat, j % 1))
+
+
+PNF_Line_370_Pred_37_Cond_PNF_Mutant425
+
+==> @ Line: 370
+Original Line  : if ((lin[*i] != NEWLINE) && (!locate(lin[*i], pat, j+1)))
+After Mutation : if (!((lin[*i] != NEWLINE) && (!locate(lin[*i], pat, j+1))))
+
+
+CNF_Line_370_Pred_37_Cond_50_Mutant426
+
+==> @ Line: 370
+Original Line  : if ((lin[*i] != NEWLINE) && (!locate(lin[*i], pat, j+1)))
+After Mutation : if ((!(lin[*i] != NEWLINE )) && (!locate(lin[*i], pat, j+1)))
+
+
+CNF_Line_370_Pred_37_Cond_51_Mutant427
+
+==> @ Line: 370
+Original Line  : if ((lin[*i] != NEWLINE) && (!locate(lin[*i], pat, j+1)))
+After Mutation : if ((lin[*i] != NEWLINE) && (!locate(lin[*i], pat, j+1))!( locatelin[*i], pat, j+1)LINE) && (!locate(lin[*i], pat, j+1)))
+
+
+ROF_Line_370_Pred_37_Cond_66_Mutant428
+
+==> @ Line: 370
+Original Line  : if ((lin[*i] != NEWLINE) && (!locate(lin[*i], pat, j+1)))
+After Mutation : if ((lin[*i] == NEWLINE) && (!locate(lin[*i], pat, j+1)))
+
+
+ROF_Line_370_Pred_37_Cond_66_Mutant429
+
+==> @ Line: 370
+Original Line  : if ((lin[*i] != NEWLINE) && (!locate(lin[*i], pat, j+1)))
+After Mutation : if ((lin[*i] < NEWLINE) && (!locate(lin[*i], pat, j+1)))
+
+
+ROF_Line_370_Pred_37_Cond_66_Mutant430
+
+==> @ Line: 370
+Original Line  : if ((lin[*i] != NEWLINE) && (!locate(lin[*i], pat, j+1)))
+After Mutation : if ((lin[*i] > NEWLINE) && (!locate(lin[*i], pat, j+1)))
+
+
+ROF_Line_370_Pred_37_Cond_66_Mutant431
+
+==> @ Line: 370
+Original Line  : if ((lin[*i] != NEWLINE) && (!locate(lin[*i], pat, j+1)))
+After Mutation : if ((lin[*i] <= NEWLINE) && (!locate(lin[*i], pat, j+1)))
+
+
+ROF_Line_370_Pred_37_Cond_66_Mutant432
+
+==> @ Line: 370
+Original Line  : if ((lin[*i] != NEWLINE) && (!locate(lin[*i], pat, j+1)))
+After Mutation : if ((lin[*i] >= NEWLINE) && (!locate(lin[*i], pat, j+1)))
+
+
+LOF_Line_370_Pred_37_Cond_NOC_Mutant433
+
+==> @ Line: 370
+Original Line  : if ((lin[*i] != NEWLINE) && (!locate(lin[*i], pat, j+1)))
+After Mutation : if ((lin[*i] != NEWLINE) || (!locate(lin[*i], pat, j+1)))
+
+
+PNF_Line_378_Pred_38_Cond_PNF_Mutant434
+
+==> @ Line: 378
+Original Line  : if ((advance >= 0))
+After Mutation : if (!((advance >= 0)))
+
+
+Line_378_Pred_38_Cond_52_Mutant435
+
+==> @ Line: 378
+Original Line  : if ((advance >= 0))
+After Mutation : if ((advance != 0))
+
+
+Line_378_Pred_38_Cond_52_Mutant436
+
+==> @ Line: 378
+Original Line  : if ((advance >= 0))
+After Mutation : if ((advance < 0))
+
+
+Line_378_Pred_38_Cond_52_Mutant437
+
+==> @ Line: 378
+Original Line  : if ((advance >= 0))
+After Mutation : if ((advance <= 0))
+
+
+Line_378_Pred_38_Cond_52_Mutant438
+
+==> @ Line: 378
+Original Line  : if ((advance >= 0))
+After Mutation : if ((advance > 0))
+
+
+Line_378_Pred_38_Cond_52_Mutant439
+
+==> @ Line: 378
+Original Line  : if ((advance >= 0))
+After Mutation : if ((advance==0))
+
+
+AOFLine_380_Pred_NO_Mutant440
+
+==> @ Line: 380
+Original Line  : *i = *i + advance;
+After Mutation : *i = *i - advance;
+
+
+AOFLine_380_Pred_NO_Mutant441
+
+==> @ Line: 380
+Original Line  : *i = *i + advance;
+After Mutation : *i = *i * advance;
+
+
+AOFLine_380_Pred_NO_Mutant442
+
+==> @ Line: 380
+Original Line  : *i = *i + advance;
+After Mutation : *i = *i / advance;
+
+
+AOFLine_380_Pred_NO_Mutant443
+
+==> @ Line: 380
+Original Line  : *i = *i + advance;
+After Mutation : *i = *i % advance;
+
+
+PNF_Line_393_Pred_39_Cond_PNF_Mutant444
+
+==> @ Line: 393
+Original Line  : if (!in_pat_set(pat[n])) {
+After Mutation : if (!(!in_pat_set(pat[n]))) {
+
+
+AOFLine_405_Pred_NO_Mutant445
+
+==> @ Line: 405
+Original Line  : size = pat[n + 1] + 2;
+After Mutation : size = pat[n - 1] + 2;
+
+
+AOFLine_405_Pred_NO_Mutant446
+
+==> @ Line: 405
+Original Line  : size = pat[n + 1] + 2;
+After Mutation : size = pat[n * 1] + 2;
+
+
+AOFLine_405_Pred_NO_Mutant447
+
+==> @ Line: 405
+Original Line  : size = pat[n + 1] + 2;
+After Mutation : size = pat[n / 1] + 2;
+
+
+AOFLine_405_Pred_NO_Mutant448
+
+==> @ Line: 405
+Original Line  : size = pat[n + 1] + 2;
+After Mutation : size = pat[n % 1] + 2;
+
+
+AOFLine_405_Pred_NO_Mutant449
+
+==> @ Line: 405
+Original Line  : size = pat[n + 1] + 2;
+After Mutation : size = pat[n + 1] - 2;
+
+
+AOFLine_405_Pred_NO_Mutant450
+
+==> @ Line: 405
+Original Line  : size = pat[n + 1] + 2;
+After Mutation : size = pat[n + 1] * 2;
+
+
+AOFLine_405_Pred_NO_Mutant451
+
+==> @ Line: 405
+Original Line  : size = pat[n + 1] + 2;
+After Mutation : size = pat[n + 1] / 2;
+
+
+AOFLine_405_Pred_NO_Mutant452
+
+==> @ Line: 405
+Original Line  : size = pat[n + 1] + 2;
+After Mutation : size = pat[n + 1] % 2;
+
+
+PNF_Line_427_Pred_40_Cond_PNF_Mutant453
+
+==> @ Line: 427
+Original Line  : while ((!done) && (pat[j] != ENDSTR))
+After Mutation : while (!((!done) && (pat[j] != ENDSTR)))
+
+
+CNF_Line_427_Pred_40_Cond_54_Mutant454
+
+==> @ Line: 427
+Original Line  : while ((!done) && (pat[j] != ENDSTR))
+After Mutation : while ((!!(done )) && (pat[j] != ENDSTR))
+
+
+CNF_Line_427_Pred_40_Cond_55_Mutant455
+
+==> @ Line: 427
+Original Line  : while ((!done) && (pat[j] != ENDSTR))
+After Mutation : while ((!done) && (!( pat[j] != ENDSTR)))
+
+
+ROF_Line_427_Pred_40_Cond_53_Mutant456
+
+==> @ Line: 427
+Original Line  : while ((!done) && (pat[j] != ENDSTR))
+After Mutation : while ((!done) && (pat[j] == ENDSTR))
+
+
+ROF_Line_427_Pred_40_Cond_53_Mutant457
+
+==> @ Line: 427
+Original Line  : while ((!done) && (pat[j] != ENDSTR))
+After Mutation : while ((!done) && (pat[j] < ENDSTR))
+
+
+ROF_Line_427_Pred_40_Cond_53_Mutant458
+
+==> @ Line: 427
+Original Line  : while ((!done) && (pat[j] != ENDSTR))
+After Mutation : while ((!done) && (pat[j] > ENDSTR))
+
+
+ROF_Line_427_Pred_40_Cond_53_Mutant459
+
+==> @ Line: 427
+Original Line  : while ((!done) && (pat[j] != ENDSTR))
+After Mutation : while ((!done) && (pat[j] <= ENDSTR))
+
+
+ROF_Line_427_Pred_40_Cond_53_Mutant460
+
+==> @ Line: 427
+Original Line  : while ((!done) && (pat[j] != ENDSTR))
+After Mutation : while ((!done) && (pat[j] >= ENDSTR))
+
+
+LOF_Line_427_Pred_40_Cond_NOC_Mutant461
+
+==> @ Line: 427
+Original Line  : while ((!done) && (pat[j] != ENDSTR))
+After Mutation : while ((!done) || (pat[j] != ENDSTR))
+
+
+PNF_Line_428_Pred_41_Cond_PNF_Mutant462
+
+==> @ Line: 428
+Original Line  : if ((pat[j] == CLOSURE)) {
+After Mutation : if (!((pat[j] == CLOSURE))) {
+
+
+Line_428_Pred_41_Cond_56_Mutant463
+
+==> @ Line: 428
+Original Line  : if ((pat[j] == CLOSURE)) {
+After Mutation : if ((pat[j] != CLOSURE)) {
+
+
+Line_428_Pred_41_Cond_56_Mutant464
+
+==> @ Line: 428
+Original Line  : if ((pat[j] == CLOSURE)) {
+After Mutation : if ((pat[j] < CLOSURE)) {
+
+
+Line_428_Pred_41_Cond_56_Mutant465
+
+==> @ Line: 428
+Original Line  : if ((pat[j] == CLOSURE)) {
+After Mutation : if ((pat[j] > CLOSURE)) {
+
+
+Line_428_Pred_41_Cond_56_Mutant466
+
+==> @ Line: 428
+Original Line  : if ((pat[j] == CLOSURE)) {
+After Mutation : if ((pat[j] <= CLOSURE)) {
+
+
+Line_428_Pred_41_Cond_56_Mutant467
+
+==> @ Line: 428
+Original Line  : if ((pat[j] == CLOSURE)) {
+After Mutation : if ((pat[j] >= CLOSURE)) {
+
+
+AOFLine_429_Pred_NO_Mutant468
+
+==> @ Line: 429
+Original Line  : j = j + patsize(pat, j);
+After Mutation : j = j - patsize(pat, j);
+
+
+AOFLine_429_Pred_NO_Mutant469
+
+==> @ Line: 429
+Original Line  : j = j + patsize(pat, j);
+After Mutation : j = j * patsize(pat, j);
+
+
+AOFLine_429_Pred_NO_Mutant470
+
+==> @ Line: 429
+Original Line  : j = j + patsize(pat, j);
+After Mutation : j = j / patsize(pat, j);
+
+
+AOFLine_429_Pred_NO_Mutant471
+
+==> @ Line: 429
+Original Line  : j = j + patsize(pat, j);
+After Mutation : j = j % patsize(pat, j);
+
+
+PNF_Line_431_Pred_42_Cond_PNF_Mutant472
+
+==> @ Line: 431
+Original Line  : while ((!done) && (lin[i] != ENDSTR)) {
+After Mutation : while (!((!done) && (lin[i] != ENDSTR))) {
+
+
+CNF_Line_431_Pred_42_Cond_57_Mutant473
+
+==> @ Line: 431
+Original Line  : while ((!done) && (lin[i] != ENDSTR)) {
+After Mutation : while ((!!(done )) && (lin[i] != ENDSTR)) {
+
+
+CNF_Line_431_Pred_42_Cond_58_Mutant474
+
+==> @ Line: 431
+Original Line  : while ((!done) && (lin[i] != ENDSTR)) {
+After Mutation : while ((!done) && (!( lin[i] != ENDSTR))) {
+
+
+ROF_Line_431_Pred_42_Cond_56_Mutant475
+
+==> @ Line: 431
+Original Line  : while ((!done) && (lin[i] != ENDSTR)) {
+After Mutation : while ((!done) && (lin[i] == ENDSTR)) {
+
+
+ROF_Line_431_Pred_42_Cond_56_Mutant476
+
+==> @ Line: 431
+Original Line  : while ((!done) && (lin[i] != ENDSTR)) {
+After Mutation : while ((!done) && (lin[i] < ENDSTR)) {
+
+
+ROF_Line_431_Pred_42_Cond_56_Mutant477
+
+==> @ Line: 431
+Original Line  : while ((!done) && (lin[i] != ENDSTR)) {
+After Mutation : while ((!done) && (lin[i] > ENDSTR)) {
+
+
+ROF_Line_431_Pred_42_Cond_56_Mutant478
+
+==> @ Line: 431
+Original Line  : while ((!done) && (lin[i] != ENDSTR)) {
+After Mutation : while ((!done) && (lin[i] <= ENDSTR)) {
+
+
+ROF_Line_431_Pred_42_Cond_56_Mutant479
+
+==> @ Line: 431
+Original Line  : while ((!done) && (lin[i] != ENDSTR)) {
+After Mutation : while ((!done) && (lin[i] >= ENDSTR)) {
+
+
+LOF_Line_431_Pred_42_Cond_NOC_Mutant480
+
+==> @ Line: 431
+Original Line  : while ((!done) && (lin[i] != ENDSTR)) {
+After Mutation : while ((!done) || (lin[i] != ENDSTR)) {
+
+
+PNF_Line_433_Pred_43_Cond_PNF_Mutant481
+
+==> @ Line: 433
+Original Line  : if (!result)
+After Mutation : if (!(!result))
+
+
+PNF_Line_437_Pred_44_Cond_PNF_Mutant482
+
+==> @ Line: 437
+Original Line  : while ((!done) && (i >= offset)) {
+After Mutation : while (!((!done) && (i >= offset))) {
+
+
+CNF_Line_437_Pred_44_Cond_60_Mutant483
+
+==> @ Line: 437
+Original Line  : while ((!done) && (i >= offset)) {
+After Mutation : while ((!!(done )) && (i >= offset)) {
+
+
+CNF_Line_437_Pred_44_Cond_61_Mutant484
+
+==> @ Line: 437
+Original Line  : while ((!done) && (i >= offset)) {
+After Mutation : while ((!done) && (!( i >= offset))) {
+
+
+ROF_Line_437_Pred_44_Cond_59_Mutant485
+
+==> @ Line: 437
+Original Line  : while ((!done) && (i >= offset)) {
+After Mutation : while ((!done) && (i != offset)) {
+
+
+ROF_Line_437_Pred_44_Cond_59_Mutant486
+
+==> @ Line: 437
+Original Line  : while ((!done) && (i >= offset)) {
+After Mutation : while ((!done) && (i < offset)) {
+
+
+ROF_Line_437_Pred_44_Cond_59_Mutant487
+
+==> @ Line: 437
+Original Line  : while ((!done) && (i >= offset)) {
+After Mutation : while ((!done) && (i <= offset)) {
+
+
+ROF_Line_437_Pred_44_Cond_59_Mutant488
+
+==> @ Line: 437
+Original Line  : while ((!done) && (i >= offset)) {
+After Mutation : while ((!done) && (i > offset)) {
+
+
+ROF_Line_437_Pred_44_Cond_59_Mutant489
+
+==> @ Line: 437
+Original Line  : while ((!done) && (i >= offset)) {
+After Mutation : while ((!done) && (i==offset)) {
+
+
+LOF_Line_437_Pred_44_Cond_NOC_Mutant490
+
+==> @ Line: 437
+Original Line  : while ((!done) && (i >= offset)) {
+After Mutation : while ((!done) || (i >= offset)) {
+
+
+AOFLine_438_Pred_NO_Mutant491
+
+==> @ Line: 438
+Original Line  : k = amatch(lin, i, pat, j + patsize(pat, j));
+After Mutation : k = amatch(lin, i, pat, j - patsize(pat, j));
+
+
+AOFLine_438_Pred_NO_Mutant492
+
+==> @ Line: 438
+Original Line  : k = amatch(lin, i, pat, j + patsize(pat, j));
+After Mutation : k = amatch(lin, i, pat, j * patsize(pat, j));
+
+
+AOFLine_438_Pred_NO_Mutant493
+
+==> @ Line: 438
+Original Line  : k = amatch(lin, i, pat, j + patsize(pat, j));
+After Mutation : k = amatch(lin, i, pat, j / patsize(pat, j));
+
+
+AOFLine_438_Pred_NO_Mutant494
+
+==> @ Line: 438
+Original Line  : k = amatch(lin, i, pat, j + patsize(pat, j));
+After Mutation : k = amatch(lin, i, pat, j % patsize(pat, j));
+
+
+PNF_Line_439_Pred_45_Cond_PNF_Mutant495
+
+==> @ Line: 439
+Original Line  : if ((k >= 0))
+After Mutation : if (!((k >= 0)))
+
+
+Line_439_Pred_45_Cond_62_Mutant496
+
+==> @ Line: 439
+Original Line  : if ((k >= 0))
+After Mutation : if ((k != 0))
+
+
+Line_439_Pred_45_Cond_62_Mutant497
+
+==> @ Line: 439
+Original Line  : if ((k >= 0))
+After Mutation : if ((k < 0))
+
+
+Line_439_Pred_45_Cond_62_Mutant498
+
+==> @ Line: 439
+Original Line  : if ((k >= 0))
+After Mutation : if ((k <= 0))
+
+
+Line_439_Pred_45_Cond_62_Mutant499
+
+==> @ Line: 439
+Original Line  : if ((k >= 0))
+After Mutation : if ((k > 0))
+
+
+Line_439_Pred_45_Cond_62_Mutant500
+
+==> @ Line: 439
+Original Line  : if ((k >= 0))
+After Mutation : if ((k==0))
+
+
+AOFLine_442_Pred_NO_Mutant501
+
+==> @ Line: 442
+Original Line  : i = i - 1;
+After Mutation : i = i + 1;
+
+
+AOFLine_442_Pred_NO_Mutant502
+
+==> @ Line: 442
+Original Line  : i = i - 1;
+After Mutation : i = i * 1;
+
+
+AOFLine_442_Pred_NO_Mutant503
+
+==> @ Line: 442
+Original Line  : i = i - 1;
+After Mutation : i = i / 1;
+
+
+AOFLine_442_Pred_NO_Mutant504
+
+==> @ Line: 442
+Original Line  : i = i - 1;
+After Mutation : i = i % 1;
+
+
+PNF_Line_448_Pred_46_Cond_PNF_Mutant505
+
+==> @ Line: 448
+Original Line  : if ((!result)) {
+After Mutation : if (!((!result))) {
+
+
+AOFLine_452_Pred_NO_Mutant506
+
+==> @ Line: 452
+Original Line  : j = j + patsize(pat, j);
+After Mutation : j = j - patsize(pat, j);
+
+
+AOFLine_452_Pred_NO_Mutant507
+
+==> @ Line: 452
+Original Line  : j = j + patsize(pat, j);
+After Mutation : j = j * patsize(pat, j);
+
+
+AOFLine_452_Pred_NO_Mutant508
+
+==> @ Line: 452
+Original Line  : j = j + patsize(pat, j);
+After Mutation : j = j / patsize(pat, j);
+
+
+AOFLine_452_Pred_NO_Mutant509
+
+==> @ Line: 452
+Original Line  : j = j + patsize(pat, j);
+After Mutation : j = j % patsize(pat, j);
+
+
+PNF_Line_467_Pred_47_Cond_PNF_Mutant510
+
+==> @ Line: 467
+Original Line  : while ((sub[i] != ENDSTR)) {
+After Mutation : while (!((sub[i] != ENDSTR))) {
+
+
+Line_467_Pred_47_Cond_64_Mutant511
+
+==> @ Line: 467
+Original Line  : while ((sub[i] != ENDSTR)) {
+After Mutation : while ((sub[i] == ENDSTR)) {
+
+
+Line_467_Pred_47_Cond_64_Mutant512
+
+==> @ Line: 467
+Original Line  : while ((sub[i] != ENDSTR)) {
+After Mutation : while ((sub[i] < ENDSTR)) {
+
+
+Line_467_Pred_47_Cond_64_Mutant513
+
+==> @ Line: 467
+Original Line  : while ((sub[i] != ENDSTR)) {
+After Mutation : while ((sub[i] > ENDSTR)) {
+
+
+Line_467_Pred_47_Cond_64_Mutant514
+
+==> @ Line: 467
+Original Line  : while ((sub[i] != ENDSTR)) {
+After Mutation : while ((sub[i] <= ENDSTR)) {
+
+
+Line_467_Pred_47_Cond_64_Mutant515
+
+==> @ Line: 467
+Original Line  : while ((sub[i] != ENDSTR)) {
+After Mutation : while ((sub[i] >= ENDSTR)) {
+
+
+PNF_Line_468_Pred_48_Cond_PNF_Mutant516
+
+==> @ Line: 468
+Original Line  : if ((sub[i] == DITTO))
+After Mutation : if (!((sub[i] == DITTO)))
+
+
+Line_468_Pred_48_Cond_65_Mutant517
+
+==> @ Line: 468
+Original Line  : if ((sub[i] == DITTO))
+After Mutation : if ((sub[i] != DITTO))
+
+
+Line_468_Pred_48_Cond_65_Mutant518
+
+==> @ Line: 468
+Original Line  : if ((sub[i] == DITTO))
+After Mutation : if ((sub[i] < DITTO))
+
+
+Line_468_Pred_48_Cond_65_Mutant519
+
+==> @ Line: 468
+Original Line  : if ((sub[i] == DITTO))
+After Mutation : if ((sub[i] > DITTO))
+
+
+Line_468_Pred_48_Cond_65_Mutant520
+
+==> @ Line: 468
+Original Line  : if ((sub[i] == DITTO))
+After Mutation : if ((sub[i] <= DITTO))
+
+
+Line_468_Pred_48_Cond_65_Mutant521
+
+==> @ Line: 468
+Original Line  : if ((sub[i] == DITTO))
+After Mutation : if ((sub[i] >= DITTO))
+
+
+PNF_Line_469_Pred_49_Cond_PNF_Mutant522
+
+==> @ Line: 469
+Original Line  : for (j = s1; j < s2; j++)
+After Mutation : for (j = s1;!( j < s2); j++)
+
+
+Line_469_Pred_49_Cond_66_Mutant523
+
+==> @ Line: 469
+Original Line  : for (j = s1; j < s2; j++)
+After Mutation : for (j = s1; j != s2; j++)
+
+
+Line_469_Pred_49_Cond_66_Mutant524
+
+==> @ Line: 469
+Original Line  : for (j = s1; j < s2; j++)
+After Mutation : for (j = s1; j > s2; j++)
+
+
+Line_469_Pred_49_Cond_66_Mutant525
+
+==> @ Line: 469
+Original Line  : for (j = s1; j < s2; j++)
+After Mutation : for (j = s1; j <= s2; j++)
+
+
+Line_469_Pred_49_Cond_66_Mutant526
+
+==> @ Line: 469
+Original Line  : for (j = s1; j < s2; j++)
+After Mutation : for (j = s1; j >= s2; j++)
+
+
+Line_469_Pred_49_Cond_66_Mutant527
+
+==> @ Line: 469
+Original Line  : for (j = s1; j < s2; j++)
+After Mutation : for (j = s1; j == s2; j++)
+
+
+AOFLine_477_Pred_NO_Mutant528
+
+==> @ Line: 477
+Original Line  : i = i + 1;
+After Mutation : i = i - 1;
+
+
+AOFLine_477_Pred_NO_Mutant529
+
+==> @ Line: 477
+Original Line  : i = i + 1;
+After Mutation : i = i * 1;
+
+
+AOFLine_477_Pred_NO_Mutant530
+
+==> @ Line: 477
+Original Line  : i = i + 1;
+After Mutation : i = i / 1;
+
+
+AOFLine_477_Pred_NO_Mutant531
+
+==> @ Line: 477
+Original Line  : i = i + 1;
+After Mutation : i = i % 1;
+
+
+PNF_Line_491_Pred_50_Cond_PNF_Mutant532
+
+==> @ Line: 491
+Original Line  : while ((lin[i] != ENDSTR))
+After Mutation : while (!((lin[i] != ENDSTR)))
+
+
+Line_491_Pred_50_Cond_67_Mutant533
+
+==> @ Line: 491
+Original Line  : while ((lin[i] != ENDSTR))
+After Mutation : while ((lin[i] == ENDSTR))
+
+
+Line_491_Pred_50_Cond_67_Mutant534
+
+==> @ Line: 491
+Original Line  : while ((lin[i] != ENDSTR))
+After Mutation : while ((lin[i] < ENDSTR))
+
+
+Line_491_Pred_50_Cond_67_Mutant535
+
+==> @ Line: 491
+Original Line  : while ((lin[i] != ENDSTR))
+After Mutation : while ((lin[i] > ENDSTR))
+
+
+Line_491_Pred_50_Cond_67_Mutant536
+
+==> @ Line: 491
+Original Line  : while ((lin[i] != ENDSTR))
+After Mutation : while ((lin[i] <= ENDSTR))
+
+
+Line_491_Pred_50_Cond_67_Mutant537
+
+==> @ Line: 491
+Original Line  : while ((lin[i] != ENDSTR))
+After Mutation : while ((lin[i] >= ENDSTR))
+
+
+PNF_Line_494_Pred_51_Cond_PNF_Mutant538
+
+==> @ Line: 494
+Original Line  : if ((m >= 0) && (lastm != m)) {
+After Mutation : if (!((m >= 0) && (lastm != m))) {
+
+
+CNF_Line_494_Pred_51_Cond_68_Mutant539
+
+==> @ Line: 494
+Original Line  : if ((m >= 0) && (lastm != m)) {
+After Mutation : if ((!(m >= 0 )) && (lastm != m)) {
+
+
+CNF_Line_494_Pred_51_Cond_69_Mutant540
+
+==> @ Line: 494
+Original Line  : if ((m >= 0) && (lastm != m)) {
+After Mutation : if ((m >= 0) && (!( lastm != m))) {
+
+
+ROF_Line_494_Pred_51_Cond_80_Mutant541
+
+==> @ Line: 494
+Original Line  : if ((m >= 0) && (lastm != m)) {
+After Mutation : if ((m != 0) && (lastm != m)) {
+
+
+ROF_Line_494_Pred_51_Cond_80_Mutant542
+
+==> @ Line: 494
+Original Line  : if ((m >= 0) && (lastm != m)) {
+After Mutation : if ((m < 0) && (lastm != m)) {
+
+
+ROF_Line_494_Pred_51_Cond_80_Mutant543
+
+==> @ Line: 494
+Original Line  : if ((m >= 0) && (lastm != m)) {
+After Mutation : if ((m <= 0) && (lastm != m)) {
+
+
+ROF_Line_494_Pred_51_Cond_81_Mutant544
+
+==> @ Line: 494
+Original Line  : if ((m >= 0) && (lastm != m)) {
+After Mutation : if ((m > 0) && (lastm != m)) {
+
+
+ROF_Line_494_Pred_51_Cond_79_Mutant545
+
+==> @ Line: 494
+Original Line  : if ((m >= 0) && (lastm != m)) {
+After Mutation : if ((m==0) && (lastm != m)) {
+
+
+ROF_Line_494_Pred_51_Cond_67_Mutant546
+
+==> @ Line: 494
+Original Line  : if ((m >= 0) && (lastm != m)) {
+After Mutation : if ((m >= 0) && (lastm == m)) {
+
+
+ROF_Line_494_Pred_51_Cond_67_Mutant547
+
+==> @ Line: 494
+Original Line  : if ((m >= 0) && (lastm != m)) {
+After Mutation : if ((m >= 0) && (lastm < m)) {
+
+
+ROF_Line_494_Pred_51_Cond_67_Mutant548
+
+==> @ Line: 494
+Original Line  : if ((m >= 0) && (lastm != m)) {
+After Mutation : if ((m >= 0) && (lastm > m)) {
+
+
+ROF_Line_494_Pred_51_Cond_67_Mutant549
+
+==> @ Line: 494
+Original Line  : if ((m >= 0) && (lastm != m)) {
+After Mutation : if ((m >= 0) && (lastm <= m)) {
+
+
+ROF_Line_494_Pred_51_Cond_67_Mutant550
+
+==> @ Line: 494
+Original Line  : if ((m >= 0) && (lastm != m)) {
+After Mutation : if ((m >= 0) && (lastm >= m)) {
+
+
+LOF_Line_494_Pred_51_Cond_NOC_Mutant551
+
+==> @ Line: 494
+Original Line  : if ((m >= 0) && (lastm != m)) {
+After Mutation : if ((m >= 0) || (lastm != m)) {
+
+
+PNF_Line_498_Pred_52_Cond_PNF_Mutant552
+
+==> @ Line: 498
+Original Line  : if ((m == -1) || (m == i)) {
+After Mutation : if (!((m == -1) || (m == i))) {
+
+
+CNF_Line_498_Pred_52_Cond_70_Mutant553
+
+==> @ Line: 498
+Original Line  : if ((m == -1) || (m == i)) {
+After Mutation : if ((!(m == -1 )) || (m == i)) {
+
+
+CNF_Line_498_Pred_52_Cond_71_Mutant554
+
+==> @ Line: 498
+Original Line  : if ((m == -1) || (m == i)) {
+After Mutation : if ((m == -1) || (!( m == i))) {
+
+
+ROF_Line_498_Pred_52_Cond_82_Mutant555
+
+==> @ Line: 498
+Original Line  : if ((m == -1) || (m == i)) {
+After Mutation : if ((m != -1) || (m == i)) {
+
+
+ROF_Line_498_Pred_52_Cond_82_Mutant556
+
+==> @ Line: 498
+Original Line  : if ((m == -1) || (m == i)) {
+After Mutation : if ((m < -1) || (m == i)) {
+
+
+ROF_Line_498_Pred_52_Cond_82_Mutant557
+
+==> @ Line: 498
+Original Line  : if ((m == -1) || (m == i)) {
+After Mutation : if ((m > -1) || (m == i)) {
+
+
+ROF_Line_498_Pred_52_Cond_82_Mutant558
+
+==> @ Line: 498
+Original Line  : if ((m == -1) || (m == i)) {
+After Mutation : if ((m <= -1) || (m == i)) {
+
+
+ROF_Line_498_Pred_52_Cond_82_Mutant559
+
+==> @ Line: 498
+Original Line  : if ((m == -1) || (m == i)) {
+After Mutation : if ((m >= -1) || (m == i)) {
+
+
+ROF_Line_498_Pred_52_Cond_69_Mutant560
+
+==> @ Line: 498
+Original Line  : if ((m == -1) || (m == i)) {
+After Mutation : if ((m == -1) || (m != i)) {
+
+
+ROF_Line_498_Pred_52_Cond_69_Mutant561
+
+==> @ Line: 498
+Original Line  : if ((m == -1) || (m == i)) {
+After Mutation : if ((m == -1) || (m < i)) {
+
+
+ROF_Line_498_Pred_52_Cond_69_Mutant562
+
+==> @ Line: 498
+Original Line  : if ((m == -1) || (m == i)) {
+After Mutation : if ((m == -1) || (m > i)) {
+
+
+ROF_Line_498_Pred_52_Cond_69_Mutant563
+
+==> @ Line: 498
+Original Line  : if ((m == -1) || (m == i)) {
+After Mutation : if ((m == -1) || (m <= i)) {
+
+
+ROF_Line_498_Pred_52_Cond_69_Mutant564
+
+==> @ Line: 498
+Original Line  : if ((m == -1) || (m == i)) {
+After Mutation : if ((m == -1) || (m >= i)) {
+
+
+LOF_Line_498_Pred_52_Cond_NOC_Mutant565
+
+==> @ Line: 498
+Original Line  : if ((m == -1) || (m == i)) {
+After Mutation : if ((m == -1) && (m == i)) {
+
+
+AOFLine_500_Pred_NO_Mutant566
+
+==> @ Line: 500
+Original Line  : i = i + 1;
+After Mutation : i = i - 1;
+
+
+AOFLine_500_Pred_NO_Mutant567
+
+==> @ Line: 500
+Original Line  : i = i + 1;
+After Mutation : i = i * 1;
+
+
+AOFLine_500_Pred_NO_Mutant568
+
+==> @ Line: 500
+Original Line  : i = i + 1;
+After Mutation : i = i / 1;
+
+
+AOFLine_500_Pred_NO_Mutant569
+
+==> @ Line: 500
+Original Line  : i = i + 1;
+After Mutation : i = i % 1;
+
+
+PNF_Line_514_Pred_53_Cond_PNF_Mutant570
+
+==> @ Line: 514
+Original Line  : while ((result)) {
+After Mutation : while (!((result))) {
+
+
+PNF_Line_527_Pred_54_Cond_PNF_Mutant571
+
+==> @ Line: 527
+Original Line  : if (argc < 2)
+After Mutation : if (!(argc < 2))
+
+
+Line_527_Pred_54_Cond_72_Mutant572
+
+==> @ Line: 527
+Original Line  : if (argc < 2)
+After Mutation : if (argc != 2)
+
+
+Line_527_Pred_54_Cond_72_Mutant573
+
+==> @ Line: 527
+Original Line  : if (argc < 2)
+After Mutation : if (argc > 2)
+
+
+Line_527_Pred_54_Cond_72_Mutant574
+
+==> @ Line: 527
+Original Line  : if (argc < 2)
+After Mutation : if (argc <= 2)
+
+
+Line_527_Pred_54_Cond_72_Mutant575
+
+==> @ Line: 527
+Original Line  : if (argc < 2)
+After Mutation : if (argc >= 2)
+
+
+Line_527_Pred_54_Cond_72_Mutant576
+
+==> @ Line: 527
+Original Line  : if (argc < 2)
+After Mutation : if (argc == 2)
+
+
+PNF_Line_534_Pred_55_Cond_PNF_Mutant577
+
+==> @ Line: 534
+Original Line  : if (!result)
+After Mutation : if (!(!result))
+
+
+PNF_Line_540_Pred_56_Cond_PNF_Mutant578
+
+==> @ Line: 540
+Original Line  : if (argc >= 3)
+After Mutation : if (!(argc >= 3))
+
+
+Line_540_Pred_56_Cond_74_Mutant579
+
+==> @ Line: 540
+Original Line  : if (argc >= 3)
+After Mutation : if (argc != 3)
+
+
+Line_540_Pred_56_Cond_74_Mutant580
+
+==> @ Line: 540
+Original Line  : if (argc >= 3)
+After Mutation : if (argc < 3)
+
+
+Line_540_Pred_56_Cond_74_Mutant581
+
+==> @ Line: 540
+Original Line  : if (argc >= 3)
+After Mutation : if (argc <= 3)
+
+
+Line_540_Pred_56_Cond_74_Mutant582
+
+==> @ Line: 540
+Original Line  : if (argc >= 3)
+After Mutation : if (argc > 3)
+
+
+Line_540_Pred_56_Cond_74_Mutant583
+
+==> @ Line: 540
+Original Line  : if (argc >= 3)
+After Mutation : if (argc==3)
+
+
+PNF_Line_543_Pred_57_Cond_PNF_Mutant584
+
+==> @ Line: 543
+Original Line  : if (!result)
+After Mutation : if (!(!result))
+
+

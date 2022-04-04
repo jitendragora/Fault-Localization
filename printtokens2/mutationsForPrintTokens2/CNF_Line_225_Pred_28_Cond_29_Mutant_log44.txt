@@ -1,0 +1,5 @@
+
+==> @ Line: 225
+
+Original Line  : if(ch ==' ' || ch=='\n' || ch==59) return(TRUE);
+After Mutation : if(!(ch ==' ' ) || ch=='\n' || ch==59) return(TRUE);

@@ -1,0 +1,5 @@
+
+==> @ Line: 115
+
+Original Line  : else if ((isalnum(src[*i - 1])) && (isalnum(src[*i + 1]))
+After Mutation : else if ((isalnum(src[*i - 1])) && (isalnum(src[*i / 1]))

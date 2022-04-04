@@ -1,0 +1,5 @@
+
+==> @ Line: 415
+
+Original Line  : while((c=get_char(stream_ptr))!='\n' &&
+After Mutation : while((c=get_char(stream_ptr))!='\n' ||

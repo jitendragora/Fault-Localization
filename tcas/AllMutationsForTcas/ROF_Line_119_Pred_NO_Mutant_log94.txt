@@ -1,0 +1,5 @@
+
+==> @ Line: 119
+
+Original Line  : tcas_equipped = Other_Capability == TCAS_TA;
+After Mutation : tcas_equipped = Other_Capability < TCAS_TA;

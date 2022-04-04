@@ -1,0 +1,5 @@
+
+==> @ Line: 314
+
+Original Line  : i = offset + pat[offset];
+After Mutation : i = offset / pat[offset];

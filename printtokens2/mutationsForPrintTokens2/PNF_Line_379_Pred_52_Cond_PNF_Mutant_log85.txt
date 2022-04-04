@@ -1,0 +1,5 @@
+
+==> @ Line: 379
+
+Original Line  : if ( *str =='"')
+After Mutation : if (!( *str =='"'))

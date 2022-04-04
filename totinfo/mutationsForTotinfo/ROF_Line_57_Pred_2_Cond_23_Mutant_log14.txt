@@ -1,0 +1,5 @@
+
+==> @ Line: 57
+
+Original Line  : for ( p = line; *p != '\0' && isspace( (int)*p ); ++p )
+After Mutation : for ( p = line; *p >= '\0' && isspace( (int)*p ); ++p )

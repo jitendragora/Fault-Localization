@@ -1,0 +1,5 @@
+
+==> @ Line: 164
+
+Original Line  : if(ch ==59)id=2;    /* prepare for comment */
+After Mutation : if(!(ch ==59))id=2;    /* prepare for comment */

@@ -1,0 +1,5 @@
+
+==> @ Line: 218
+
+Original Line  : { if(ch=='\n')     /* for comment until meet end of line */
+After Mutation : { if(!(ch=='\n'))     /* for comment until meet end of line */

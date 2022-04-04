@@ -1,0 +1,5 @@
+
+==> @ Line: 222
+
+Original Line  : b0 = (b1 + b0 * ana) * fac;
+After Mutation : b0 = (b1 + b0 % ana) * fac;

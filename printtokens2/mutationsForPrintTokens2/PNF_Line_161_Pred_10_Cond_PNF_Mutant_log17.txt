@@ -1,0 +1,5 @@
+
+==> @ Line: 161
+
+Original Line  : if(is_eof_token(buffer)==TRUE)return(buffer);
+After Mutation : if(!(is_eof_token(buffer)==TRUE)return(buffer));

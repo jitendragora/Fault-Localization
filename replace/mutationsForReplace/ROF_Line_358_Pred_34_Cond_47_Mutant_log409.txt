@@ -1,0 +1,5 @@
+
+==> @ Line: 358
+
+Original Line  : if (lin[*i] != NEWLINE)
+After Mutation : if (lin[*i] == NEWLINE)

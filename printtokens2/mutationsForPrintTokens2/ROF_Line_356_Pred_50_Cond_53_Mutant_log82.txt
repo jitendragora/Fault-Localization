@@ -1,0 +1,5 @@
+
+==> @ Line: 356
+
+Original Line  : while ( *(str+i) != '\0' )   /* until meet token end sign */
+After Mutation : while ( *(str+i) <= '\0' )   /* until meet token end sign */

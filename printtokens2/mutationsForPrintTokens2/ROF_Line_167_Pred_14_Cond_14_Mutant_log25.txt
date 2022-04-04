@@ -1,0 +1,5 @@
+
+==> @ Line: 167
+
+Original Line  : while (is_token_end(id,ch) == FALSE)/* until meet the end character */
+After Mutation : while (is_token_end(id,ch) <= FALSE)/* until meet the end character */

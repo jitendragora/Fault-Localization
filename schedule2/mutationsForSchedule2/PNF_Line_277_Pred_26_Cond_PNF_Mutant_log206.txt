@@ -1,0 +1,5 @@
+
+==> @ Line: 277
+
+Original Line  : for(next = &prio_queue[prio].head; *next; next = &(*next)->next);
+After Mutation : for(next = &prio_queue[prio].head;!( *next; next = &(*next)->next));

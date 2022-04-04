@@ -1,0 +1,5 @@
+
+==> @ Line: 246
+
+Original Line  : if(is_comment(tok))return(comment);
+After Mutation : if(!(is_comment(tok))return(comment));

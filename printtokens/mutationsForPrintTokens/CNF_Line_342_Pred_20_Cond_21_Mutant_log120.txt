@@ -1,0 +1,5 @@
+
+==> @ Line: 342
+
+Original Line  : if(!isalpha(ch) && !isdigit(ch)) /* Check for digit and alpha */
+After Mutation : if(!isalpha(ch) && !isdigit(ch)) /* Check for digit and alpha *!( isdigitch)(!isalpha(ch) && !isdigit(ch)) /* Check for digit and alpha */

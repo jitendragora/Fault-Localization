@@ -1,0 +1,735 @@
+PNF_Line_27_Pred_1_Cond_PNF_Mutant1
+
+==> @ Line: 27
+Original Line  : if(argc==1)                  /* if not given filename,take as '""' */
+After Mutation : if(!(argc==1))                  /* if not given filename,take as '""' */
+
+
+PNF_Line_32_Pred_2_Cond_PNF_Mutant2
+
+==> @ Line: 32
+Original Line  : else if(argc==2)
+After Mutation : else if(!(argc==2))
+
+
+PNF_Line_40_Pred_3_Cond_PNF_Mutant3
+
+==> @ Line: 40
+Original Line  : while (is_eof_token(tok) ==FALSE) /* take one token each time until eof */
+After Mutation : while (!(is_eof_token(tok) ==FALSE)) /* take one token each time until eof */
+
+
+PNF_Line_62_Pred_4_Cond_PNF_Mutant4
+
+==> @ Line: 62
+Original Line  : if(fname == NULL)
+After Mutation : if(!(fname == NULL))
+
+
+Line_62_Pred_4_Cond_4_Mutant5
+
+==> @ Line: 62
+Original Line  : if(fname == NULL)
+After Mutation : if(fname != NULL)
+
+
+Line_62_Pred_4_Cond_4_Mutant6
+
+==> @ Line: 62
+Original Line  : if(fname == NULL)
+After Mutation : if(fname < NULL)
+
+
+Line_62_Pred_4_Cond_4_Mutant7
+
+==> @ Line: 62
+Original Line  : if(fname == NULL)
+After Mutation : if(fname > NULL)
+
+
+Line_62_Pred_4_Cond_4_Mutant8
+
+==> @ Line: 62
+Original Line  : if(fname == NULL)
+After Mutation : if(fname <= NULL)
+
+
+Line_62_Pred_4_Cond_4_Mutant9
+
+==> @ Line: 62
+Original Line  : if(fname == NULL)
+After Mutation : if(fname >= NULL)
+
+
+PNF_Line_64_Pred_5_Cond_PNF_Mutant10
+
+==> @ Line: 64
+Original Line  : else if ((fp=fopen(fname,"r"))== NULL)
+After Mutation : else if (!((fp=fopen(fname,"r"))== NULL))
+
+
+PNF_Line_95_Pred_6_Cond_PNF_Mutant11
+
+==> @ Line: 95
+Original Line  : if(c ==EOF)
+After Mutation : if(!(c ==EOF))
+
+
+PNF_Line_131_Pred_7_Cond_PNF_Mutant12
+
+==> @ Line: 131
+Original Line  : if(strcmp(fname,"")==0)
+After Mutation : if(!(strcmp(fname,"")==0))
+
+
+PNF_Line_151_Pred_8_Cond_PNF_Mutant13
+
+==> @ Line: 151
+Original Line  : for (j=0;j<=80;j++)          /* initial the buffer   */
+After Mutation : for (j=0;!(j<=80);j++)          /* initial the buffer   */
+
+
+PNF_Line_156_Pred_9_Cond_PNF_Mutant14
+
+==> @ Line: 156
+Original Line  : while(ch==' '||ch=='\n')      /* strip all blanks until meet characters */
+After Mutation : while(!(ch==' '||ch=='\n'))      /* strip all blanks until meet characters */
+
+
+CNF_Line_156_Pred_9_Cond_9_Mutant15
+
+==> @ Line: 156
+Original Line  : while(ch==' '||ch=='\n')      /* strip all blanks until meet characters */
+After Mutation : while(!(ch==' ')||ch=='\n')      /* strip all blanks until meet characters */
+
+
+CNF_Line_156_Pred_9_Cond_10_Mutant16
+
+==> @ Line: 156
+Original Line  : while(ch==' '||ch=='\n')      /* strip all blanks until meet characters */
+After Mutation : while(ch==' '||!(ch=='\n'))      /* strip all blanks until meet characters */
+
+
+PNF_Line_161_Pred_10_Cond_PNF_Mutant17
+
+==> @ Line: 161
+Original Line  : if(is_eof_token(buffer)==TRUE)return(buffer);
+After Mutation : if(!(is_eof_token(buffer)==TRUE)return(buffer));
+
+
+PNF_Line_162_Pred_11_Cond_PNF_Mutant18
+
+==> @ Line: 162
+Original Line  : if(is_spec_symbol(buffer)==TRUE)return(buffer);
+After Mutation : if(!(is_spec_symbol(buffer)==TRUE)return(buffer));
+
+
+PNF_Line_163_Pred_12_Cond_PNF_Mutant19
+
+==> @ Line: 163
+Original Line  : if(ch =='"')id=1;    /* prepare for string */
+After Mutation : if(!(ch =='"'))id=1;    /* prepare for string */
+
+
+PNF_Line_164_Pred_13_Cond_PNF_Mutant20
+
+==> @ Line: 164
+Original Line  : if(ch ==59)id=2;    /* prepare for comment */
+After Mutation : if(!(ch ==59))id=2;    /* prepare for comment */
+
+
+PNF_Line_167_Pred_14_Cond_PNF_Mutant21
+
+==> @ Line: 167
+Original Line  : while (is_token_end(id,ch) == FALSE)/* until meet the end character */
+After Mutation : while (!(is_token_end(id,ch) == FALSE))/* until meet the end character */
+
+
+Line_167_Pred_14_Cond_14_Mutant22
+
+==> @ Line: 167
+Original Line  : while (is_token_end(id,ch) == FALSE)/* until meet the end character */
+After Mutation : while (is_token_end(id,ch) != FALSE)/* until meet the end character */
+
+
+Line_167_Pred_14_Cond_14_Mutant23
+
+==> @ Line: 167
+Original Line  : while (is_token_end(id,ch) == FALSE)/* until meet the end character */
+After Mutation : while (is_token_end(id,ch) < FALSE)/* until meet the end character */
+
+
+Line_167_Pred_14_Cond_14_Mutant24
+
+==> @ Line: 167
+Original Line  : while (is_token_end(id,ch) == FALSE)/* until meet the end character */
+After Mutation : while (is_token_end(id,ch) > FALSE)/* until meet the end character */
+
+
+Line_167_Pred_14_Cond_14_Mutant25
+
+==> @ Line: 167
+Original Line  : while (is_token_end(id,ch) == FALSE)/* until meet the end character */
+After Mutation : while (is_token_end(id,ch) <= FALSE)/* until meet the end character */
+
+
+Line_167_Pred_14_Cond_14_Mutant26
+
+==> @ Line: 167
+Original Line  : while (is_token_end(id,ch) == FALSE)/* until meet the end character */
+After Mutation : while (is_token_end(id,ch) >= FALSE)/* until meet the end character */
+
+
+PNF_Line_174_Pred_15_Cond_PNF_Mutant27
+
+==> @ Line: 174
+Original Line  : if(is_eof_token(ch1)==TRUE)       /* if end character is eof token    */
+After Mutation : if(!(is_eof_token(ch1)==TRUE))       /* if end character is eof token    */
+
+
+PNF_Line_176_Pred_16_Cond_PNF_Mutant28
+
+==> @ Line: 176
+Original Line  : if(ch==EOF)unget_error(tp);
+After Mutation : if(!(ch==EOF)unget_error(tp));
+
+
+PNF_Line_179_Pred_17_Cond_PNF_Mutant29
+
+==> @ Line: 179
+Original Line  : if(is_spec_symbol(ch1)==TRUE)     /* if end character is special_symbol */
+After Mutation : if(!(is_spec_symbol(ch1)==TRUE))     /* if end character is special_symbol */
+
+
+PNF_Line_181_Pred_18_Cond_PNF_Mutant30
+
+==> @ Line: 181
+Original Line  : if(ch==EOF)unget_error(tp);
+After Mutation : if(!(ch==EOF)unget_error(tp));
+
+
+PNF_Line_184_Pred_19_Cond_PNF_Mutant31
+
+==> @ Line: 184
+Original Line  : if(id==1)                  /* if end character is " and is string */
+After Mutation : if(!(id==1))                  /* if end character is " and is string */
+
+
+PNF_Line_189_Pred_20_Cond_PNF_Mutant32
+
+==> @ Line: 189
+Original Line  : if(id==0 && ch==59)
+After Mutation : if(!(id==0 && ch==59))
+
+
+CNF_Line_189_Pred_20_Cond_20_Mutant33
+
+==> @ Line: 189
+Original Line  : if(id==0 && ch==59)
+After Mutation : if(!(id==0 ) && ch==59)
+
+
+CNF_Line_189_Pred_20_Cond_21_Mutant34
+
+==> @ Line: 189
+Original Line  : if(id==0 && ch==59)
+After Mutation : if(id==0 && !( ch==59))
+
+
+LOF_Line_189_Pred_20_Cond_NOC_Mutant35
+
+==> @ Line: 189
+Original Line  : if(id==0 && ch==59)
+After Mutation : if(id==0 || ch==59)
+
+
+PNF_Line_192_Pred_21_Cond_PNF_Mutant36
+
+==> @ Line: 192
+Original Line  : if(ch==EOF)unget_error(tp);
+After Mutation : if(!(ch==EOF)unget_error(tp));
+
+
+PNF_Line_209_Pred_22_Cond_PNF_Mutant37
+
+==> @ Line: 209
+Original Line  : if(is_eof_token(ch1)==TRUE)return(TRUE); /* is eof token? */
+After Mutation : if(!(is_eof_token(ch1)==TRUE)return(TRUE)); /* is eof token? */
+
+
+PNF_Line_210_Pred_23_Cond_PNF_Mutant38
+
+==> @ Line: 210
+Original Line  : if(str_com_id==1)          /* is string token */
+After Mutation : if(!(str_com_id==1))          /* is string token */
+
+
+PNF_Line_211_Pred_24_Cond_PNF_Mutant39
+
+==> @ Line: 211
+Original Line  : { if(ch=='"' | ch=='\n')   /* for string until meet another " */
+After Mutation : { if(!(ch=='"' | ch=='\n'))   /* for string until meet another " */
+
+
+PNF_Line_217_Pred_25_Cond_PNF_Mutant40
+
+==> @ Line: 217
+Original Line  : if(str_com_id==2)    /* is comment token */
+After Mutation : if(!(str_com_id==2))    /* is comment token */
+
+
+PNF_Line_218_Pred_26_Cond_PNF_Mutant41
+
+==> @ Line: 218
+Original Line  : { if(ch=='\n')     /* for comment until meet end of line */
+After Mutation : { if(!(ch=='\n'))     /* for comment until meet end of line */
+
+
+PNF_Line_224_Pred_27_Cond_PNF_Mutant42
+
+==> @ Line: 224
+Original Line  : if(is_spec_symbol(ch1)==TRUE) return(TRUE); /* is special_symbol? */
+After Mutation : if(!(is_spec_symbol(ch1)==TRUE) return(TRUE)); /* is special_symbol? */
+
+
+PNF_Line_225_Pred_28_Cond_PNF_Mutant43
+
+==> @ Line: 225
+Original Line  : if(ch ==' ' || ch=='\n' || ch==59) return(TRUE);
+After Mutation : if(!(ch ==' ' || ch=='\n' || ch==59) return(TRUE));
+
+
+CNF_Line_225_Pred_28_Cond_29_Mutant44
+
+==> @ Line: 225
+Original Line  : if(ch ==' ' || ch=='\n' || ch==59) return(TRUE);
+After Mutation : if(!(ch ==' ' ) || ch=='\n' || ch==59) return(TRUE);
+
+
+CNF_Line_225_Pred_28_Cond_30_Mutant45
+
+==> @ Line: 225
+Original Line  : if(ch ==' ' || ch=='\n' || ch==59) return(TRUE);
+After Mutation : if(ch ==' ' || !( ch=='\n' ) || ch==59) return(TRUE);
+
+
+CNF_Line_225_Pred_28_Cond_31_Mutant46
+
+==> @ Line: 225
+Original Line  : if(ch ==' ' || ch=='\n' || ch==59) return(TRUE);
+After Mutation : if(ch ==' ' || ch=='\n' || ch==59) return(TRUE);!( ch==59 returnTRUE)ch=='\n' || ch==59) return(TRUE);
+
+
+LOF_Line_225_Pred_28_Cond_NOC_Mutant47
+
+==> @ Line: 225
+Original Line  : if(ch ==' ' || ch=='\n' || ch==59) return(TRUE);
+After Mutation : if(ch ==' ' && ch=='\n' || ch==59) return(TRUE);
+
+
+LOF_Line_225_Pred_28_Cond_NOC_Mutant48
+
+==> @ Line: 225
+Original Line  : if(ch ==' ' || ch=='\n' || ch==59) return(TRUE);
+After Mutation : if(ch ==' ' || ch=='\n' && ch==59) return(TRUE);
+
+
+PNF_Line_240_Pred_29_Cond_PNF_Mutant49
+
+==> @ Line: 240
+Original Line  : if(is_keyword(tok))return(keyword);
+After Mutation : if(!(is_keyword(tok))return(keyword));
+
+
+PNF_Line_241_Pred_30_Cond_PNF_Mutant50
+
+==> @ Line: 241
+Original Line  : if(is_spec_symbol(tok))return(spec_symbol);
+After Mutation : if(!(is_spec_symbol(tok))return(spec_symbol));
+
+
+PNF_Line_242_Pred_31_Cond_PNF_Mutant51
+
+==> @ Line: 242
+Original Line  : if(is_identifier(tok))return(identifier);
+After Mutation : if(!(is_identifier(tok))return(identifier));
+
+
+PNF_Line_243_Pred_32_Cond_PNF_Mutant52
+
+==> @ Line: 243
+Original Line  : if(is_num_constant(tok))return(num_constant);
+After Mutation : if(!(is_num_constant(tok))return(num_constant));
+
+
+PNF_Line_244_Pred_33_Cond_PNF_Mutant53
+
+==> @ Line: 244
+Original Line  : if(is_str_constant(tok))return(str_constant);
+After Mutation : if(!(is_str_constant(tok))return(str_constant));
+
+
+PNF_Line_245_Pred_34_Cond_PNF_Mutant54
+
+==> @ Line: 245
+Original Line  : if(is_char_constant(tok))return(char_constant);
+After Mutation : if(!(is_char_constant(tok))return(char_constant));
+
+
+PNF_Line_246_Pred_35_Cond_PNF_Mutant55
+
+==> @ Line: 246
+Original Line  : if(is_comment(tok))return(comment);
+After Mutation : if(!(is_comment(tok))return(comment));
+
+
+PNF_Line_247_Pred_36_Cond_PNF_Mutant56
+
+==> @ Line: 247
+Original Line  : if(is_eof_token(tok))return(end);
+After Mutation : if(!(is_eof_token(tok))return(end));
+
+
+PNF_Line_261_Pred_37_Cond_PNF_Mutant57
+
+==> @ Line: 261
+Original Line  : if(type==error)
+After Mutation : if(!(type==error))
+
+
+PNF_Line_264_Pred_38_Cond_PNF_Mutant58
+
+==> @ Line: 264
+Original Line  : if(type==keyword)
+After Mutation : if(!(type==keyword))
+
+
+PNF_Line_267_Pred_39_Cond_PNF_Mutant59
+
+==> @ Line: 267
+Original Line  : if(type==spec_symbol)print_spec_symbol(tok);
+After Mutation : if(!(type==spec_symbol)print_spec_symbol(tok));
+
+
+PNF_Line_268_Pred_40_Cond_PNF_Mutant60
+
+==> @ Line: 268
+Original Line  : if(type==identifier)
+After Mutation : if(!(type==identifier))
+
+
+PNF_Line_271_Pred_41_Cond_PNF_Mutant61
+
+==> @ Line: 271
+Original Line  : if(type==num_constant)
+After Mutation : if(!(type==num_constant))
+
+
+PNF_Line_274_Pred_42_Cond_PNF_Mutant62
+
+==> @ Line: 274
+Original Line  : if(type==str_constant)
+After Mutation : if(!(type==str_constant))
+
+
+PNF_Line_277_Pred_43_Cond_PNF_Mutant63
+
+==> @ Line: 277
+Original Line  : if(type==char_constant)
+After Mutation : if(!(type==char_constant))
+
+
+PNF_Line_281_Pred_44_Cond_PNF_Mutant64
+
+==> @ Line: 281
+Original Line  : if(type==end)
+After Mutation : if(!(type==end))
+
+
+PNF_Line_295_Pred_45_Cond_PNF_Mutant65
+
+==> @ Line: 295
+Original Line  : if( *tok==EOF)
+After Mutation : if(!( *tok==EOF))
+
+
+PNF_Line_309_Pred_46_Cond_PNF_Mutant66
+
+==> @ Line: 309
+Original Line  : if( (*ident) ==59 )   /* the char is 59   */
+After Mutation : if(!( (*ident) ==59 ))   /* the char is 59   */
+
+
+PNF_Line_323_Pred_47_Cond_PNF_Mutant67
+
+==> @ Line: 323
+Original Line  : if (!strcmp(str,"and") || !strcmp(str,"or") || !strcmp(str,"if") ||
+After Mutation : if (!(!strcmp(str,"and") || !strcmp(str,"or") || !strcmp(str,"if")) ||
+
+
+CNF_Line_323_Pred_47_Cond_48_Mutant68
+
+==> @ Line: 323
+Original Line  : if (!strcmp(str,"and") || !strcmp(str,"or") || !strcmp(str,"if") ||
+After Mutation : if (!strcmp(str,"and") || !strcmp(str,"or") || !strcmp(str,"if") |!(strcmpstr,"and" )tr,"and") || !strcmp(str,"or") || !strcmp(str,"if") ||
+
+
+CNF_Line_323_Pred_47_Cond_49_Mutant69
+
+==> @ Line: 323
+Original Line  : if (!strcmp(str,"and") || !strcmp(str,"or") || !strcmp(str,"if") ||
+After Mutation : if (!strcmp(str,"and") || !strcmp(str,"or") || !strcmp(str,"if") |!( strcmpstr,"or" )str,"and") || !strcmp(str,"or") || !strcmp(str,"if") ||
+
+
+CNF_Line_323_Pred_47_Cond_50_Mutant70
+
+==> @ Line: 323
+Original Line  : if (!strcmp(str,"and") || !strcmp(str,"or") || !strcmp(str,"if") ||
+After Mutation : if (!strcmp(str,"and") || !strcmp(str,"or") || !strcmp(str,"if") |!( strcmpstr,"if")str,"and") || !strcmp(str,"or") || !strcmp(str,"if") ||
+
+
+LOF_Line_323_Pred_47_Cond_NOC_Mutant71
+
+==> @ Line: 323
+Original Line  : if (!strcmp(str,"and") || !strcmp(str,"or") || !strcmp(str,"if") ||
+After Mutation : if (!strcmp(str,"and") && !strcmp(str,"or") || !strcmp(str,"if") ||
+
+
+LOF_Line_323_Pred_47_Cond_NOC_Mutant72
+
+==> @ Line: 323
+Original Line  : if (!strcmp(str,"and") || !strcmp(str,"or") || !strcmp(str,"if") ||
+After Mutation : if (!strcmp(str,"and") || !strcmp(str,"or") && !strcmp(str,"if") ||
+
+
+PNF_Line_338_Pred_48_Cond_PNF_Mutant73
+
+==> @ Line: 338
+Original Line  : if ((*str)=='#' && isalpha(*(str+1)))
+After Mutation : if (!((*str)=='#' && isalpha(*(str+1))))
+
+
+CNF_Line_338_Pred_48_Cond_50_Mutant74
+
+==> @ Line: 338
+Original Line  : if ((*str)=='#' && isalpha(*(str+1)))
+After Mutation : if ((*str)=='#' && isalpha(*(str+1))!(*str=='#' )str)=='#' && isalpha(*(str+1)))
+
+
+CNF_Line_338_Pred_48_Cond_51_Mutant75
+
+==> @ Line: 338
+Original Line  : if ((*str)=='#' && isalpha(*(str+1)))
+After Mutation : if ((*str)=='#' && isalpha(*(str+1))!( isalpha*str+1)=='#' && isalpha(*(str+1)))
+
+
+LOF_Line_338_Pred_48_Cond_NOC_Mutant76
+
+==> @ Line: 338
+Original Line  : if ((*str)=='#' && isalpha(*(str+1)))
+After Mutation : if ((*str)=='#' || isalpha(*(str+1)))
+
+
+PNF_Line_354_Pred_49_Cond_PNF_Mutant77
+
+==> @ Line: 354
+Original Line  : if ( isdigit(*str))
+After Mutation : if (!( isdigit(*str)))
+
+
+PNF_Line_356_Pred_50_Cond_PNF_Mutant78
+
+==> @ Line: 356
+Original Line  : while ( *(str+i) != '\0' )   /* until meet token end sign */
+After Mutation : while (!( *(str+i) != '\0' ))   /* until meet token end sign */
+
+
+Line_356_Pred_50_Cond_53_Mutant79
+
+==> @ Line: 356
+Original Line  : while ( *(str+i) != '\0' )   /* until meet token end sign */
+After Mutation : while ( *(str+i) == '\0' )   /* until meet token end sign */
+
+
+Line_356_Pred_50_Cond_53_Mutant80
+
+==> @ Line: 356
+Original Line  : while ( *(str+i) != '\0' )   /* until meet token end sign */
+After Mutation : while ( *(str+i) < '\0' )   /* until meet token end sign */
+
+
+Line_356_Pred_50_Cond_53_Mutant81
+
+==> @ Line: 356
+Original Line  : while ( *(str+i) != '\0' )   /* until meet token end sign */
+After Mutation : while ( *(str+i) > '\0' )   /* until meet token end sign */
+
+
+Line_356_Pred_50_Cond_53_Mutant82
+
+==> @ Line: 356
+Original Line  : while ( *(str+i) != '\0' )   /* until meet token end sign */
+After Mutation : while ( *(str+i) <= '\0' )   /* until meet token end sign */
+
+
+Line_356_Pred_50_Cond_53_Mutant83
+
+==> @ Line: 356
+Original Line  : while ( *(str+i) != '\0' )   /* until meet token end sign */
+After Mutation : while ( *(str+i) >= '\0' )   /* until meet token end sign */
+
+
+PNF_Line_358_Pred_51_Cond_PNF_Mutant84
+
+==> @ Line: 358
+Original Line  : if(isdigit(*(str+i)))
+After Mutation : if(!(isdigit(*(str+i))))
+
+
+PNF_Line_379_Pred_52_Cond_PNF_Mutant85
+
+==> @ Line: 379
+Original Line  : if ( *str =='"')
+After Mutation : if (!( *str =='"'))
+
+
+PNF_Line_380_Pred_53_Cond_PNF_Mutant86
+
+==> @ Line: 380
+Original Line  : { while (*(str+i)!='\0')  /* until meet the token end sign */
+After Mutation : { while (!(*(str+i)!='\0'))  /* until meet the token end sign */
+
+
+PNF_Line_381_Pred_54_Cond_PNF_Mutant87
+
+==> @ Line: 381
+Original Line  : { if(*(str+i)=='"')
+After Mutation : { if(!(*(str+i)=='"'))
+
+
+PNF_Line_401_Pred_55_Cond_PNF_Mutant88
+
+==> @ Line: 401
+Original Line  : if ( isalpha( *str) )
+After Mutation : if (!( isalpha( *str) ))
+
+
+PNF_Line_403_Pred_56_Cond_PNF_Mutant89
+
+==> @ Line: 403
+Original Line  : while(  *(str+i) !='\0' )   /* unti meet the end token sign */
+After Mutation : while(!(  *(str+i) !='\0' ))   /* unti meet the end token sign */
+
+
+PNF_Line_405_Pred_57_Cond_PNF_Mutant90
+
+==> @ Line: 405
+Original Line  : if(isalpha(*(str+i)) || isdigit(*(str+i)))
+After Mutation : if(!(isalpha(*(str+i)) || isdigit(*(str+i))))
+
+
+CNF_Line_405_Pred_57_Cond_60_Mutant91
+
+==> @ Line: 405
+Original Line  : if(isalpha(*(str+i)) || isdigit(*(str+i)))
+After Mutation : if(isalpha(*(str+i)) || isdigit(*(str+i)))  !(isalpha*str+i )if(isalpha(*(str+i)) || isdigit(*(str+i)))
+
+
+CNF_Line_405_Pred_57_Cond_61_Mutant92
+
+==> @ Line: 405
+Original Line  : if(isalpha(*(str+i)) || isdigit(*(str+i)))
+After Mutation : if(isalpha(*(str+i)) || isdigit(*(str+i)))  !( isdigit*str+i)if(isalpha(*(str+i)) || isdigit(*(str+i)))
+
+
+LOF_Line_405_Pred_57_Cond_NOC_Mutant93
+
+==> @ Line: 405
+Original Line  : if(isalpha(*(str+i)) || isdigit(*(str+i)))
+After Mutation : if(isalpha(*(str+i)) && isdigit(*(str+i)))
+
+
+PNF_Line_441_Pred_58_Cond_PNF_Mutant94
+
+==> @ Line: 441
+Original Line  : if (!strcmp(str,")"))
+After Mutation : if (!(!strcmp(str,")")))
+
+
+PNF_Line_446_Pred_59_Cond_PNF_Mutant95
+
+==> @ Line: 446
+Original Line  : if (!strcmp(str,"["))
+After Mutation : if (!(!strcmp(str,"[")))
+
+
+PNF_Line_451_Pred_60_Cond_PNF_Mutant96
+
+==> @ Line: 451
+Original Line  : if (!strcmp(str,"]"))
+After Mutation : if (!(!strcmp(str,"]")))
+
+
+PNF_Line_456_Pred_61_Cond_PNF_Mutant97
+
+==> @ Line: 456
+Original Line  : if (!strcmp(str,"'"))
+After Mutation : if (!(!strcmp(str,"'")))
+
+
+PNF_Line_461_Pred_62_Cond_PNF_Mutant98
+
+==> @ Line: 461
+Original Line  : if (!strcmp(str,"`"))
+After Mutation : if (!(!strcmp(str,"`")))
+
+
+PNF_Line_479_Pred_63_Cond_PNF_Mutant99
+
+==> @ Line: 479
+Original Line  : if (!strcmp(str,"("))
+After Mutation : if (!(!strcmp(str,"(")))
+
+
+PNF_Line_483_Pred_64_Cond_PNF_Mutant100
+
+==> @ Line: 483
+Original Line  : if (!strcmp(str,")"))
+After Mutation : if (!(!strcmp(str,")")))
+
+
+PNF_Line_487_Pred_65_Cond_PNF_Mutant101
+
+==> @ Line: 487
+Original Line  : if (!strcmp(str,"["))
+After Mutation : if (!(!strcmp(str,"[")))
+
+
+PNF_Line_491_Pred_66_Cond_PNF_Mutant102
+
+==> @ Line: 491
+Original Line  : if (!strcmp(str,"]"))
+After Mutation : if (!(!strcmp(str,"]")))
+
+
+PNF_Line_495_Pred_67_Cond_PNF_Mutant103
+
+==> @ Line: 495
+Original Line  : if (!strcmp(str,"'"))
+After Mutation : if (!(!strcmp(str,"'")))
+
+
+PNF_Line_499_Pred_68_Cond_PNF_Mutant104
+
+==> @ Line: 499
+Original Line  : if (!strcmp(str,"`"))
+After Mutation : if (!(!strcmp(str,"`")))
+
+
+PNF_Line_503_Pred_69_Cond_PNF_Mutant105
+
+==> @ Line: 503
+Original Line  : if (!strcmp(str,","))
+After Mutation : if (!(!strcmp(str,",")))
+
+

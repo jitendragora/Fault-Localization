@@ -1,0 +1,5 @@
+
+==> @ Line: 322
+
+Original Line  : if ( (xj = (double *)malloc( c * sizeof(double) )) == NULL )
+After Mutation : if ( (xj = (double *)malloc( c - sizeof(double) )) == NULL )

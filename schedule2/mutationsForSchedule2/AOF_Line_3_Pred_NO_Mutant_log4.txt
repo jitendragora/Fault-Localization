@@ -1,0 +1,5 @@
+
+==> @ Line: 3
+
+Original Line  : * Revision 1.4  1993/05/04  12:23:58  foster
+After Mutation : % Revision 1.4  1993/05/04  12:23:58  foster

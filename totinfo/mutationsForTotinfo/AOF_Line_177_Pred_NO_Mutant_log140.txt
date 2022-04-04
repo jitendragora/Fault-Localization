@@ -1,0 +1,5 @@
+
+==> @ Line: 177
+
+Original Line  : return -tmp + log( 2.50662827465 * ser );
+After Mutation : return -tmp + log( 2.50662827465 % ser );

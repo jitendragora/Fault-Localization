@@ -1,0 +1,5 @@
+
+==> @ Line: 70
+
+Original Line  : else if((stream_ptr->fp=fopen(FILENAME,"r"))==NULL)
+After Mutation : else if(!((stream_ptr->fp=fopen(FILENAME,"r"))==NULL))

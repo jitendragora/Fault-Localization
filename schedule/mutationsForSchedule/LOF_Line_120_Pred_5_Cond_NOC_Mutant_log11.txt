@@ -1,0 +1,5 @@
+
+==> @ Line: 120
+
+Original Line  : if (!d_list || !d_ele)
+After Mutation : if (!d_list && !d_ele)

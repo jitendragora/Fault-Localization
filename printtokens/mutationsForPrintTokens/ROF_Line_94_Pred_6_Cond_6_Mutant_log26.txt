@@ -1,0 +1,5 @@
+
+==> @ Line: 94
+
+Original Line  : if(fgets(stream_ptr->stream+START,80-START,stream_ptr->fp) == NULL)/* Fix bug: add -START - hf*/
+After Mutation : if(fgets(stream_ptr->stream+START,80-START,stream_ptr->fp) < NULL)/* Fix bug: add -START - hf*/

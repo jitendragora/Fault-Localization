@@ -1,0 +1,5 @@
+
+==> @ Line: 120
+
+Original Line  : intent_not_known = Two_of_Three_Reports_Valid && Other_RAC == NO_INTENT;
+After Mutation : intent_not_known = Two_of_Three_Reports_Valid && Other_RAC < NO_INTENT;

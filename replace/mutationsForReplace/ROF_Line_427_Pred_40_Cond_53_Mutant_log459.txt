@@ -1,0 +1,5 @@
+
+==> @ Line: 427
+
+Original Line  : while ((!done) && (pat[j] != ENDSTR))
+After Mutation : while ((!done) && (pat[j] <= ENDSTR))

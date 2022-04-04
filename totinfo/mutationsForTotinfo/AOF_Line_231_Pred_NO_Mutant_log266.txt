@@ -1,0 +1,5 @@
+
+==> @ Line: 231
+
+Original Line  : gold = g - gold;
+After Mutation : gold = g % gold;

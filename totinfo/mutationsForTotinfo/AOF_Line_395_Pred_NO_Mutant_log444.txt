@@ -1,0 +1,5 @@
+
+==> @ Line: 395
+
+Original Line  : info -= pj * log( pj );			/* part 4 */
+After Mutation : info -= pj + log( pj );			/* part 4 */

@@ -1,0 +1,5 @@
+
+==> @ Line: 10
+
+Original Line  : * Restructure functions
+After Mutation : / Restructure functions

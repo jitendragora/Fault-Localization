@@ -1,0 +1,5 @@
+
+==> @ Line: 63
+
+Original Line  : if ( *p == COMMENT )
+After Mutation : if ( *p < COMMENT )

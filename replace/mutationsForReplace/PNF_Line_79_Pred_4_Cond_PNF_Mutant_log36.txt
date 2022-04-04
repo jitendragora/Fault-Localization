@@ -1,0 +1,5 @@
+
+==> @ Line: 79
+
+Original Line  : if (s[*i] == 'n')
+After Mutation : if (!(s[*i] == 'n'))

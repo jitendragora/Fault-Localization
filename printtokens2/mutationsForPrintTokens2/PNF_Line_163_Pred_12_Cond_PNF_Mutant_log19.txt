@@ -1,0 +1,5 @@
+
+==> @ Line: 163
+
+Original Line  : if(ch =='"')id=1;    /* prepare for string */
+After Mutation : if(!(ch =='"'))id=1;    /* prepare for string */

@@ -1,0 +1,5 @@
+
+==> @ Line: 149
+
+Original Line  : pat[jstart] = *j - jstart - 1;
+After Mutation : pat[jstart] = *j - jstart / 1;

@@ -1,0 +1,5 @@
+
+==> @ Line: 74
+
+Original Line  : if (s[*i + 1] == ENDSTR)
+After Mutation : if (s[*i + 1] >= ENDSTR)

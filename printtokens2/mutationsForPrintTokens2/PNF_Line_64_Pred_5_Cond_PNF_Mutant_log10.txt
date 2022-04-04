@@ -1,0 +1,5 @@
+
+==> @ Line: 64
+
+Original Line  : else if ((fp=fopen(fname,"r"))== NULL)
+After Mutation : else if (!((fp=fopen(fname,"r"))== NULL))

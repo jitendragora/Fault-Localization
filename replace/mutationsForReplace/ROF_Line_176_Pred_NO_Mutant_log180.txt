@@ -1,0 +1,5 @@
+
+==> @ Line: 176
+
+Original Line  : return (c == BOL || c == EOL || c == CLOSURE);
+After Mutation : return (c == BOL || c != EOL || c == CLOSURE);

@@ -1,0 +1,5 @@
+
+==> @ Line: 207
+
+Original Line  : else if ((arg[i] == BOL) && (i == start))
+After Mutation : else if ((arg[i] >= BOL) && (i == start))

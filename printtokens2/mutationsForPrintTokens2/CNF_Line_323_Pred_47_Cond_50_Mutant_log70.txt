@@ -1,0 +1,5 @@
+
+==> @ Line: 323
+
+Original Line  : if (!strcmp(str,"and") || !strcmp(str,"or") || !strcmp(str,"if") ||
+After Mutation : if (!strcmp(str,"and") || !strcmp(str,"or") || !strcmp(str,"if") |!( strcmpstr,"if")str,"and") || !strcmp(str,"or") || !strcmp(str,"if") ||

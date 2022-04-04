@@ -1,0 +1,5 @@
+
+==> @ Line: 462
+
+Original Line  : if(check[base[state]+ch] == state) /* Check for the right state */
+After Mutation : if(check[base[state]+ch] != state) /* Check for the right state */

@@ -1,0 +1,5 @@
+
+==> @ Line: 85
+
+Original Line  : if ( scanf( " %ld", &x(i,j) ) != 1 )
+After Mutation : if ( scanf( " %ld", &x(i,j) ) > 1 )

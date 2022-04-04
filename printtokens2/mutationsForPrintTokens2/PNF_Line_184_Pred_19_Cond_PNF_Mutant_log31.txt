@@ -1,0 +1,5 @@
+
+==> @ Line: 184
+
+Original Line  : if(id==1)                  /* if end character is " and is string */
+After Mutation : if(!(id==1))                  /* if end character is " and is string */

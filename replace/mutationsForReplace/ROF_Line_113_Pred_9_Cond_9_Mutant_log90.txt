@@ -1,0 +1,5 @@
+
+==> @ Line: 113
+
+Original Line  : else if (*j <= 1 || src[*i + 1] == ENDSTR)
+After Mutation : else if (*j <= 1 || src[*i + 1] >= ENDSTR)

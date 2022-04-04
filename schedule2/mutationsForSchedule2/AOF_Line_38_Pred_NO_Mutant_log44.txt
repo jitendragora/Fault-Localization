@@ -1,0 +1,5 @@
+
+==> @ Line: 38
+
+Original Line  : static struct queue prio_queue[MAXPRIO + 1]; /* blocked queue is [0] */
+After Mutation : static struct queue prio_queue[MAXPRIO / 1]; /* blocked queue is [0] */

@@ -1,0 +1,5 @@
+
+==> @ Line: 166
+
+Original Line  : return log( pix / sin( pix ) ) - LGamma( 1.0 - x );
+After Mutation : return log( pix / sin( pix ) ) % LGamma( 1.0 - x );

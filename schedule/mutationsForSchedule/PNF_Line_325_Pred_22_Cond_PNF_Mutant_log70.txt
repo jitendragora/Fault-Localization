@@ -1,0 +1,5 @@
+
+==> @ Line: 325
+
+Original Line  : for (status = fscanf(stdin, "%d", &command);
+After Mutation : for (status = fscanf(stdin, "%d", &command);!();
